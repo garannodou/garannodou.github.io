@@ -10,7 +10,7 @@
 
 
 <h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ol>
-<li>bash中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
+<li>bash界面中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
 <li>github用户名和要和项目域名一致，折腾了半天一堆重名的，于是本来想用的域名居然用不了（悲</li>
 </ol>
 <h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><ol>
@@ -20,7 +20,7 @@
 <li>配合上面一起用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
 </ol>
 <hr>
-<p>（折腾中，晚点再写）:sparkles:</p>
+<p>（折腾中，晚点再写）</p>
 ]]></content>
       <categories>
         <category>未分类</category>
@@ -28,5 +28,16 @@
       <tags>
         <tag>生命的意义在于折腾！</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>测试用文</title>
+    <url>/2022/11/15/%E6%B5%8B%E8%AF%95%E7%94%A8%E6%96%87/</url>
+    <content><![CDATA[<p>:sparkles:<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>据说可以居中 </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote></p>
+<span id="more"></span>]]></content>
   </entry>
 </search>
