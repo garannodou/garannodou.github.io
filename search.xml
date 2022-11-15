@@ -17,10 +17,10 @@
 <li>启动本地预览 <code>hexo s</code></li>
 <li>生成文章 <code>hexo new &quot;文章名&quot;</code></li>
 <li>上传 <code>hexo g -d</code></li>
-<li>配合上面的一起用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+<li>配合上面一起用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
 </ol>
 <hr>
-<p>（折腾中，晚点再写）</p>
+<p>（折腾中，晚点再写）:sparkles:</p>
 ]]></content>
       <tags>
         <tag>生命的意义在于折腾！</tag>
