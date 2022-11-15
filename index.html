@@ -20,10 +20,12 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="还没想好说点啥">
+<meta property="og:type" content="website">
 <meta property="og:title" content="还没想好叫啥名">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="还没想好叫啥名">
+<meta property="og:description" content="还没想好说点啥">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="望月木">
 <meta name="twitter:card" content="summary">
@@ -148,9 +150,9 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/11/15/my-first-blog/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/uploads/avatar.png">
       <meta itemprop="name" content="望月木">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="还没想好说点啥">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -170,7 +172,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-11-15 16:57:49 / 修改时间：17:58:19" itemprop="dateCreated datePublished" datetime="2022-11-15T16:57:49+08:00">2022-11-15</time>
+              <time title="创建时间：2022-11-15 16:57:49 / 修改时间：18:30:51" itemprop="dateCreated datePublished" datetime="2022-11-15T16:57:49+08:00">2022-11-15</time>
             </span>
 
           
@@ -186,11 +188,13 @@
       
           <p> 参考<a target="_blank" rel="noopener" href="https://www.cnblogs.com/huanhao/p/hexobase.html">【基础篇】hexo博客搭建教程</a></p>
 <p>仓库那里卡了半天，最后2h左右搞定了，可喜可贺可喜可贺）</p>
+<hr>
 <p>tips</p>
 <ol>
 <li>bash中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
 <li>github用户名和要和项目域名一致，折腾了半天一堆重名的，于是本来想用的域名居然用不了（悲</li>
 </ol>
+<hr>
 <p>常用命令</p>
 <ol>
 <li>启动本地预览 <code>hexo s</code></li>
@@ -198,6 +202,7 @@
 <li>上传 <code>hexo g -d</code></li>
 <li>配合上面的一起用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
 </ol>
+<hr>
 <p>（折腾一下主题先）</p>
 
       
@@ -272,8 +277,10 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="望月木"
+      src="/uploads/avatar.png">
   <p class="site-author-name" itemprop="name">望月木</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">还没想好说点啥</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
