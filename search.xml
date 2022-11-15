@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>First Blog</title>
-    <url>/2022/11/15/my-first-blog/</url>
-    <content><![CDATA[<p>　　耗时2h左右搭好了，比想象得要简单，就是在上传到仓库那里卡了半天orz</p>
-<p>　　暂时还没想好这个blog能用来干啥）</p>
-<span id="more"></span>
-
-
-
-<h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
-<li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
-<li>bash界面中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
-<li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
-</ol>
-<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
-<li>启动本地预览 <code>hexo s</code></li>
-<li>生成文章 <code>hexo new &quot;title&quot;</code></li>
-<li>上传 <code>hexo g -d</code></li>
-<li>配合上面一起用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
-</ol>
-<hr>
-<p>（折腾中，晚点再写）</p>
-]]></content>
-      <categories>
-        <category>未分类</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>测试用文</title>
     <url>/2022/11/15/test/</url>
     <content><![CDATA[<blockquote class="blockquote-center">
@@ -72,6 +42,36 @@
 <center>居中</center>]]></content>
       <categories>
         <category>草稿</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>First Blog</title>
+    <url>/2022/11/15/my-first-blog/</url>
+    <content><![CDATA[<p>　　耗时2h左右搭好了，比想象得要简单，就是在上传到仓库那里卡了半天orz</p>
+<p>　　暂时还没想好这个blog能用来干啥）</p>
+<span id="more"></span>
+
+
+
+<h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
+<li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
+<li>bash界面中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
+<li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
+</ol>
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
+<li>启动本地预览 <code>hexo s</code></li>
+<li>生成文章 <code>hexo new &quot;title&quot;</code></li>
+<li>上传 <code>hexo g -d</code></li>
+<li>配合上面一起用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+</ol>
+<hr>
+<p>（折腾中，晚点再写）</p>
+]]></content>
+      <categories>
+        <category>未分类</category>
       </categories>
       <tags>
         <tag>生命的意义在于折腾！</tag>
