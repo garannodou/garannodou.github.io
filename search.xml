@@ -4,14 +4,15 @@
     <title>搭建成功</title>
     <url>/2022/11/15/my-first-blog/</url>
     <content><![CDATA[<p> 仓库那里卡了半天，最后花费2h左右搭好了，可喜可贺可喜可贺）</p>
-<p>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">【基础篇】hexo博客搭建教程</a></p>
+<p>虽然还没想好这个blog能用来干啥……</p>
 <span id="more"></span>
 
 
 
-<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ol>
+<h1 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h1><ol>
+<li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
 <li>bash界面中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
-<li>github用户名和要和项目域名一致，折腾了半天一堆重名的，于是本来想用的域名居然用不了（悲</li>
+<li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
 </ol>
 <h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><ol>
 <li>启动本地预览 <code>hexo s</code></li>
@@ -32,12 +33,44 @@
   <entry>
     <title>测试用文</title>
     <url>/2022/11/15/%E6%B5%8B%E8%AF%95%E7%94%A8%E6%96%87/</url>
-    <content><![CDATA[<p>:sparkles:<blockquote class="blockquote-center">
+    <content><![CDATA[<blockquote class="blockquote-center">
             <i class="fa fa-quote-left"></i>
             <p>据说可以居中 </p>
 
             <i class="fa fa-quote-right"></i>
-          </blockquote></p>
-<span id="more"></span>]]></content>
+          </blockquote>
+
+<span id="more"></span>
+
+
+
+
+
+<div class="note default">
+            <p>等待添加插件 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note primary">
+            <p>等待添加插件 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note success">
+            <p>等待添加插件 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note info">
+            <p>等待添加插件 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note warning">
+            <p>等待添加插件 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note danger">
+            <p>等待添加插件 :sparkles: (md partial supported) </p>
+          </div>
+
+<p>待安装</p>
+]]></content>
   </entry>
 </search>
