@@ -30,4 +30,48 @@
         <tag>生命的意义在于折腾！</tag>
       </tags>
   </entry>
+  <entry>
+    <title>测试用文</title>
+    <url>/2022/11/15/%E6%B5%8B%E8%AF%95%E7%94%A8%E6%96%87/</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>据说可以居中 </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<span id="more"></span>
+
+
+
+<div class="note default">
+            <p>等待添加 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note primary">
+            <p>等待添加 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note success">
+            <p>等待添加 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note info">
+            <p>等待添加 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note warning">
+            <p>等待添加 :sparkles: (md partial supported) </p>
+          </div>
+
+<div class="note danger">
+            <p>等待添加 :sparkles: (md partial supported) </p>
+          </div>]]></content>
+      <categories>
+        <category>草稿</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+      </tags>
+  </entry>
 </search>
