@@ -23,7 +23,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="First Blog">
 <meta property="og:url" content="http://example.com/posts/a30a3587.html">
-<meta property="og:site_name" content="还没想好叫啥名">
+<meta property="og:site_name" content="伽藍のどう">
 <meta property="og:description" content="耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz　　整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考）">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-11-15T08:57:49.000Z">
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>First Blog | 还没想好叫啥名</title>
+  <title>First Blog | 伽藍のどう</title>
   
 
 
@@ -96,10 +96,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">还没想好叫啥名</h1>
+      <h1 class="site-title">伽藍のどう</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
-      <p class="site-subtitle" itemprop="description">_(:з」∠)_</p>
+      <p class="site-subtitle" itemprop="description">...and nothing heart</p>
   </div>
 
   <div class="site-nav-right">
@@ -203,7 +203,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="还没想好叫啥名">
+      <meta itemprop="name" content="伽藍のどう">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -242,7 +242,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>498</span>
+              <span>527</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -270,38 +270,41 @@
 <li>参考<a target="_blank" rel="noopener" href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
 <li>bash界面中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
 <li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
-<li>npm经常无法连接，可以改用cnpm下载插件</li>
-<li>端口被占用 <code>hexo s -p 5000 </code></li>
+<li>npm很容易无法连接，可以改用cnpm下载插件</li>
+<li>端口被占用的话可以换个端口 <code>hexo s -p 5000 </code></li>
 </ol>
 <h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
-<li>启动本地预览 <code>hexo s</code></li>
-<li>生成文章 <code>hexo new &quot;title&quot;</code></li>
+<li>本地预览 <code>hexo s</code></li>
+<li>新建文章 <code>hexo new &quot;title&quot;</code></li>
 <li>上传 <code>hexo g -d</code></li>
-<li>配合上面一起用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+<li>配合上面使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
 </ol>
-<h3 id="已完成"><a href="#已完成" class="headerlink" title="已完成"></a>已完成</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
+<hr>
+<h3 id="已添加（2022-11-16）"><a href="#已添加（2022-11-16）" class="headerlink" title="已添加（2022.11.16）"></a>已添加（2022.11.16）</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
 <li><input checked disabled type="checkbox"> 站内搜索功能（hexo-generator-searchdb）</li>
 <li><input checked disabled type="checkbox"> 添加字数统计和阅读时间功能（hexo-wordcount）</li>
 <li><input checked disabled type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
 <li><input checked disabled type="checkbox"> 文章加密访问（hexo-blog-encrypt）</li>
 <li><input checked disabled type="checkbox"> 本地插入图片（hexo-asset）</li>
 <li><input checked disabled type="checkbox"> 置顶和隐藏文章（hexo-generator-indexed）<ul>
-<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏后可以在分类中找到文章，未发布的文章会在分类中也消失）</li>
 <li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
+<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏的文章可以在分类中找到，而未发布的文章则会完全消失，两者都可以通过链接正常访问）</li>
 </ul>
 </li>
 </ul>
 <h4 id="杂七杂八"><a href="#杂七杂八" class="headerlink" title="杂七杂八"></a>杂七杂八</h4><ul>
 <li><input checked disabled type="checkbox"> 添加头像</li>
 <li><input checked disabled type="checkbox"> 添加社交账户链接</li>
-<li><input checked disabled type="checkbox"> 侧边栏添加标签与分类</li>
+<li><input checked disabled type="checkbox"> 侧边栏添加标签、分类、关于</li>
 <li><input checked disabled type="checkbox"> 调整字体</li>
 <li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，之后换个方式实现吧）</li>
 <li><input checked disabled type="checkbox"> 修改底栏</li>
 <li><input checked disabled type="checkbox"> 增加文章更新时间</li>
 <li><input checked disabled type="checkbox"> 开启版权声明</li>
 </ul>
-<h4 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h4><ul>
+<hr>
+<h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
+<ul>
 <li><input disabled type="checkbox"> RSS</li>
 <li><input disabled type="checkbox"> 修改网站图标</li>
 <li><input disabled type="checkbox"> 首页显示文章标签</li>
@@ -409,7 +412,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%87%E5%BF%98"><span class="nav-number">1.</span> <span class="nav-text">备忘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-number">2.</span> <span class="nav-text">常用命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E5%AE%8C%E6%88%90"><span class="nav-number">3.</span> <span class="nav-text">已完成</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD"><span class="nav-number">3.1.</span> <span class="nav-text">功能</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB"><span class="nav-number">3.2.</span> <span class="nav-text">杂七杂八</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%90%81%E7%BD%AE"><span class="nav-number">3.3.</span> <span class="nav-text">搁置</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%87%E5%BF%98"><span class="nav-number">1.</span> <span class="nav-text">备忘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-number">2.</span> <span class="nav-text">常用命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E6%B7%BB%E5%8A%A0%EF%BC%882022-11-16%EF%BC%89"><span class="nav-number">3.</span> <span class="nav-text">已添加（2022.11.16）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD"><span class="nav-number">3.1.</span> <span class="nav-text">功能</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB"><span class="nav-number">3.2.</span> <span class="nav-text">杂七杂八</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%90%81%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">搁置</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

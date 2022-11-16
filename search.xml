@@ -12,38 +12,41 @@
 <li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
 <li>bash界面中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
 <li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
-<li>npm经常无法连接，可以改用cnpm下载插件</li>
-<li>端口被占用 <code>hexo s -p 5000 </code></li>
+<li>npm很容易无法连接，可以改用cnpm下载插件</li>
+<li>端口被占用的话可以换个端口 <code>hexo s -p 5000 </code></li>
 </ol>
 <h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
-<li>启动本地预览 <code>hexo s</code></li>
-<li>生成文章 <code>hexo new &quot;title&quot;</code></li>
+<li>本地预览 <code>hexo s</code></li>
+<li>新建文章 <code>hexo new &quot;title&quot;</code></li>
 <li>上传 <code>hexo g -d</code></li>
-<li>配合上面一起用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+<li>配合上面使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
 </ol>
-<h3 id="已完成"><a href="#已完成" class="headerlink" title="已完成"></a>已完成</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
+<hr>
+<h3 id="已添加（2022-11-16）"><a href="#已添加（2022-11-16）" class="headerlink" title="已添加（2022.11.16）"></a>已添加（2022.11.16）</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
 <li><input checked disabled type="checkbox"> 站内搜索功能（hexo-generator-searchdb）</li>
 <li><input checked disabled type="checkbox"> 添加字数统计和阅读时间功能（hexo-wordcount）</li>
 <li><input checked disabled type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
 <li><input checked disabled type="checkbox"> 文章加密访问（hexo-blog-encrypt）</li>
 <li><input checked disabled type="checkbox"> 本地插入图片（hexo-asset）</li>
 <li><input checked disabled type="checkbox"> 置顶和隐藏文章（hexo-generator-indexed）<ul>
-<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏后可以在分类中找到文章，未发布的文章会在分类中也消失）</li>
 <li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
+<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏的文章可以在分类中找到，而未发布的文章则会完全消失，两者都可以通过链接正常访问）</li>
 </ul>
 </li>
 </ul>
 <h4 id="杂七杂八"><a href="#杂七杂八" class="headerlink" title="杂七杂八"></a>杂七杂八</h4><ul>
 <li><input checked disabled type="checkbox"> 添加头像</li>
 <li><input checked disabled type="checkbox"> 添加社交账户链接</li>
-<li><input checked disabled type="checkbox"> 侧边栏添加标签与分类</li>
+<li><input checked disabled type="checkbox"> 侧边栏添加标签、分类、关于</li>
 <li><input checked disabled type="checkbox"> 调整字体</li>
 <li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，之后换个方式实现吧）</li>
 <li><input checked disabled type="checkbox"> 修改底栏</li>
 <li><input checked disabled type="checkbox"> 增加文章更新时间</li>
 <li><input checked disabled type="checkbox"> 开启版权声明</li>
 </ul>
-<h4 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h4><ul>
+<hr>
+<h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
+<ul>
 <li><input disabled type="checkbox"> RSS</li>
 <li><input disabled type="checkbox"> 修改网站图标</li>
 <li><input disabled type="checkbox"> 首页显示文章标签</li>
