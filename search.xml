@@ -33,7 +33,7 @@
 <li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
 </ul>
 </li>
-<li><input checked="" disabled="" type="checkbox"> 加载进度条（有点粗糙，以后再改）</li>
+<li><input checked="" disabled="" type="checkbox"> <del>加载进度条</del>（手机上显示不太好，之后换个方式实现吧）</li>
 <li><input checked="" disabled="" type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
 <li><input disabled="" type="checkbox"> </li>
 <li><input disabled="" type="checkbox"> <del>阅读量统计</del> （搁置）</li>
