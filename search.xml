@@ -49,7 +49,7 @@
 <li><input disabled type="checkbox"> 首页显示文章标签</li>
 <li><input disabled type="checkbox"> 修改文章内文本链接样式</li>
 <li><input disabled type="checkbox"> 国内访问速度优化</li>
-<li><input disabled type="checkbox"> 添加文件&#x2F;pdf附件（好像不太成功，以后再整吧）</li>
+<li><input disabled type="checkbox"> 添加文件附件</li>
 <li><input disabled type="checkbox"> <del>阅读量统计</del> （反正又没人看.jpg）</li>
 <li><input disabled type="checkbox"> <del>评论功能</del>（反正又没人评论.jpg）</li>
 </ul>
