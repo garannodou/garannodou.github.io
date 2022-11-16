@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>测试用文</title>
-    <url>/2022/11/15/test/</url>
+    <url>/posts/fd87c315.html</url>
     <content><![CDATA[<blockquote class="blockquote-center">
             <i class="fa fa-quote-left"></i>
             <p>据说可以居中 </p>
@@ -41,7 +41,7 @@
 <p><font color="#FF0000"> 设置为红色 </font><br><font size=6> 设置字体大小 </font><br><font size=5 color="#FF0000"> 同时设置</font> </p>
 <center>居中</center>]]></content>
       <categories>
-        <category>草稿</category>
+        <category>草稿箱</category>
       </categories>
       <tags>
         <tag>生命的意义在于折腾！</tag>
@@ -49,9 +49,8 @@
   </entry>
   <entry>
     <title>First Blog</title>
-    <url>/2022/11/15/my-first-blog/</url>
-    <content><![CDATA[<p>　　耗时2h左右搭好了，比想象得要简单，就是在上传到仓库那里卡了半天orz</p>
-<p>　　暂时还没想好这个blog能用来干啥）</p>
+    <url>/posts/a30a3587.html</url>
+    <content><![CDATA[<p>　　耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>　　整体来说搭建起来比想象的要简单多了，麻烦在于完善功能(T_T)不会写代码的人停止了思考）</p>
 <span id="more"></span>
 
 
@@ -60,6 +59,8 @@
 <li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
 <li>bash界面中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
 <li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
+<li>npm经常无法连接，可以改用cnpm</li>
+<li>端口被占用 <code>hexo s -p 5000 </code></li>
 </ol>
 <h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
 <li>启动本地预览 <code>hexo s</code></li>
@@ -67,7 +68,28 @@
 <li>上传 <code>hexo g -d</code></li>
 <li>配合上面一起用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
 </ol>
-<hr>
+<h3 id="已完成"><a href="#已完成" class="headerlink" title="已完成"></a>已完成</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> 站内搜索功能（hexo-generator-searchdb）</li>
+<li><input checked="" disabled="" type="checkbox"> 添加头像</li>
+<li><input checked="" disabled="" type="checkbox"> 添加社交账户链接</li>
+<li><input checked="" disabled="" type="checkbox"> 侧边栏添加标签与分类</li>
+<li><input checked="" disabled="" type="checkbox"> 调整字体</li>
+<li><input checked="" disabled="" type="checkbox"> 添加字数统计和阅读时间功能（hexo-wordcount）</li>
+<li><input checked="" disabled="" type="checkbox"> 置顶和隐藏文章（hexo-generator-indexed）<ul>
+<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏后可以在分类中找到文章，未发布的文章会在分类中也消失）</li>
+<li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> 加载进度条（有点粗糙，以后再改）</li>
+<li><input checked="" disabled="" type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
+<li><input disabled="" type="checkbox"> </li>
+<li><input disabled="" type="checkbox"> <del>阅读量统计</del> （搁置）</li>
+<li><input disabled="" type="checkbox"> <del>修改底栏</del>（搁置 ）</li>
+<li><input disabled="" type="checkbox"> <del>RSS</del>（反正又没人看.jpg）</li>
+<li><input disabled="" type="checkbox"> <del>评论功能</del>（反正又没人评论.jpg）</li>
+<li><input disabled="" type="checkbox"> </li>
+<li><input disabled="" type="checkbox"> </li>
+</ul>
 <p>（折腾中，晚点再写）</p>
 ]]></content>
       <categories>
@@ -76,5 +98,10 @@
       <tags>
         <tag>生命的意义在于折腾！</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>置顶</title>
+    <url>/posts/cc4d5834.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
