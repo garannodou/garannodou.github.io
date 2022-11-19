@@ -68,118 +68,6 @@
       </tags>
   </entry>
   <entry>
-    <title>测试用文</title>
-    <url>/posts/fd87c315.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="dd1d5995b831a0ca0df714f320e7b01c4493d085dbce5a7b3ba8e8ba19cb32bb">bd25ed9264b080267271e137e33d0ce1f8ec4c797acfb033b59b4abfbd4402030d95a16b2f9092e447d8dfe3a427fdec13989450c3e9fbd98281765dc212e1b96ada050531577b65f073becdf601817096d29e2aec05a14aa040d75517c6a456063737afcc76a810ad154587b8d197b665e8f0fd64ed67be11278819dc2703c174a29de734b8a23c9e5e84e32bcb61e0413c389fa0bda613ebbdcda3aff4a279f6f7535824998b121d9edb0a499b7a01a92d72b948d9c48d5c265d696136d83897548c32952bc14147e5903a4d8ae01838b9bbf99fddf203ec01a674cf76d5a283b971f30329c0331c3f4a0ada86ea0d002cd680d208f15ef1ed2e39be1608e0dc01366cd682a4e8d312d8e67089d96b7fd114f11b4b9b3e6b8721bb2c69caa7d4347e3811c925b965b671e0a88f8879a2d2ebc59032a980777b56303848c1724b488b8848d9ee04b3ba18cae926a82356a63fe4091a7d2d431d2a80d8e4dd1ee067c9817cb2863f00d98c9aa6eba59e69bcf9119c2c22bc4af06fe4b2a4c1f8812117ac69403e572a7b7b5e8b3d7503612d362eb026da861b501a10d2eba6b0bbb1dd0840014c80fa059365c3e31e81aa5814c7af4ef68adc106332a1bb2a941a79942f037a73ace1ae87b6dda545659b7c73d1ed517fa39207f17c35fb47c579b3445ae103254f8f3323229045f116452c553fb2d6c754d10766ed6a992a4496e227a4fe3d85223d40e76bdfd098af4b2839a3606ed0e87463d49623b60ff9218ecb2199676b7e13b00ceddd2b07b3d1340ecec3cb174639a225fea9ba890b731a41aba7e6d0f475d7dcb6c1bbed4584c0d51ff851ca52fe74ef493ee6aa354cc5c7df7d3033f0e0d13355dbd3a56b4d2c6e96f162a00e2c4b81cd057f66b76b5cee465df94c1bc0a46ce4f891e3b229fcbdcc28e9f5509c0e9e12c580d6d1</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>草稿箱</category>
-        <category>ACG</category>
-        <category>杂七杂八</category>
-        <category>碎碎念</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用kindle阅读日文小说/扫图/漫画/pdf的简明教程</title>
-    <url>/posts/d4569923.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>对kindle执念深重的产物 </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<span id="more"></span>
-
-<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，于是重写一下。</p>
-<hr>
-<h3 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h3><h4 id="日文书籍-x2F-小说资源获取"><a href="#日文书籍-x2F-小说资源获取" class="headerlink" title="日文书籍&#x2F;小说资源获取"></a>日文书籍&#x2F;小说资源获取</h4><ol>
-<li><p>现成的书籍资源：Z-Library  |  <a href="https://itazuraneko.neocities.org/library/shousetu.html">itazuraneko</a></p>
-</li>
-<li><p>未经处理的txt资源：<a href="https://nyaa.si/">nyaa</a>  |  <a href="https://www.aozora.gr.jp/">青空文库</a></p>
-</li>
-</ol>
-<p>其中青空文库可在网站中直接下载zip(txt)，图省事也可以直接在 <a href="http://www.netbuffalo.net/NetApps/kindle/aozora">MOBIぞら文庫</a> 下载mobi文件。</p>
-<h4 id="txt→epub"><a href="#txt→epub" class="headerlink" title="txt→epub"></a>txt→epub</h4><p>方法多样，任选其一即可：</p>
-<ol>
-<li><p><del>在 <a href="http://a2k.aill.org/">青空キンドル </a> 输入青空文库的zip链接，转换为竖排pdf。</del>（已失效）</p>
-</li>
-<li><p>使用 <a href="http://ebook.cdict.info/mobi/">天火藏書</a> 的网页端制作epub&#x2F;mobi文件。非常无脑简单，上传即可，但可能存在假名注音显示不全的问题。不在乎注音问题可以使用。</p>
-</li>
-<li><p><u><strong>AozoraEpub</strong></u>（推荐★），使用步骤如下：</p>
-<p>① 首先检查是否乱码，若乱码则通过 <u><strong>codeTransmit</strong></u> 等软件，把文本转换成<strong>UTF-8编码</strong>，得到正常显示的日文文本。</p>
-<p>② 用软件打开正常显示的文本（<strong>UTF-8编码</strong>）。<br><img src="/posts/d4569923/1.png" alt="1"></p>
-<p>③ 若文档格式正确则会出现完整的书名、作者封面和目录。确认即可。<br><img src="/posts/d4569923/2.png" alt="2"></p>
-<p>④ 可使用 <u><strong>kindlestrip</strong></u> 去冗余（注意文件名和目录不要有中文）：将文件放入temp文件夹后，点击auto.bat，运行完后在result文件夹找到去冗余后的文件，mobi文件的体积在去冗余后会大大缩小。</p>
-</li>
-</ol>
-<hr>
-<h3 id="图片类"><a href="#图片类" class="headerlink" title="图片类"></a>图片类</h3><h4 id="漫画-x2F-小说扫图资源获取"><a href="#漫画-x2F-小说扫图资源获取" class="headerlink" title="漫画&#x2F;小说扫图资源获取"></a>漫画&#x2F;小说扫图资源获取</h4><p>有许多小说并没有txt版本，但可以找到扫图，主要获取渠道和漫画一样：<a href="https://nyaa.si/">nyaa</a>  |  <a href="http://13dl.net/">13dl</a>  |  <a href="https://dlraw.net/raw/">dlraw</a></p>
-<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主，各圈不同，没法一概而论。只能放下经常逛的<a href="http://ohtori.nu/doujinshi/">ohtori</a>（少革）和<a href="http://three-lights.net/gallery/doujinshi-fan-art">three lights</a>（美战）。</p>
-<p>当然直接通过 <a href="https://booth.pm/zh-cn">booth</a> 和 <a href="https://www.dlsite.com/index.html">dlsite</a> 购买电子版最好，得到pdf后直接发送至kindle即可。</p>
-<h4 id="jpg-x2F-png→epub"><a href="#jpg-x2F-png→epub" class="headerlink" title="jpg&#x2F;png→epub"></a>jpg&#x2F;png→epub</h4><p>使用 <u><strong>ChainLP</strong></u> 打包图片，使用方法可以参照 <a href="https://tieba.baidu.com/p/2191868417">[超详细教程] MOBI全屏漫画&#x2F;图片书籍</a> 此帖，得到的mobi文件同样可使用 <u><strong>kindlestrip</strong></u> 去冗余。</p>
-<hr>
-<h3 id="PDF类"><a href="#PDF类" class="headerlink" title="PDF类"></a>PDF类</h3><p>pdf往往存在文件过大，无法用邮箱传送的问题，首先可以用 <a href="https://www.ilovepdf.com/compress_pdf">ilovepdf</a> 等方式压缩文件。</p>
-<p>如果内容比较难以阅读，则需要进一步处理，参考：<a href="https://bookfere.com/post/134.html">PDF 重排工具：K2pdfopt 简明教程</a></p>
-<p>然而很久都没遇到这种难以处理的pdf文件……没有实际用过，以后用过再来补充好了……</p>
-<hr>
-<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它什么doc啊balabala全部用 <u><strong>calibre</strong></u> 无脑转换就好啦，目前似乎没有更多奇怪的需求） </p>
-<p>好了简单整理完了，我要抱着各种少革和遥满同人陷入酒池肉林力（x</p>
-<hr>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-        <tag>kindle</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>相对简单化的烤肉流程</title>
-    <url>/posts/7eba5e9a.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p> 作为一个听力捉急的日语废，一个人做视频的速度实在太慢。<br>刚好前段时间研究了下怎么提高效率，建blog了就在这整理一下。 </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-<span id="more"></span>
-<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现<a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a>看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
-<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的<u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂，但还是帮大忙了……but还是要多练听力啊不要依赖这些东西（告诫自己.gif<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进<a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a>直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
-<p>　　有日文文本的话，可以使用<u><strong>trados</strong></u>进行翻译（虽然近期还没机会试用这软件……但看了下可以对照翻译，太好力我早就想找个有双文本框的软件了，下次一定！）</p>
-<hr>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
-<li>自动打轴（DD烤肉机）</li>
-<li>在aegisub里边翻译边修正轴（可用飞书妙记辅助识别日文）</li>
-<li>校对翻译</li>
-<li>检查视频</li>
-<li>压制字幕</li>
-</ol>
-<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有佬录的文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-        <tag>视频与字幕制作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>对少革游戏的一些吐槽</title>
     <url>/posts/5d366c56.html</url>
     <content><![CDATA[<blockquote class="blockquote-center">
@@ -305,6 +193,118 @@
       </categories>
       <tags>
         <tag>少女革命</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用kindle阅读日文小说/扫图/漫画/pdf的简明教程</title>
+    <url>/posts/d4569923.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>对kindle执念深重的产物 </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<span id="more"></span>
+
+<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，于是重写一下。</p>
+<hr>
+<h3 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h3><h4 id="日文书籍-x2F-小说资源获取"><a href="#日文书籍-x2F-小说资源获取" class="headerlink" title="日文书籍&#x2F;小说资源获取"></a>日文书籍&#x2F;小说资源获取</h4><ol>
+<li><p>现成的书籍资源：Z-Library  |  <a href="https://itazuraneko.neocities.org/library/shousetu.html">itazuraneko</a></p>
+</li>
+<li><p>未经处理的txt资源：<a href="https://nyaa.si/">nyaa</a>  |  <a href="https://www.aozora.gr.jp/">青空文库</a></p>
+</li>
+</ol>
+<p>其中青空文库可在网站中直接下载zip(txt)，图省事也可以直接在 <a href="http://www.netbuffalo.net/NetApps/kindle/aozora">MOBIぞら文庫</a> 下载mobi文件。</p>
+<h4 id="txt→epub"><a href="#txt→epub" class="headerlink" title="txt→epub"></a>txt→epub</h4><p>方法多样，任选其一即可：</p>
+<ol>
+<li><p><del>在 <a href="http://a2k.aill.org/">青空キンドル </a> 输入青空文库的zip链接，转换为竖排pdf。</del>（已失效）</p>
+</li>
+<li><p>使用 <a href="http://ebook.cdict.info/mobi/">天火藏書</a> 的网页端制作epub&#x2F;mobi文件。非常无脑简单，上传即可，但可能存在假名注音显示不全的问题。不在乎注音问题可以使用。</p>
+</li>
+<li><p><u><strong>AozoraEpub</strong></u>（推荐★），使用步骤如下：</p>
+<p>① 首先检查是否乱码，若乱码则通过 <u><strong>codeTransmit</strong></u> 等软件，把文本转换成<strong>UTF-8编码</strong>，得到正常显示的日文文本。</p>
+<p>② 用软件打开正常显示的文本（<strong>UTF-8编码</strong>）。<br><img src="/posts/d4569923/1.png" alt="1"></p>
+<p>③ 若文档格式正确则会出现完整的书名、作者封面和目录。确认即可。<br><img src="/posts/d4569923/2.png" alt="2"></p>
+<p>④ 可使用 <u><strong>kindlestrip</strong></u> 去冗余（注意文件名和目录不要有中文）：将文件放入temp文件夹后，点击auto.bat，运行完后在result文件夹找到去冗余后的文件，mobi文件的体积在去冗余后会大大缩小。</p>
+</li>
+</ol>
+<hr>
+<h3 id="图片类"><a href="#图片类" class="headerlink" title="图片类"></a>图片类</h3><h4 id="漫画-x2F-小说扫图资源获取"><a href="#漫画-x2F-小说扫图资源获取" class="headerlink" title="漫画&#x2F;小说扫图资源获取"></a>漫画&#x2F;小说扫图资源获取</h4><p>有许多小说并没有txt版本，但可以找到扫图，主要获取渠道和漫画一样：<a href="https://nyaa.si/">nyaa</a>  |  <a href="http://13dl.net/">13dl</a>  |  <a href="https://dlraw.net/raw/">dlraw</a></p>
+<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主，各圈不同，没法一概而论。只能放下经常逛的<a href="http://ohtori.nu/doujinshi/">ohtori</a>（少革）和<a href="http://three-lights.net/gallery/doujinshi-fan-art">three lights</a>（美战）。</p>
+<p>当然直接通过 <a href="https://booth.pm/zh-cn">booth</a> 和 <a href="https://www.dlsite.com/index.html">dlsite</a> 购买电子版最好，得到pdf后直接发送至kindle即可。</p>
+<h4 id="jpg-x2F-png→epub"><a href="#jpg-x2F-png→epub" class="headerlink" title="jpg&#x2F;png→epub"></a>jpg&#x2F;png→epub</h4><p>使用 <u><strong>ChainLP</strong></u> 打包图片，使用方法可以参照 <a href="https://tieba.baidu.com/p/2191868417">[超详细教程] MOBI全屏漫画&#x2F;图片书籍</a> 此帖，得到的mobi文件同样可使用 <u><strong>kindlestrip</strong></u> 去冗余。</p>
+<hr>
+<h3 id="PDF类"><a href="#PDF类" class="headerlink" title="PDF类"></a>PDF类</h3><p>pdf往往存在文件过大，无法用邮箱传送的问题，首先可以用 <a href="https://www.ilovepdf.com/compress_pdf">ilovepdf</a> 等方式压缩文件。</p>
+<p>如果内容比较难以阅读，则需要进一步处理，参考：<a href="https://bookfere.com/post/134.html">PDF 重排工具：K2pdfopt 简明教程</a></p>
+<p>然而很久都没遇到这种难以处理的pdf文件……没有实际用过，以后用过再来补充好了……</p>
+<hr>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它什么doc啊balabala全部用 <u><strong>calibre</strong></u> 无脑转换就好啦，目前似乎没有更多奇怪的需求） </p>
+<p>好了简单整理完了，我要抱着各种少革和遥满同人陷入酒池肉林力（x</p>
+<hr>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+        <tag>kindle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试用文</title>
+    <url>/posts/fd87c315.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="dd1d5995b831a0ca0df714f320e7b01c4493d085dbce5a7b3ba8e8ba19cb32bb">bd25ed9264b080267271e137e33d0ce1f8ec4c797acfb033b59b4abfbd4402030d95a16b2f9092e447d8dfe3a427fdec13989450c3e9fbd98281765dc212e1b96ada050531577b65f073becdf601817096d29e2aec05a14aa040d75517c6a456063737afcc76a810ad154587b8d197b665e8f0fd64ed67be11278819dc2703c174a29de734b8a23c9e5e84e32bcb61e0413c389fa0bda613ebbdcda3aff4a279f6f7535824998b121d9edb0a499b7a01a92d72b948d9c48d5c265d696136d83897548c32952bc14147e5903a4d8ae01838b9bbf99fddf203ec01a674cf76d5a283b971f30329c0331c3f4a0ada86ea0d002cd680d208f15ef1ed2e39be1608e0dc01366cd682a4e8d312d8e67089d96b7fd114f11b4b9b3e6b8721bb2c69caa7d4347e3811c925b965b671e0a88f8879a2d2ebc59032a980777b56303848c1724b488b8848d9ee04b3ba18cae926a82356a63fe4091a7d2d431d2a80d8e4dd1ee067c9817cb2863f00d98c9aa6eba59e69bcf9119c2c22bc4af06fe4b2a4c1f8812117ac69403e572a7b7b5e8b3d7503612d362eb026da861b501a10d2eba6b0bbb1dd0840014c80fa059365c3e31e81aa5814c7af4ef68adc106332a1bb2a941a79942f037a73ace1ae87b6dda545659b7c73d1ed517fa39207f17c35fb47c579b3445ae103254f8f3323229045f116452c553fb2d6c754d10766ed6a992a4496e227a4fe3d85223d40e76bdfd098af4b2839a3606ed0e87463d49623b60ff9218ecb2199676b7e13b00ceddd2b07b3d1340ecec3cb174639a225fea9ba890b731a41aba7e6d0f475d7dcb6c1bbed4584c0d51ff851ca52fe74ef493ee6aa354cc5c7df7d3033f0e0d13355dbd3a56b4d2c6e96f162a00e2c4b81cd057f66b76b5cee465df94c1bc0a46ce4f891e3b229fcbdcc28e9f5509c0e9e12c580d6d1</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>ACG</category>
+        <category>草稿箱</category>
+        <category>杂七杂八</category>
+        <category>碎碎念</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>相对简单化的烤肉流程</title>
+    <url>/posts/7eba5e9a.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p> 作为一个听力捉急的日语废，一个人做视频的速度实在太慢。<br>刚好前段时间研究了下怎么提高效率，建blog了就在这整理一下。 </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<span id="more"></span>
+<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现<a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a>看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
+<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的<u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂，但还是帮大忙了……but还是要多练听力啊不要依赖这些东西（告诫自己.gif<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进<a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a>直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
+<p>　　有日文文本的话，可以使用<u><strong>trados</strong></u>进行翻译（虽然近期还没机会试用这软件……但看了下可以对照翻译，太好力我早就想找个有双文本框的软件了，下次一定！）</p>
+<hr>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
+<li>自动打轴（DD烤肉机）</li>
+<li>在aegisub里边翻译边修正轴（可用飞书妙记辅助识别日文）</li>
+<li>校对翻译</li>
+<li>检查视频</li>
+<li>压制字幕</li>
+</ol>
+<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有佬录的文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+        <tag>视频与字幕制作</tag>
       </tags>
   </entry>
 </search>
