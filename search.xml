@@ -312,6 +312,42 @@
       </tags>
   </entry>
   <entry>
+    <title>相对简单化的烤肉流程</title>
+    <url>/posts/7eba5e9a.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>先整理篇最近琢磨的，日语废效率提升计划（？）  </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<span id="more"></span>
+
+<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
+<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的 <u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂，但还是帮大忙了……but还是要多练听力啊不要依赖这些东西（告诫自己.gif<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进 <a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a> 或 <a href="https://www.nikse.dk/subtitleedit/online">SubtitleEdit Online</a> 直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
+<p>　　有日文文本的话，可以使用 <u><strong>trados</strong></u> 进行翻译（虽然近期还没机会试用这软件……但看了下可以对照翻译，太好力我早就想找个有双文本框的软件了，下次一定！）</p>
+<p>　　总体来看翻译好像没什么可偷懒的地方，打铁还需自身硬啊555</p>
+<hr>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
+<li>自动打轴（DD烤肉机）</li>
+<li>在aegisub里边翻译边修正轴（可用飞书妙记辅助识别日文）</li>
+<li>校对翻译</li>
+<li>检查视频</li>
+<li>压制字幕</li>
+</ol>
+<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有佬录的文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
+<hr>
+<h3 id="后续补充"><a href="#后续补充" class="headerlink" title="后续补充"></a>后续补充</h3><p>偶然发现一个能同时完成打轴和日语字幕的软件 <strong><a href="https://github.com/openai/whisper">whisper</a></strong> </p>
+<p>不过安装比较麻烦，依赖比较多，折腾了下没装成功，也没找到详细的教程，等下次有空了再研究……不得不说AI的发展速度真可怕）））</p>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+        <tag>视频与字幕制作</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>测试用文</title>
     <url>/posts/fd87c315.html</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -389,42 +425,6 @@
       <tags>
         <tag>生命的意义在于折腾！</tag>
         <tag>kindle</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>相对简单化的烤肉流程</title>
-    <url>/posts/7eba5e9a.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>先整理篇最近琢磨的，日语废效率提升计划（？）  </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-<span id="more"></span>
-
-<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
-<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的 <u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂，但还是帮大忙了……but还是要多练听力啊不要依赖这些东西（告诫自己.gif<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进 <a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a> 或 <a href="https://www.nikse.dk/subtitleedit/online">SubtitleEdit Online</a> 直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
-<p>　　有日文文本的话，可以使用 <u><strong>trados</strong></u> 进行翻译（虽然近期还没机会试用这软件……但看了下可以对照翻译，太好力我早就想找个有双文本框的软件了，下次一定！）</p>
-<p>　　总体来看翻译好像没什么可偷懒的地方，打铁还需自身硬啊555</p>
-<hr>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
-<li>自动打轴（DD烤肉机）</li>
-<li>在aegisub里边翻译边修正轴（可用飞书妙记辅助识别日文）</li>
-<li>校对翻译</li>
-<li>检查视频</li>
-<li>压制字幕</li>
-</ol>
-<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有佬录的文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
-<hr>
-<h3 id="后续补充"><a href="#后续补充" class="headerlink" title="后续补充"></a>后续补充</h3><p>偶然发现一个能同时完成打轴和日语字幕的软件 <strong><a href="https://github.com/openai/whisper">whisper</a></strong> </p>
-<p>不过安装比较麻烦，依赖比较多，折腾了下没装成功，也没找到详细的教程，等下次有空了再研究……不得不说AI的发展速度真可怕）））</p>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-        <tag>视频与字幕制作</tag>
       </tags>
   </entry>
 </search>
