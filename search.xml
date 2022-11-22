@@ -9,10 +9,10 @@
 <hr>
 <h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
 <li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
-<li>bash界面中不能按ctrl-c复制，不然blog就会停止运行（真是奇怪的设计……）</li>
+<li>bash界面中不能按ctrl-c复制，不然就会停止运行（真是奇怪的设计……）</li>
 <li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
 <li>npm很容易无法连接，可以改用cnpm下载插件</li>
-<li>端口被占用的话可以换个端口 <code>hexo s -p 5000 </code></li>
+<li>端口被占用的话可以换个端口预览 <code>hexo s -p 5000 </code></li>
 </ol>
 <hr>
 <h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
@@ -72,7 +72,8 @@
     <url>/posts/5d366c56.html</url>
     <content><![CDATA[<blockquote class="blockquote-center">
             <i class="fa fa-quote-left"></i>
-            <p>大概三个月前（？）的吐槽，有些内容在今天看来也很生草） </p>
+            <p> 大概三个月前的吐槽，有些内容在今天看来也很生草ww</p>
+<p>（全程剧透慎入） </p>
 
             <i class="fa fa-quote-right"></i>
           </blockquote>
@@ -170,9 +171,10 @@
 <p>女主赢了就算了，把蔷薇新娘据为己有之后，居然还对安希为所欲为……洗澡乱来什么的，和安希玩了一整晚什么的……<del>（你们到底能玩啥玩一晚上啊？</del></p>
 <details>
 <summary>大胆猜测</summary>
-<pre><code>听完学生会磁带之后表示，难道安希跟游戏女主也玩了一晚上银仙……？
+<pre><code>翻译完学生会磁带之后，我完全明白了，你们一定是玩了一晚上银仙对吧……！
 </code></pre>
 </details>
+
 
 <img src="/posts/5d366c56/30.jpg" width="50%" height="50%">
 
@@ -184,7 +186,7 @@
 
 <p>顺利夺回安希之后，就这么结束了……（这条线完全意义不明啊喂！</p>
 <hr>
-<h3 id="Over"><a href="#Over" class="headerlink" title="Over"></a>Over</h3><p>最后，游戏里竟然并没有凤晓生汽车人，感觉被骗了o(￣ヘ￣o＃)<br>不过算了，反正这整个游戏还挺好笑的(&gt;&lt;)<br>以及这居然是大河内写出来的东西(°ー°〃)</p>
+<h3 id="Over"><a href="#Over" class="headerlink" title="Over"></a>Over</h3><p>最后，游戏里竟然并没有凤晓生汽车人，感觉被骗了o(￣ヘ￣o＃)<br>不过算了，反正这整个游戏还挺好笑的w<br>以及这居然是大河内写出来的东西(°ー°〃)</p>
 <hr>
 ]]></content>
       <categories>
@@ -232,7 +234,7 @@
 
 <span id="more"></span>
 
-<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，于是重写一下。</p>
+<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，正好重写一下。</p>
 <hr>
 <h3 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h3><h4 id="日文书籍-x2F-小说资源获取"><a href="#日文书籍-x2F-小说资源获取" class="headerlink" title="日文书籍&#x2F;小说资源获取"></a>日文书籍&#x2F;小说资源获取</h4><ol>
 <li><p>现成的书籍资源：Z-Library  |  <a href="https://itazuraneko.neocities.org/library/shousetu.html">itazuraneko</a></p>
@@ -256,7 +258,7 @@
 </ol>
 <hr>
 <h3 id="图片类"><a href="#图片类" class="headerlink" title="图片类"></a>图片类</h3><h4 id="漫画-x2F-小说扫图资源获取"><a href="#漫画-x2F-小说扫图资源获取" class="headerlink" title="漫画&#x2F;小说扫图资源获取"></a>漫画&#x2F;小说扫图资源获取</h4><p>有许多小说并没有txt版本，但可以找到扫图，主要获取渠道和漫画一样：<a href="https://nyaa.si/">nyaa</a>  |  <a href="http://13dl.net/">13dl</a>  |  <a href="https://dlraw.net/raw/">dlraw</a></p>
-<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主，各圈不同，没法一概而论。只能放下经常逛的<a href="http://ohtori.nu/doujinshi/">ohtori</a>（少革）和<a href="http://three-lights.net/gallery/doujinshi-fan-art">three lights</a>（美战）。</p>
+<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主，各圈不同，没法一概而论。这里放下最近经常逛的 <a href="http://ohtori.nu/doujinshi/">ohtori</a>（少革）和 <a href="http://three-lights.net/gallery/doujinshi-fan-art">three lights</a>（美战）。</p>
 <p>当然直接通过 <a href="https://booth.pm/zh-cn">booth</a> 和 <a href="https://www.dlsite.com/index.html">dlsite</a> 购买电子版最好，得到pdf后直接发送至kindle即可。</p>
 <h4 id="jpg-x2F-png→epub"><a href="#jpg-x2F-png→epub" class="headerlink" title="jpg&#x2F;png→epub"></a>jpg&#x2F;png→epub</h4><p>使用 <u><strong>ChainLP</strong></u> 打包图片，使用方法可以参照 <a href="https://tieba.baidu.com/p/2191868417">[超详细教程] MOBI全屏漫画&#x2F;图片书籍</a> 此帖，得到的mobi文件同样可使用 <u><strong>kindlestrip</strong></u> 去冗余。</p>
 <hr>
@@ -264,7 +266,7 @@
 <p>如果内容比较难以阅读，则需要进一步处理，参考：<a href="https://bookfere.com/post/134.html">PDF 重排工具：K2pdfopt 简明教程</a></p>
 <p>然而很久都没遇到这种难以处理的pdf文件……没有实际用过，以后用过再来补充好了……</p>
 <hr>
-<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它什么doc啊balabala基本上全用 <u><strong>calibre</strong></u> 无脑转换就好啦，目前似乎没有更多奇怪的需求，就到此为止了。</p>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它如doc等等格式基本上全用 <u><strong>calibre</strong></u> 无脑转换就好啦，over。</p>
 <hr>
 ]]></content>
       <categories>
@@ -280,15 +282,16 @@
     <url>/posts/7eba5e9a.html</url>
     <content><![CDATA[<blockquote class="blockquote-center">
             <i class="fa fa-quote-left"></i>
-            <p> 作为一个听力捉急的日语废，一个人做视频的速度实在太慢。<br>刚好前段时间研究了下怎么提高效率，建blog了就在这整理一下。 </p>
+            <p>先整理篇最近琢磨的，日语废效率提升计划（？）  </p>
 
             <i class="fa fa-quote-right"></i>
           </blockquote>
 <span id="more"></span>
 
-<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现<a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a>看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
-<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的<u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂，但还是帮大忙了……but还是要多练听力啊不要依赖这些东西（告诫自己.gif<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进 <a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a> 或 <a href="https://www.nikse.dk/subtitleedit/online">SubtitleEdit Online</a> 直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
-<p>　　有日文文本的话，可以使用<u><strong>trados</strong></u>进行翻译（虽然近期还没机会试用这软件……但看了下可以对照翻译，太好力我早就想找个有双文本框的软件了，下次一定！）</p>
+<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
+<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的 <u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂，但还是帮大忙了……but还是要多练听力啊不要依赖这些东西（告诫自己.gif<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进 <a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a> 或 <a href="https://www.nikse.dk/subtitleedit/online">SubtitleEdit Online</a> 直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
+<p>　　有日文文本的话，可以使用 <u><strong>trados</strong></u> 进行翻译（虽然近期还没机会试用这软件……但看了下可以对照翻译，太好力我早就想找个有双文本框的软件了，下次一定！）</p>
+<p>　　总体来看翻译好像没什么可偷懒的地方，打铁还需自身硬啊555</p>
 <hr>
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
 <li>自动打轴（DD烤肉机）</li>
