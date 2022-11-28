@@ -1,74 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>First Blog</title>
-    <url>/posts/a30a3587.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>　　整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考）</p>
-<span id="more"></span>
-
-<hr>
-<h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
-<li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
-<li>bash界面中不能按ctrl-c复制，不然就会停止运行（真是奇怪的设计……）</li>
-<li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
-<li>npm很容易无法连接，可以改用cnpm下载插件</li>
-<li>端口被占用的话可以换个端口预览 <code>hexo s -p 5000 </code></li>
-</ol>
-<hr>
-<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
-<li>本地预览 <code>hexo s</code></li>
-<li>新建文章 <code>hexo new &quot;title&quot;</code></li>
-<li>上传 <code>hexo g -d</code></li>
-<li>配合上面使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
-</ol>
-<hr>
-<h3 id="已添加（2022-11-16）"><a href="#已添加（2022-11-16）" class="headerlink" title="已添加（2022.11.16）"></a>已添加（2022.11.16）</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
-<li><input checked disabled type="checkbox"> 站内搜索功能（hexo-generator-searchdb）</li>
-<li><input checked disabled type="checkbox"> 添加字数统计和阅读时间功能（hexo-wordcount）</li>
-<li><input checked disabled type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
-<li><input checked disabled type="checkbox"> 文章加密访问（hexo-blog-encrypt）</li>
-<li><input checked disabled type="checkbox"> 本地插入图片（hexo-asset）</li>
-<li><input checked disabled type="checkbox"> 置顶和隐藏文章（hexo-generator-indexed）<ul>
-<li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
-<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏的文章可以在分类中找到，而未发布的文章则会完全消失，两者都可以通过链接正常访问）</li>
-</ul>
-</li>
-<li><input checked disabled type="checkbox"> 添加脚注（**<a href="https://github.com/quentin-chen/hexo-reference">hexo-reference</a>**）</li>
-</ul>
-<h4 id="杂七杂八"><a href="#杂七杂八" class="headerlink" title="杂七杂八"></a>杂七杂八</h4><ul>
-<li><input checked disabled type="checkbox"> 添加头像</li>
-<li><input checked disabled type="checkbox"> 添加社交账户链接</li>
-<li><input checked disabled type="checkbox"> 侧边栏添加标签、分类、关于</li>
-<li><input checked disabled type="checkbox"> 调整字体</li>
-<li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，之后换个方式实现吧）</li>
-<li><input checked disabled type="checkbox"> 修改底栏</li>
-<li><input checked disabled type="checkbox"> 增加文章更新时间</li>
-<li><input checked disabled type="checkbox"> 开启版权声明</li>
-</ul>
-<hr>
-<h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
-<ul>
-<li><input disabled type="checkbox"> RSS</li>
-<li><input disabled type="checkbox"> 修改网站图标</li>
-<li><input disabled type="checkbox"> 首页显示文章标签</li>
-<li><input disabled type="checkbox"> 修改文章内文本链接样式</li>
-<li><input disabled type="checkbox"> 网站数据分析</li>
-<li><input disabled type="checkbox"> 国内访问速度优化</li>
-<li><input disabled type="checkbox"> 添加文件附件</li>
-<li><input disabled type="checkbox"> <del>阅读量统计</del> （反正又没人看.jpg）</li>
-<li><input disabled type="checkbox"> <del>评论功能</del>（反正又没人评论.jpg）</li>
-</ul>
-<hr>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>生命的意义在于折腾！</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>对少革游戏的一些吐槽</title>
     <url>/posts/5d366c56.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
@@ -221,6 +153,74 @@
       <tags>
         <tag>少女革命</tag>
         <tag>翻译</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>First Blog</title>
+    <url>/posts/a30a3587.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>　　整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考）</p>
+<span id="more"></span>
+
+<hr>
+<h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
+<li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
+<li>bash界面中不能按ctrl-c复制，不然就会停止运行（真是奇怪的设计……）</li>
+<li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
+<li>npm很容易无法连接，可以改用cnpm下载插件</li>
+<li>端口被占用的话可以换个端口预览 <code>hexo s -p 5000 </code></li>
+</ol>
+<hr>
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
+<li>本地预览 <code>hexo s</code></li>
+<li>新建文章 <code>hexo new &quot;title&quot;</code></li>
+<li>上传 <code>hexo g -d</code></li>
+<li>配合上面使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+</ol>
+<hr>
+<h3 id="已添加（2022-11-16）"><a href="#已添加（2022-11-16）" class="headerlink" title="已添加（2022.11.16）"></a>已添加（2022.11.16）</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
+<li><input checked disabled type="checkbox"> 站内搜索功能（hexo-generator-searchdb）</li>
+<li><input checked disabled type="checkbox"> 添加字数统计和阅读时间功能（hexo-wordcount）</li>
+<li><input checked disabled type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
+<li><input checked disabled type="checkbox"> 文章加密访问（hexo-blog-encrypt）</li>
+<li><input checked disabled type="checkbox"> 本地插入图片（hexo-asset）</li>
+<li><input checked disabled type="checkbox"> 置顶和隐藏文章（hexo-generator-indexed）<ul>
+<li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
+<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏的文章可以在分类中找到，而未发布的文章则会完全消失，两者都可以通过链接正常访问）</li>
+</ul>
+</li>
+<li><input checked disabled type="checkbox"> 添加脚注（**<a href="https://github.com/quentin-chen/hexo-reference">hexo-reference</a>**）</li>
+</ul>
+<h4 id="杂七杂八"><a href="#杂七杂八" class="headerlink" title="杂七杂八"></a>杂七杂八</h4><ul>
+<li><input checked disabled type="checkbox"> 添加头像</li>
+<li><input checked disabled type="checkbox"> 添加社交账户链接</li>
+<li><input checked disabled type="checkbox"> 侧边栏添加标签、分类、关于</li>
+<li><input checked disabled type="checkbox"> 调整字体</li>
+<li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，之后换个方式实现吧）</li>
+<li><input checked disabled type="checkbox"> 修改底栏</li>
+<li><input checked disabled type="checkbox"> 增加文章更新时间</li>
+<li><input checked disabled type="checkbox"> 开启版权声明</li>
+</ul>
+<hr>
+<h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
+<ul>
+<li><input disabled type="checkbox"> RSS</li>
+<li><input disabled type="checkbox"> 修改网站图标</li>
+<li><input disabled type="checkbox"> 首页显示文章标签</li>
+<li><input disabled type="checkbox"> 修改文章内文本链接样式</li>
+<li><input disabled type="checkbox"> 网站数据分析</li>
+<li><input disabled type="checkbox"> 国内访问速度优化</li>
+<li><input disabled type="checkbox"> 添加文件附件</li>
+<li><input disabled type="checkbox"> <del>阅读量统计</del> （反正又没人看.jpg）</li>
+<li><input disabled type="checkbox"> <del>评论功能</del>（反正又没人评论.jpg）</li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>生命的意义在于折腾！</tag>
       </tags>
   </entry>
   <entry>
@@ -1530,134 +1530,6 @@
       </tags>
   </entry>
   <entry>
-    <title>测试用文</title>
-    <url>/posts/fd87c315.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="ecdd98f050f215759c3512554fc2e3122f8508a9f6049427eee884c26a5ecf67">bd25ed9264b080267271e137e33d0ce1e1069d88f9699965ec2c8f2e4412683a11965185006bffa98a0a821510d9346f4fc1f32e8ed4140688d3ab40e3ed7a89817d4566b26936dfae7d3c97389e93130815176011906ed3740a2003a99b7504262109457d524da14cb9f0ef00a4562353ce039b9a6d85b647f9f2e4fea5379de855c6bdf46992db46f9b4c02f055ef3653d52b6a71c05cd385732ce7586598de9f6e8ef7eec12c27205271bd239741dfc981bfcd7ee5d63556ce1efed75d272f8b8ad368ad0f17751774c47b02275aef468ccea86bc931dadb17fc7da5943c37876af172affbe7d79b011449abfc7093041c96db39e16cd37820b891a9f0da8881a47fd46291581311b350f8155ccca66e0e3bec23a60b5ca5e493e9216a510cdaef44c515cdac2fc3a382e3feba995f981040689d443c8d57e2db3e96065a0ad51f618628012b2fbb83aaff089fd5226679607c35aaf227d0b538cf79688ed86362ad70444622e3cdde4693b80e5836af5a8f7a84313b948f970a3bc29c8b554c02240274787cd776da6403226220e7121530052551ab56da69a56a898b6076ad6b68c8bc3e98bc8ad7f78e5146e60ab2fcff6708690deac596ccd93b0146b82fd828e8562095e4e541a407fb00dc491fb6891a4dd450cd0d155f1e817103df592996a3f2a63e2cb17df20d8c11be60029abdb356239ae33d42b288432a924e8da598200f99adf64dc2eddb26bf84eca9b12979965c9ef0e770e1b503a0017b05932011e079dc3cea317387ba5428daa6e479c11340a1e01f0d236bb1ce7b6340536142e8e494e596f04182563ce2b702a9ba548c4abbe70888aca6677adaac83d9bbd0e495155fc4093116118c21f24ef1d7625c11fff67b8d23bd4dadea0bd2deeb2bb8ded72b205d404d60aeedc19be95ce40aaa4bf55743fa576efea140f0dff8190aa0e7aa5d8aadbcf172886762bbe2499f09bb6b6a03fde5b4215609e9596ebbffe8a744ef3af401d8866e73d0065d606b054bffd39425a6a9593b7a6a3abe45d3d82c49efe857f0995ae8a16b91a1f6d95bcdea68bb79296166b6ecad52c33b8d2b6fc94ac01eb290b39fc</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>ACG</category>
-        <category>草稿箱</category>
-        <category>杂七杂八</category>
-        <category>碎碎念</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>相对简单化的烤肉流程</title>
-    <url>/posts/7eba5e9a.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>先整理篇最近琢磨的，日语废效率提升计划（？）  </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-<span id="more"></span>
-
-<h3 id="先上总结"><a href="#先上总结" class="headerlink" title="先上总结"></a>先上总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
-<li>自动打轴（DD烤肉机 &#x2F; Buzz）</li>
-<li>翻译+修正轴（aegisub，可用 飞书妙记 &#x2F; Buzz 辅助识别日文）</li>
-<li>校对翻译</li>
-<li>检查视频</li>
-<li>压制字幕（小丸）</li>
-</ol>
-<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有佬录的文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
-<hr>
-<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
-<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的 <u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂，但还是帮大忙了……but还是要多练听力啊不要依赖这些东西（告诫自己.gif<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进 <a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a> 或 <a href="https://www.nikse.dk/subtitleedit/online">SubtitleEdit Online</a> 直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
-<p>　　翻译好像没什么可偷懒的地方，打铁还需自身硬啊555</p>
-<hr>
-<h3 id="后续补充（2022-11-22）"><a href="#后续补充（2022-11-22）" class="headerlink" title="后续补充（2022-11-22）"></a>后续补充（2022-11-22）</h3><p>　　偶然发现一个能同时完成打轴和日语字幕的软件 <strong><a href="https://github.com/openai/whisper">whisper</a></strong> </p>
-<p>　　不过安装比较麻烦，依赖比较多，折腾了下没装成功，也没找到详细的教程，等下次有空了再研究……不得不说AI的发展速度真可怕）））</p>
-<hr>
-<h3 id="后续续补充（2022-11-26）"><a href="#后续续补充（2022-11-26）" class="headerlink" title="后续续补充（2022-11-26）"></a>后续续补充（2022-11-26）</h3><p>whisper 死活没装上，然后发现了 <a href="https://github.com/chidiwilliams/buzz#buzz">Buzz</a>，调用的whisper，还提供GUI界面，一键安装即可使用（爽到）</p>
-<p>把学生会磁带的p1拖进去试下识别效果（质量high）：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br><span class="line">00:00:00.000 --&gt; 00:00:02.000</span><br><span class="line">卵の殻を破らねば</span><br><span class="line"></span><br><span class="line">2</span><br><span class="line">00:00:02.000 --&gt; 00:00:04.000</span><br><span class="line">ひなどりは生まれずに死んでゆく</span><br><span class="line"></span><br><span class="line">3</span><br><span class="line">00:00:04.000 --&gt; 00:00:06.000</span><br><span class="line">我らはひな、卵は世界だ</span><br><span class="line"></span><br><span class="line">4</span><br><span class="line">00:00:06.000 --&gt; 00:00:08.000</span><br><span class="line">世界の殻を破らねば</span><br><span class="line"></span><br><span class="line">5</span><br><span class="line">00:00:08.000 --&gt; 00:00:10.000</span><br><span class="line">僕らは生まれずに死んでゆく</span><br><span class="line"></span><br><span class="line">6</span><br><span class="line">00:00:10.000 --&gt; 00:00:12.000</span><br><span class="line">世界の殻を破壊せよ</span><br><span class="line"></span><br><span class="line">7</span><br><span class="line">00:00:12.000 --&gt; 00:00:14.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">8</span><br><span class="line">00:00:14.000 --&gt; 00:00:16.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">9</span><br><span class="line">00:00:16.000 --&gt; 00:00:18.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">10</span><br><span class="line">00:00:18.000 --&gt; 00:00:20.000</span><br><span class="line">というわけで全員バージョンは楽しんでもらえたかな</span><br><span class="line"></span><br><span class="line">11</span><br><span class="line">00:00:20.000 --&gt; 00:00:22.000</span><br><span class="line">誰に向かって喋っているとは</span><br><span class="line"></span><br><span class="line">12</span><br><span class="line">00:00:22.000 --&gt; 00:00:24.000</span><br><span class="line">いや、しっけ</span><br><span class="line"></span><br><span class="line">13</span><br><span class="line">00:00:24.000 --&gt; 00:00:26.000</span><br><span class="line">俺としたことが楽屋落ちなネタとは</span><br><span class="line"></span><br><span class="line">14</span><br><span class="line">00:00:26.000 --&gt; 00:00:30.000</span><br><span class="line">無水だったな</span><br><span class="line"></span><br><span class="line">15</span><br><span class="line">00:00:30.000 --&gt; 00:00:32.000</span><br><span class="line">生徒会長、僕らを呼び出したのは</span><br><span class="line"></span><br><span class="line">16</span><br><span class="line">00:00:32.000 --&gt; 00:00:34.000</span><br><span class="line">こんなことをやらせるためなのか</span><br><span class="line"></span><br><span class="line">17</span><br><span class="line">00:00:34.000 --&gt; 00:00:36.000</span><br><span class="line">意外に乗っていたようだな</span><br><span class="line"></span><br><span class="line">18</span><br><span class="line">00:00:36.000 --&gt; 00:00:38.000</span><br><span class="line">それは</span><br><span class="line"></span><br><span class="line">19</span><br><span class="line">00:00:38.000 --&gt; 00:00:40.000</span><br><span class="line">今日集まっていただいたのは</span><br><span class="line"></span><br><span class="line">20</span><br><span class="line">00:00:40.000 --&gt; 00:00:42.000</span><br><span class="line">大鳥学園内で使われるメッセージを</span><br></pre></td></tr></table></figure>
-
-<p>对比飞书妙记的识别结果：</p>
-<blockquote>
-<p>说话人 1 00:03<br>卵の殻を破らねば、雛鳥は生まれずに死んでゆく。我らはひな卵は世界だ。世界のカラーを破られれば、僕らが生まれずに死んでいく世界の殻を破壊せよ、世界を革命するために。</p>
-<p>说话人 2 00:20<br>というわけで、全員バージョンは楽しんでもらえたかな。誰に向かってしゃべっていると思います。いやして、俺としたことが楽屋落ち投げたのは無理だった。</p>
-<p>说话人 1 00:31<br>八回と僕らを呼び出したのは、こんなことをやらせるためなのか、意外に載っていたようだな。あー今日集まっていただいたのは、大鳥学園内で使われるメッセージを吹き込んでもらうため、何でメッセージ、これも生徒会の仕事のうちでちょっと待ってよ。なんで生徒会メンバーでもない、僕までやらなくちゃいけないんだ。本来ならこれは生徒会副会長の仕事なのだ、ライオンに先輩退学しちゃいましたからねぇ。</p>
-</blockquote>
-<p>　　Buzz的断句好多了，不过是从有声音的地方开始打的轴，需要调轴。“世界を革命するために”这句有好几个人的声音重叠，居然识别出来了还挺意外。<br>　　后续又测试了几个音频，Buzz对于多个声音的识别比飞书好上许多，飞书一旦多人就完全一团糟。不过整体的准确率半斤八两吧，buzz甚至可能还比不上飞书（？）一些感觉比较少见的词，飞书识别正确而Buzz即使调到high，也并不能准确识别orz（感觉我听不懂的词汇大部分都没有识别出来……那不是失去意义了吗喂）<br>　　总之各有优劣吧，图打轴安逸可以Buzz，想要更准确的参考似乎还是用飞书语记更靠谱。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-        <tag>视频与字幕制作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用kindle阅读日文小说/扫图/漫画/pdf的简明教程</title>
-    <url>/posts/d4569923.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>对kindle执念深重的产物 </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<span id="more"></span>
-
-<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，正好重写一下。</p>
-<hr>
-<h3 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h3><h4 id="日文书籍-x2F-小说资源获取"><a href="#日文书籍-x2F-小说资源获取" class="headerlink" title="日文书籍&#x2F;小说资源获取"></a>日文书籍&#x2F;小说资源获取</h4><ol>
-<li><p>现成的书籍资源：Z-Library  |  <a href="https://itazuraneko.neocities.org/library/shousetu.html">itazuraneko</a></p>
-</li>
-<li><p>未经处理的txt资源：<a href="https://nyaa.si/">nyaa</a>  |  <a href="https://www.aozora.gr.jp/">青空文库</a></p>
-</li>
-</ol>
-<p>其中青空文库可在网站中直接下载zip(txt)，图省事也可以直接在 <a href="http://www.netbuffalo.net/NetApps/kindle/aozora">MOBIぞら文庫</a> 下载mobi文件。</p>
-<h4 id="txt→epub"><a href="#txt→epub" class="headerlink" title="txt→epub"></a>txt→epub</h4><p>方法多样，任选其一即可：</p>
-<ol>
-<li><p><del>在 <a href="http://a2k.aill.org/">青空キンドル </a> 输入青空文库的zip链接，转换为竖排pdf。</del>（已失效）</p>
-</li>
-<li><p>使用 <a href="http://ebook.cdict.info/mobi/">天火藏書</a> 的网页端制作epub&#x2F;mobi文件。非常无脑简单，上传即可，但可能存在假名注音显示不全的问题。不在乎注音问题可以使用。</p>
-</li>
-<li><p><u><strong>AozoraEpub</strong></u>（推荐★），使用步骤如下：</p>
-<p>① 首先检查是否乱码，若乱码则通过 <u><strong>codeTransmit</strong></u> 等软件，把文本转换成<strong>UTF-8编码</strong>，得到正常显示的日文文本。</p>
-<p>② 用软件打开正常显示的文本（<strong>UTF-8编码</strong>）。<br><img src="/posts/d4569923/1.png" alt="1"></p>
-<p>③ 若文档格式正确则会出现完整的书名、作者封面和目录。确认即可。<br><img src="/posts/d4569923/2.png" alt="2"></p>
-<p>④ 可使用 <u><strong>kindlestrip</strong></u> 去冗余（注意文件名和目录不要有中文）：将文件放入temp文件夹后，点击auto.bat，运行完后在result文件夹找到去冗余后的文件，mobi文件的体积在去冗余后会大大缩小。</p>
-</li>
-</ol>
-<hr>
-<h3 id="图片类"><a href="#图片类" class="headerlink" title="图片类"></a>图片类</h3><h4 id="漫画-x2F-小说扫图资源获取"><a href="#漫画-x2F-小说扫图资源获取" class="headerlink" title="漫画&#x2F;小说扫图资源获取"></a>漫画&#x2F;小说扫图资源获取</h4><p>有许多小说并没有txt版本，但可以找到扫图，主要获取渠道和漫画一样：<a href="https://nyaa.si/">nyaa</a>  |  <a href="http://13dl.net/">13dl</a>  |  <a href="https://dlraw.net/raw/">dlraw</a></p>
-<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主，各圈不同，没法一概而论。这里放下最近经常逛的 <a href="http://ohtori.nu/doujinshi/">ohtori</a>（少革）和 <a href="http://three-lights.net/gallery/doujinshi-fan-art">three lights</a>（美战）。</p>
-<p>当然直接通过 <a href="https://booth.pm/zh-cn">booth</a> 和 <a href="https://www.dlsite.com/index.html">dlsite</a> 购买电子版最好，得到pdf后直接发送至kindle即可。</p>
-<h4 id="jpg-x2F-png→epub"><a href="#jpg-x2F-png→epub" class="headerlink" title="jpg&#x2F;png→epub"></a>jpg&#x2F;png→epub</h4><p>使用 <u><strong>ChainLP</strong></u> 打包图片，使用方法可以参照 <a href="https://tieba.baidu.com/p/2191868417">[超详细教程] MOBI全屏漫画&#x2F;图片书籍</a> 此帖，得到的mobi文件同样可使用 <u><strong>kindlestrip</strong></u> 去冗余。</p>
-<hr>
-<h3 id="PDF类"><a href="#PDF类" class="headerlink" title="PDF类"></a>PDF类</h3><p>pdf往往存在文件过大，无法用邮箱传送的问题，首先可以用 <a href="https://www.ilovepdf.com/compress_pdf">ilovepdf</a> 等方式压缩文件。</p>
-<p>如果内容比较难以阅读，则需要进一步处理，参考：<a href="https://bookfere.com/post/134.html">PDF 重排工具：K2pdfopt 简明教程</a></p>
-<p>然而很久都没遇到这种难以处理的pdf文件……没有实际用过，以后用过再来补充好了……</p>
-<hr>
-<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它如doc等等格式基本上全用 <u><strong>calibre</strong></u> 无脑转换就好啦，over。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-        <tag>kindle</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>少革各集staff</title>
     <url>/posts/6cb056e4.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
@@ -2059,6 +1931,134 @@
       </categories>
       <tags>
         <tag>少女革命</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试用文</title>
+    <url>/posts/fd87c315.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ecdd98f050f215759c3512554fc2e3122f8508a9f6049427eee884c26a5ecf67">bd25ed9264b080267271e137e33d0ce1e1069d88f9699965ec2c8f2e4412683a11965185006bffa98a0a821510d9346f4fc1f32e8ed4140688d3ab40e3ed7a89817d4566b26936dfae7d3c97389e93130815176011906ed3740a2003a99b7504262109457d524da14cb9f0ef00a4562353ce039b9a6d85b647f9f2e4fea5379de855c6bdf46992db46f9b4c02f055ef3653d52b6a71c05cd385732ce7586598de9f6e8ef7eec12c27205271bd239741dfc981bfcd7ee5d63556ce1efed75d272f8b8ad368ad0f17751774c47b02275aef468ccea86bc931dadb17fc7da5943c37876af172affbe7d79b011449abfc7093041c96db39e16cd37820b891a9f0da8881a47fd46291581311b350f8155ccca66e0e3bec23a60b5ca5e493e9216a510cdaef44c515cdac2fc3a382e3feba995f981040689d443c8d57e2db3e96065a0ad51f618628012b2fbb83aaff089fd5226679607c35aaf227d0b538cf79688ed86362ad70444622e3cdde4693b80e5836af5a8f7a84313b948f970a3bc29c8b554c02240274787cd776da6403226220e7121530052551ab56da69a56a898b6076ad6b68c8bc3e98bc8ad7f78e5146e60ab2fcff6708690deac596ccd93b0146b82fd828e8562095e4e541a407fb00dc491fb6891a4dd450cd0d155f1e817103df592996a3f2a63e2cb17df20d8c11be60029abdb356239ae33d42b288432a924e8da598200f99adf64dc2eddb26bf84eca9b12979965c9ef0e770e1b503a0017b05932011e079dc3cea317387ba5428daa6e479c11340a1e01f0d236bb1ce7b6340536142e8e494e596f04182563ce2b702a9ba548c4abbe70888aca6677adaac83d9bbd0e495155fc4093116118c21f24ef1d7625c11fff67b8d23bd4dadea0bd2deeb2bb8ded72b205d404d60aeedc19be95ce40aaa4bf55743fa576efea140f0dff8190aa0e7aa5d8aadbcf172886762bbe2499f09bb6b6a03fde5b4215609e9596ebbffe8a744ef3af401d8866e73d0065d606b054bffd39425a6a9593b7a6a3abe45d3d82c49efe857f0995ae8a16b91a1f6d95bcdea68bb79296166b6ecad52c33b8d2b6fc94ac01eb290b39fc</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>ACG</category>
+        <category>草稿箱</category>
+        <category>杂七杂八</category>
+        <category>碎碎念</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用kindle阅读日文小说/扫图/漫画/pdf的简明教程</title>
+    <url>/posts/d4569923.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>对kindle执念深重的产物 </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<span id="more"></span>
+
+<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，正好重写一下。</p>
+<hr>
+<h3 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h3><h4 id="日文书籍-x2F-小说资源获取"><a href="#日文书籍-x2F-小说资源获取" class="headerlink" title="日文书籍&#x2F;小说资源获取"></a>日文书籍&#x2F;小说资源获取</h4><ol>
+<li><p>现成的书籍资源：Z-Library  |  <a href="https://itazuraneko.neocities.org/library/shousetu.html">itazuraneko</a></p>
+</li>
+<li><p>未经处理的txt资源：<a href="https://nyaa.si/">nyaa</a>  |  <a href="https://www.aozora.gr.jp/">青空文库</a></p>
+</li>
+</ol>
+<p>其中青空文库可在网站中直接下载zip(txt)，图省事也可以直接在 <a href="http://www.netbuffalo.net/NetApps/kindle/aozora">MOBIぞら文庫</a> 下载mobi文件。</p>
+<h4 id="txt→epub"><a href="#txt→epub" class="headerlink" title="txt→epub"></a>txt→epub</h4><p>方法多样，任选其一即可：</p>
+<ol>
+<li><p><del>在 <a href="http://a2k.aill.org/">青空キンドル </a> 输入青空文库的zip链接，转换为竖排pdf。</del>（已失效）</p>
+</li>
+<li><p>使用 <a href="http://ebook.cdict.info/mobi/">天火藏書</a> 的网页端制作epub&#x2F;mobi文件。非常无脑简单，上传即可，但可能存在假名注音显示不全的问题。不在乎注音问题可以使用。</p>
+</li>
+<li><p><u><strong>AozoraEpub</strong></u>（推荐★），使用步骤如下：</p>
+<p>① 首先检查是否乱码，若乱码则通过 <u><strong>codeTransmit</strong></u> 等软件，把文本转换成<strong>UTF-8编码</strong>，得到正常显示的日文文本。</p>
+<p>② 用软件打开正常显示的文本（<strong>UTF-8编码</strong>）。<br><img src="/posts/d4569923/1.png" alt="1"></p>
+<p>③ 若文档格式正确则会出现完整的书名、作者封面和目录。确认即可。<br><img src="/posts/d4569923/2.png" alt="2"></p>
+<p>④ 可使用 <u><strong>kindlestrip</strong></u> 去冗余（注意文件名和目录不要有中文）：将文件放入temp文件夹后，点击auto.bat，运行完后在result文件夹找到去冗余后的文件，mobi文件的体积在去冗余后会大大缩小。</p>
+</li>
+</ol>
+<hr>
+<h3 id="图片类"><a href="#图片类" class="headerlink" title="图片类"></a>图片类</h3><h4 id="漫画-x2F-小说扫图资源获取"><a href="#漫画-x2F-小说扫图资源获取" class="headerlink" title="漫画&#x2F;小说扫图资源获取"></a>漫画&#x2F;小说扫图资源获取</h4><p>有许多小说并没有txt版本，但可以找到扫图，主要获取渠道和漫画一样：<a href="https://nyaa.si/">nyaa</a>  |  <a href="http://13dl.net/">13dl</a>  |  <a href="https://dlraw.net/raw/">dlraw</a></p>
+<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主，各圈不同，没法一概而论。这里放下最近经常逛的 <a href="http://ohtori.nu/doujinshi/">ohtori</a>（少革）和 <a href="http://three-lights.net/gallery/doujinshi-fan-art">three lights</a>（美战）。</p>
+<p>当然直接通过 <a href="https://booth.pm/zh-cn">booth</a> 和 <a href="https://www.dlsite.com/index.html">dlsite</a> 购买电子版最好，得到pdf后直接发送至kindle即可。</p>
+<h4 id="jpg-x2F-png→epub"><a href="#jpg-x2F-png→epub" class="headerlink" title="jpg&#x2F;png→epub"></a>jpg&#x2F;png→epub</h4><p>使用 <u><strong>ChainLP</strong></u> 打包图片，使用方法可以参照 <a href="https://tieba.baidu.com/p/2191868417">[超详细教程] MOBI全屏漫画&#x2F;图片书籍</a> 此帖，得到的mobi文件同样可使用 <u><strong>kindlestrip</strong></u> 去冗余。</p>
+<hr>
+<h3 id="PDF类"><a href="#PDF类" class="headerlink" title="PDF类"></a>PDF类</h3><p>pdf往往存在文件过大，无法用邮箱传送的问题，首先可以用 <a href="https://www.ilovepdf.com/compress_pdf">ilovepdf</a> 等方式压缩文件。</p>
+<p>如果内容比较难以阅读，则需要进一步处理，参考：<a href="https://bookfere.com/post/134.html">PDF 重排工具：K2pdfopt 简明教程</a></p>
+<p>然而很久都没遇到这种难以处理的pdf文件……没有实际用过，以后用过再来补充好了……</p>
+<hr>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它如doc等等格式基本上全用 <u><strong>calibre</strong></u> 无脑转换就好啦，over。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+        <tag>kindle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>相对简单化的烤肉流程</title>
+    <url>/posts/7eba5e9a.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>先整理篇最近琢磨的，日语废效率提升计划（？）  </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<span id="more"></span>
+
+<h3 id="先上总结"><a href="#先上总结" class="headerlink" title="先上总结"></a>先上总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
+<li>自动打轴（DD烤肉机 &#x2F; Buzz）</li>
+<li>翻译+修正轴（aegisub，可用 飞书妙记 &#x2F; Buzz 辅助识别日文）</li>
+<li>校对翻译</li>
+<li>检查视频</li>
+<li>压制字幕（小丸）</li>
+</ol>
+<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有佬录的文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
+<hr>
+<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
+<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的 <u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂，但还是帮大忙了……but还是要多练听力啊不要依赖这些东西（告诫自己.gif<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进 <a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a> 或 <a href="https://www.nikse.dk/subtitleedit/online">SubtitleEdit Online</a> 直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
+<p>　　翻译好像没什么可偷懒的地方，打铁还需自身硬啊555</p>
+<hr>
+<h3 id="后续补充（2022-11-22）"><a href="#后续补充（2022-11-22）" class="headerlink" title="后续补充（2022-11-22）"></a>后续补充（2022-11-22）</h3><p>　　偶然发现一个能同时完成打轴和日语字幕的软件 <strong><a href="https://github.com/openai/whisper">whisper</a></strong> </p>
+<p>　　不过安装比较麻烦，依赖比较多，折腾了下没装成功，也没找到详细的教程，等下次有空了再研究……不得不说AI的发展速度真可怕）））</p>
+<hr>
+<h3 id="后续续补充（2022-11-26）"><a href="#后续续补充（2022-11-26）" class="headerlink" title="后续续补充（2022-11-26）"></a>后续续补充（2022-11-26）</h3><p>whisper 死活没装上，然后发现了 <a href="https://github.com/chidiwilliams/buzz#buzz">Buzz</a>，调用的whisper，还提供GUI界面，一键安装即可使用（爽到）</p>
+<p>把学生会磁带的p1拖进去试下识别效果（质量high）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br><span class="line">00:00:00.000 --&gt; 00:00:02.000</span><br><span class="line">卵の殻を破らねば</span><br><span class="line"></span><br><span class="line">2</span><br><span class="line">00:00:02.000 --&gt; 00:00:04.000</span><br><span class="line">ひなどりは生まれずに死んでゆく</span><br><span class="line"></span><br><span class="line">3</span><br><span class="line">00:00:04.000 --&gt; 00:00:06.000</span><br><span class="line">我らはひな、卵は世界だ</span><br><span class="line"></span><br><span class="line">4</span><br><span class="line">00:00:06.000 --&gt; 00:00:08.000</span><br><span class="line">世界の殻を破らねば</span><br><span class="line"></span><br><span class="line">5</span><br><span class="line">00:00:08.000 --&gt; 00:00:10.000</span><br><span class="line">僕らは生まれずに死んでゆく</span><br><span class="line"></span><br><span class="line">6</span><br><span class="line">00:00:10.000 --&gt; 00:00:12.000</span><br><span class="line">世界の殻を破壊せよ</span><br><span class="line"></span><br><span class="line">7</span><br><span class="line">00:00:12.000 --&gt; 00:00:14.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">8</span><br><span class="line">00:00:14.000 --&gt; 00:00:16.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">9</span><br><span class="line">00:00:16.000 --&gt; 00:00:18.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">10</span><br><span class="line">00:00:18.000 --&gt; 00:00:20.000</span><br><span class="line">というわけで全員バージョンは楽しんでもらえたかな</span><br><span class="line"></span><br><span class="line">11</span><br><span class="line">00:00:20.000 --&gt; 00:00:22.000</span><br><span class="line">誰に向かって喋っているとは</span><br><span class="line"></span><br><span class="line">12</span><br><span class="line">00:00:22.000 --&gt; 00:00:24.000</span><br><span class="line">いや、しっけ</span><br><span class="line"></span><br><span class="line">13</span><br><span class="line">00:00:24.000 --&gt; 00:00:26.000</span><br><span class="line">俺としたことが楽屋落ちなネタとは</span><br><span class="line"></span><br><span class="line">14</span><br><span class="line">00:00:26.000 --&gt; 00:00:30.000</span><br><span class="line">無水だったな</span><br><span class="line"></span><br><span class="line">15</span><br><span class="line">00:00:30.000 --&gt; 00:00:32.000</span><br><span class="line">生徒会長、僕らを呼び出したのは</span><br><span class="line"></span><br><span class="line">16</span><br><span class="line">00:00:32.000 --&gt; 00:00:34.000</span><br><span class="line">こんなことをやらせるためなのか</span><br><span class="line"></span><br><span class="line">17</span><br><span class="line">00:00:34.000 --&gt; 00:00:36.000</span><br><span class="line">意外に乗っていたようだな</span><br><span class="line"></span><br><span class="line">18</span><br><span class="line">00:00:36.000 --&gt; 00:00:38.000</span><br><span class="line">それは</span><br><span class="line"></span><br><span class="line">19</span><br><span class="line">00:00:38.000 --&gt; 00:00:40.000</span><br><span class="line">今日集まっていただいたのは</span><br><span class="line"></span><br><span class="line">20</span><br><span class="line">00:00:40.000 --&gt; 00:00:42.000</span><br><span class="line">大鳥学園内で使われるメッセージを</span><br></pre></td></tr></table></figure>
+
+<p>对比飞书妙记的识别结果：</p>
+<blockquote>
+<p>说话人 1 00:03<br>卵の殻を破らねば、雛鳥は生まれずに死んでゆく。我らはひな卵は世界だ。世界のカラーを破られれば、僕らが生まれずに死んでいく世界の殻を破壊せよ、世界を革命するために。</p>
+<p>说话人 2 00:20<br>というわけで、全員バージョンは楽しんでもらえたかな。誰に向かってしゃべっていると思います。いやして、俺としたことが楽屋落ち投げたのは無理だった。</p>
+<p>说话人 1 00:31<br>八回と僕らを呼び出したのは、こんなことをやらせるためなのか、意外に載っていたようだな。あー今日集まっていただいたのは、大鳥学園内で使われるメッセージを吹き込んでもらうため、何でメッセージ、これも生徒会の仕事のうちでちょっと待ってよ。なんで生徒会メンバーでもない、僕までやらなくちゃいけないんだ。本来ならこれは生徒会副会長の仕事なのだ、ライオンに先輩退学しちゃいましたからねぇ。</p>
+</blockquote>
+<p>　　Buzz的断句好多了，不过是从有声音的地方开始打的轴，需要调轴。“世界を革命するために”这句有好几个人的声音重叠，居然识别出来了还挺意外。<br>　　后续又测试了几个音频，Buzz对于多个声音的识别比飞书好上许多，飞书一旦多人就完全一团糟。不过整体的准确率半斤八两吧，buzz甚至可能还比不上飞书（？）一些感觉比较少见的词，飞书识别正确而Buzz即使调到high，也并不能准确识别orz（感觉我听不懂的词汇大部分都没有识别出来……那不是失去意义了吗喂）<br>　　总之各有优劣吧，图打轴安逸可以Buzz，想要更准确的参考似乎还是用飞书语记更靠谱。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+        <tag>视频与字幕制作</tag>
       </tags>
   </entry>
 </search>
