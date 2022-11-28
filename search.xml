@@ -1,74 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>First Blog</title>
-    <url>/posts/a30a3587.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>　　整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考）</p>
-<span id="more"></span>
-
-<hr>
-<h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
-<li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
-<li>bash界面中不能按ctrl-c复制，不然就会停止运行（真是奇怪的设计……）</li>
-<li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
-<li>npm很容易无法连接，可以改用cnpm下载插件</li>
-<li>端口被占用的话可以换个端口预览 <code>hexo s -p 5000 </code></li>
-</ol>
-<hr>
-<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
-<li>本地预览 <code>hexo s</code></li>
-<li>新建文章 <code>hexo new &quot;title&quot;</code></li>
-<li>上传 <code>hexo g -d</code></li>
-<li>配合上面使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
-</ol>
-<hr>
-<h3 id="已添加（2022-11-16）"><a href="#已添加（2022-11-16）" class="headerlink" title="已添加（2022.11.16）"></a>已添加（2022.11.16）</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
-<li><input checked disabled type="checkbox"> 站内搜索功能（hexo-generator-searchdb）</li>
-<li><input checked disabled type="checkbox"> 添加字数统计和阅读时间功能（hexo-wordcount）</li>
-<li><input checked disabled type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
-<li><input checked disabled type="checkbox"> 文章加密访问（hexo-blog-encrypt）</li>
-<li><input checked disabled type="checkbox"> 本地插入图片（hexo-asset）</li>
-<li><input checked disabled type="checkbox"> 置顶和隐藏文章（hexo-generator-indexed）<ul>
-<li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
-<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏的文章可以在分类中找到，而未发布的文章则会完全消失，两者都可以通过链接正常访问）</li>
-</ul>
-</li>
-<li><input checked disabled type="checkbox"> 添加脚注（**<a href="https://github.com/quentin-chen/hexo-reference">hexo-reference</a>**）</li>
-</ul>
-<h4 id="杂七杂八"><a href="#杂七杂八" class="headerlink" title="杂七杂八"></a>杂七杂八</h4><ul>
-<li><input checked disabled type="checkbox"> 添加头像</li>
-<li><input checked disabled type="checkbox"> 添加社交账户链接</li>
-<li><input checked disabled type="checkbox"> 侧边栏添加标签、分类、关于</li>
-<li><input checked disabled type="checkbox"> 调整字体</li>
-<li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，之后换个方式实现吧）</li>
-<li><input checked disabled type="checkbox"> 修改底栏</li>
-<li><input checked disabled type="checkbox"> 增加文章更新时间</li>
-<li><input checked disabled type="checkbox"> 开启版权声明</li>
-</ul>
-<hr>
-<h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
-<ul>
-<li><input disabled type="checkbox"> RSS</li>
-<li><input disabled type="checkbox"> 修改网站图标</li>
-<li><input disabled type="checkbox"> 首页显示文章标签</li>
-<li><input disabled type="checkbox"> 修改文章内文本链接样式</li>
-<li><input disabled type="checkbox"> 网站数据分析</li>
-<li><input disabled type="checkbox"> 国内访问速度优化</li>
-<li><input disabled type="checkbox"> 添加文件附件</li>
-<li><input disabled type="checkbox"> <del>阅读量统计</del> （反正又没人看.jpg）</li>
-<li><input disabled type="checkbox"> <del>评论功能</del>（反正又没人评论.jpg）</li>
-</ul>
-<hr>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>生命的意义在于折腾！</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>对少革游戏的一些吐槽</title>
     <url>/posts/5d366c56.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
@@ -197,6 +129,74 @@
       <tags>
         <tag>少女革命</tag>
         <tag>吐槽</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>First Blog</title>
+    <url>/posts/a30a3587.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>　　整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考）</p>
+<span id="more"></span>
+
+<hr>
+<h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
+<li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
+<li>bash界面中不能按ctrl-c复制，不然就会停止运行（真是奇怪的设计……）</li>
+<li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
+<li>npm很容易无法连接，可以改用cnpm下载插件</li>
+<li>端口被占用的话可以换个端口预览 <code>hexo s -p 5000 </code></li>
+</ol>
+<hr>
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
+<li>本地预览 <code>hexo s</code></li>
+<li>新建文章 <code>hexo new &quot;title&quot;</code></li>
+<li>上传 <code>hexo g -d</code></li>
+<li>配合上面使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+</ol>
+<hr>
+<h3 id="已添加（2022-11-16）"><a href="#已添加（2022-11-16）" class="headerlink" title="已添加（2022.11.16）"></a>已添加（2022.11.16）</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
+<li><input checked disabled type="checkbox"> 站内搜索功能（hexo-generator-searchdb）</li>
+<li><input checked disabled type="checkbox"> 添加字数统计和阅读时间功能（hexo-wordcount）</li>
+<li><input checked disabled type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
+<li><input checked disabled type="checkbox"> 文章加密访问（hexo-blog-encrypt）</li>
+<li><input checked disabled type="checkbox"> 本地插入图片（hexo-asset）</li>
+<li><input checked disabled type="checkbox"> 置顶和隐藏文章（hexo-generator-indexed）<ul>
+<li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
+<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏的文章可以在分类中找到，而未发布的文章则会完全消失，两者都可以通过链接正常访问）</li>
+</ul>
+</li>
+<li><input checked disabled type="checkbox"> 添加脚注（**<a href="https://github.com/quentin-chen/hexo-reference">hexo-reference</a>**）</li>
+</ul>
+<h4 id="杂七杂八"><a href="#杂七杂八" class="headerlink" title="杂七杂八"></a>杂七杂八</h4><ul>
+<li><input checked disabled type="checkbox"> 添加头像</li>
+<li><input checked disabled type="checkbox"> 添加社交账户链接</li>
+<li><input checked disabled type="checkbox"> 侧边栏添加标签、分类、关于</li>
+<li><input checked disabled type="checkbox"> 调整字体</li>
+<li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，之后换个方式实现吧）</li>
+<li><input checked disabled type="checkbox"> 修改底栏</li>
+<li><input checked disabled type="checkbox"> 增加文章更新时间</li>
+<li><input checked disabled type="checkbox"> 开启版权声明</li>
+</ul>
+<hr>
+<h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
+<ul>
+<li><input disabled type="checkbox"> RSS</li>
+<li><input disabled type="checkbox"> 修改网站图标</li>
+<li><input disabled type="checkbox"> 首页显示文章标签</li>
+<li><input disabled type="checkbox"> 修改文章内文本链接样式</li>
+<li><input disabled type="checkbox"> 网站数据分析</li>
+<li><input disabled type="checkbox"> 国内访问速度优化</li>
+<li><input disabled type="checkbox"> 添加文件附件</li>
+<li><input disabled type="checkbox"> <del>阅读量统计</del> （反正又没人看.jpg）</li>
+<li><input disabled type="checkbox"> <del>评论功能</del>（反正又没人评论.jpg）</li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>生命的意义在于折腾！</tag>
       </tags>
   </entry>
   <entry>
@@ -1122,6 +1122,71 @@
       </tags>
   </entry>
   <entry>
+    <title>少革决斗曲翻译 - 游戏</title>
+    <url>/posts/c8fbc142.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>没有单发视频，b站传在音乐合集里：<a href="https://www.bilibili.com/video/BV1aT41137f4">BV1aT41137f4</a>  </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<span id="more"></span>
+
+<h2 id="ゲルツェンの首"><a href="#ゲルツェンの首" class="headerlink" title="ゲルツェンの首"></a>ゲルツェンの首</h2><p>决斗者：三条院千种<br>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉 金子伸吾 大月俊倫</p>
+<table>
+<thead>
+<tr>
+<th>ゲルツェンの首</th>
+<th>赫尔岑之首<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="赫尔岑：19世纪的俄国哲学家、作家、革命家，被称为俄国社会主义之父。">[1]</span></a></sup></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ゲルツェンの首<br>ゲルツェンの首<br>氷国大手術<br>ゲルツェンの首よ</td>
+<td>赫尔岑之首<br>赫尔岑之首<br>冰国大手术<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="冰国：可能是指俄国。">[2]</span></a></sup><br>赫尔岑之首啊</td>
+</tr>
+<tr>
+<td>壜(びん)の闇の肺臓<br>凍結眼球・腱を<br>生き返らせる蘇生医学は<br>進歩をくりかえしながら<br>ついに</td>
+<td>让黑暗瓶中的肺脏、<br>冻结眼球和肌腱<br>全都复活的苏生医学<br>不断进步着<br>终于</td>
+</tr>
+<tr>
+<td>生命造出<br>部分再生<br>生き返らせる<br>実験に成功した</td>
+<td>生命造出<br>部分再生<br>复活实验<br>圆满成功</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="さかさまボクとボクの部屋"><a href="#さかさまボクとボクの部屋" class="headerlink" title="さかさまボクとボクの部屋"></a>さかさまボクとボクの部屋</h2><p>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉 金子伸吾 大月俊倫</p>
+<table>
+<thead>
+<tr>
+<th>さかさまボクとボクの部屋</th>
+<th>颠倒的我和我的房间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>臍の緒かたどる生活縄は<br>宇宙の果ての宇宙ブランコ<br>その紐をはげしくゆすり<br>その反動で宙に舞う<br>身は一回転とんぼを切り<br>屋上越えて大暗黒の<br>ボクの裏側にひとっとび</td>
+<td>形似脐带的生活绳是<br>宇宙尽头的宇宙秋千<br>剧烈地摇晃那绳<br>反作用力使其在宇宙中乱舞<br>翻一个跟头<br>越过屋顶<br>跃向我的黑暗里侧</td>
+</tr>
+<tr>
+<td>裏返された安アパートと<br>二つの世界　書物の外<br>何が起こるか縄だのみ<br>都会の空で大回転！</td>
+<td>上下颠倒的廉价公寓和两个世界<br>在书本之外<br>发生了什么？  <br>只见那绳 在城市上空猛烈旋转！</td>
+</tr>
+<tr>
+<td>バイバイバイバイ誰にグッドバイ<br>バイバイバイバイボクにグッドバイ</td>
+<td>bye bye bye bye 对谁说 goodbye<br>bye bye bye bye 对我说 goodbye</td>
+</tr>
+</tbody></table>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">赫尔岑：19世纪的俄国哲学家、作家、革命家，被称为俄国社会主义之父。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">冰国：可能是指俄国。<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>ACG</category>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>少革决斗曲翻译 - 绝对命运默示录（+完全版）</title>
     <url>/posts/f497660d.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
@@ -1224,71 +1289,6 @@
 </tr>
 </tbody></table>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">锡安：一般是指耶路撒冷，象征神居住的地方。<a href="#fnref:10" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>ACG</category>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>少革决斗曲翻译 - 游戏</title>
-    <url>/posts/c8fbc142.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>没有单发视频，b站传在音乐合集里：<a href="https://www.bilibili.com/video/BV1aT41137f4">BV1aT41137f4</a>  </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<span id="more"></span>
-
-<h2 id="ゲルツェンの首"><a href="#ゲルツェンの首" class="headerlink" title="ゲルツェンの首"></a>ゲルツェンの首</h2><p>决斗者：三条院千种<br>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉 金子伸吾 大月俊倫</p>
-<table>
-<thead>
-<tr>
-<th>ゲルツェンの首</th>
-<th>赫尔岑之首<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="赫尔岑：19世纪的俄国哲学家、作家、革命家，被称为俄国社会主义之父。">[1]</span></a></sup></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ゲルツェンの首<br>ゲルツェンの首<br>氷国大手術<br>ゲルツェンの首よ</td>
-<td>赫尔岑之首<br>赫尔岑之首<br>冰国大手术<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="冰国：可能是指俄国。">[2]</span></a></sup><br>赫尔岑之首啊</td>
-</tr>
-<tr>
-<td>壜(びん)の闇の肺臓<br>凍結眼球・腱を<br>生き返らせる蘇生医学は<br>進歩をくりかえしながら<br>ついに</td>
-<td>让黑暗瓶中的肺脏、<br>冻结眼球和肌腱<br>全都复活的苏生医学<br>不断进步着<br>终于</td>
-</tr>
-<tr>
-<td>生命造出<br>部分再生<br>生き返らせる<br>実験に成功した</td>
-<td>生命造出<br>部分再生<br>复活实验<br>圆满成功</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="さかさまボクとボクの部屋"><a href="#さかさまボクとボクの部屋" class="headerlink" title="さかさまボクとボクの部屋"></a>さかさまボクとボクの部屋</h2><p>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉 金子伸吾 大月俊倫</p>
-<table>
-<thead>
-<tr>
-<th>さかさまボクとボクの部屋</th>
-<th>颠倒的我和我的房间</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>臍の緒かたどる生活縄は<br>宇宙の果ての宇宙ブランコ<br>その紐をはげしくゆすり<br>その反動で宙に舞う<br>身は一回転とんぼを切り<br>屋上越えて大暗黒の<br>ボクの裏側にひとっとび</td>
-<td>形似脐带的生活绳是<br>宇宙尽头的宇宙秋千<br>剧烈地摇晃那绳<br>反作用力使其在宇宙中乱舞<br>翻一个跟头<br>越过屋顶<br>跃向我的黑暗里侧</td>
-</tr>
-<tr>
-<td>裏返された安アパートと<br>二つの世界　書物の外<br>何が起こるか縄だのみ<br>都会の空で大回転！</td>
-<td>上下颠倒的廉价公寓和两个世界<br>在书本之外<br>发生了什么？  <br>只见那绳 在城市上空猛烈旋转！</td>
-</tr>
-<tr>
-<td>バイバイバイバイ誰にグッドバイ<br>バイバイバイバイボクにグッドバイ</td>
-<td>bye bye bye bye 对谁说 goodbye<br>bye bye bye bye 对我说 goodbye</td>
-</tr>
-</tbody></table>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">赫尔岑：19世纪的俄国哲学家、作家、革命家，被称为俄国社会主义之父。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">冰国：可能是指俄国。<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
       <categories>
         <category>ACG</category>
         <category>少女革命</category>
