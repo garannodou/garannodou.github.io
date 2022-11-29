@@ -1534,14 +1534,14 @@
     <url>/posts/6cb056e4.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
             <i class="fa fa-quote-left"></i>
-            <p>无摘要 </p>
+            <p>自用备查 </p>
 
             <i class="fa fa-quote-right"></i>
           </blockquote>
 
 <span id="more"></span>
 
-<p>表格内容来源wiki，自用备查，不然每次想吐槽都得翻半天某部分到底是谁的手笔）</p>
+<p>表格内容来源wiki，自用备查，不然每次想吐槽都得翻半天某部分到底出自谁的手笔）</p>
 <hr>
 <h2 id="TV"><a href="#TV" class="headerlink" title="TV"></a>TV</h2><table>
 <thead>
@@ -2058,6 +2058,52 @@
       </categories>
       <tags>
         <tag>生命的意义在于折腾！</tag>
+        <tag>视频与字幕制作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aegisub 简明笔记</title>
+    <url>/posts/d9ea43c5.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>打轴不难，就是费时间orz </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<span id="more"></span>
+
+<h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
+<li><p>随便找几个教程瞄一眼：<a href="https://www.bilibili.com/video/BV1Kx411z7My">新手入门Aegisub教程以及压制相关</a> | <a href="https://www.bilibili.com/video/BV1ps411b7as">快速打轴法</a> | <a href="https://sspai.com/post/47557">Aegisub 的使用指南及技巧</a></p>
+</li>
+<li><p>记下基本操作：左键设置开始时间，右键设置结束时间（ctrl+滚轮可以缩放频谱）</p>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">S键/Space：播放当前行</span><br><span class="line">G键：提交修改并进入下一行</span><br><span class="line">Z键：返回上一行</span><br><span class="line"></span><br><span class="line">Q键：播放选区之前500ms</span><br><span class="line">D键：播放选区最后500ms</span><br><span class="line">W键：播放选区之后500ms</span><br><span class="line"></span><br><span class="line">F键：音轨向后移动</span><br><span class="line">A键：音轨向前移动</span><br></pre></td></tr></table></figure>
+
+<p>　　以上基本就能满足普通打轴的需求了……！</p>
+<hr>
+<h5 id="疑难杂症（其实也不难的一些问题记录）"><a href="#疑难杂症（其实也不难的一些问题记录）" class="headerlink" title="疑难杂症（其实也不难的一些问题记录）"></a>疑难杂症（其实也不难的一些问题记录）</h5><ol>
+<li><p>如何根据说话人来批量替换样式：字幕&gt;选择多行，根据需求选中后批量替换样式即可</p>
+</li>
+<li><p>对齐文本的代码<br>左上角  <code>&#123;\an7&#125;</code>     中上方  <code>&#123;\an8&#125;</code>     右上角  <code>&#123;\an9&#125;</code><br>左下角  <code>&#123;\an1&#125;</code>     其他同理，换换数字就行</p>
+</li>
+<li><p>做竖排字幕：使用开头带@的字体，同时在字幕编辑框里输入 <code>&#123;\frz-90&#125;+内容</code></p>
+</li>
+<li><p>给文本加简单的半透明边框：在编辑框输入■，调整透明度，去掉边框和阴影，然后用 <code>\fscx</code> 和 <code>\fscy</code> 实现加长和加宽， 比如：</p>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy220\pos(972,1022)&#125;■</span><br></pre></td></tr></table></figure>
+
+<p>或</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy170\pos(952,926)&#125;■</span><br></pre></td></tr></table></figure>
+
+<p>不过真的很偷懒，看起来一点都不精致，想要效果好点的话就得折腾了（）</p>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
         <tag>视频与字幕制作</tag>
       </tags>
   </entry>
