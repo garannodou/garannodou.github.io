@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"garannodou.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"garannodou.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
   <meta property="og:type" content="article">
 <meta property="og:title" content="First Blog">
@@ -114,31 +114,31 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section">首页</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section">分类</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">3</span></a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section">标签</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">7</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section">归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">13</span></a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section">关于</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger">搜索
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -174,6 +174,10 @@
     </header>
 
     
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
 
     <main class="main">
@@ -229,7 +233,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>653</span>
+              <span>646</span>
             </span>
 
         </div>
@@ -283,12 +287,14 @@
 </ul>
 <hr>
 <h3 id="后续更新（2022-12-19）"><a href="#后续更新（2022-12-19）" class="headerlink" title="后续更新（2022.12.19）"></a>后续更新（2022.12.19）</h3><ul>
-<li><input checked disabled type="checkbox"> 侧边栏显示当前浏览进度（back2top全改为true）</li>
+<li><input checked disabled type="checkbox"> 显示当前浏览进度（back2top）</li>
 <li><input checked disabled type="checkbox"> 关闭首页文章摘要（苦摘要久矣，终于找到方法了，安装 <a target="_blank" rel="noopener" href="https://github.com/chekun/hexo-excerpt">hexo-excerpt </a>插件，将depth调为1即可）</li>
-<li><input checked disabled type="checkbox"> 更换样式为Mist</li>
+<li><input checked disabled type="checkbox"> <del>更换样式为Mist</del><ul>
 <li><input checked disabled type="checkbox"> 将默认120px的间距改为50（\themes\next\source\css_schemes\Mist_posts-expand.styl，约23行处  .post-block:not(:first-child) ）</li>
-<li><input checked disabled type="checkbox"> <del>去掉首页“阅读更多”按钮</del>（read_more）</li>
-<li><input checked disabled type="checkbox"> <del>调整字体大小</del>（\source\css_variables\base.styl，Font size）</li>
+<li><input checked disabled type="checkbox"> 去掉首页“阅读更多”按钮（read_more）</li>
+<li><input checked disabled type="checkbox"> 调整字体大小（\source\css_variables\base.styl，Font size）</li>
+</ul>
+</li>
 </ul>
 <hr>
 <h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
@@ -449,10 +455,6 @@
 
 
       </div>
-        <div class="back-to-top motion-element">
-          <i class="fa fa-arrow-up"></i>
-          <span>0%</span>
-        </div>
 
     </div>
   </aside>
