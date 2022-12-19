@@ -1186,7 +1186,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #59e3ff;
+  background: #ba70f2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1690,7 +1690,7 @@ pre .javascript .function {
   margin: 55px auto 45px;
 }
 .post-block:last-of-type .post-eof {
-  display: none;
+  display: block;
 }
 .content {
   padding-top: 40px;
