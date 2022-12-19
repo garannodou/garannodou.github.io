@@ -3,11 +3,7 @@
   <entry>
     <title>Aegisub 简明笔记</title>
     <url>/posts/d9ea43c5.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>打轴不难，就是费时间orz</center>
-
-<span id="more"></span>
-
-<h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
 <li><p>随便找几个教程瞄一眼：<a href="https://www.bilibili.com/video/BV1Kx411z7My">新手入门Aegisub教程以及压制相关</a> | <a href="https://www.bilibili.com/video/BV1ps411b7as">快速打轴法</a> | <a href="https://sspai.com/post/47557">Aegisub 的使用指南及技巧</a></p>
 </li>
 <li><p>记下基本操作：左键设置开始时间，右键设置结束时间（ctrl+滚轮可以缩放频谱）</p>
@@ -46,9 +42,7 @@
   <entry>
     <title>First Blog</title>
     <url>/posts/a30a3587.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考）</p>
-<span id="more"></span>
-
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考</p>
 <hr>
 <h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
 <li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
@@ -76,7 +70,7 @@
 <li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏的文章可以在分类中找到，而未发布的文章则会完全消失，两者都可以通过链接正常访问）</li>
 </ul>
 </li>
-<li><input checked disabled type="checkbox"> 添加脚注（**<a href="https://github.com/quentin-chen/hexo-reference">hexo-reference</a>**）</li>
+<li><input checked disabled type="checkbox"> 添加脚注（<a href="https://github.com/quentin-chen/hexo-reference">hexo-reference</a>）</li>
 </ul>
 <h4 id="杂七杂八"><a href="#杂七杂八" class="headerlink" title="杂七杂八"></a>杂七杂八</h4><ul>
 <li><input checked disabled type="checkbox"> 添加头像</li>
@@ -87,6 +81,8 @@
 <li><input checked disabled type="checkbox"> 修改底栏</li>
 <li><input checked disabled type="checkbox"> 增加文章更新时间</li>
 <li><input checked disabled type="checkbox"> 开启版权声明</li>
+<li><input checked disabled type="checkbox"> 侧边栏显示当前浏览进度（2022.12.19，back2top全改为true）</li>
+<li><input checked disabled type="checkbox"> 关闭首页文章摘要（2022.12.19，苦摘要久矣，终于找到方法了，安装 <a href="https://github.com/chekun/hexo-excerpt">hexo-excerpt </a>插件，将depth调为1即可）</li>
 </ul>
 <hr>
 <h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
@@ -112,11 +108,14 @@
       </tags>
   </entry>
   <entry>
-    <title>对少革游戏的一些吐槽</title>
+    <title>对少革游戏的吐槽</title>
     <url>/posts/5d366c56.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>大概三个月前的吐槽，有些内容在今天看来也很生草ww（全程剧透慎入）</center>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>大概三个月前写的，<u><strong>全程剧透慎入</strong></u> </p>
 
-<span id="more"></span>
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
 
 <h3 id="主线"><a href="#主线" class="headerlink" title="主线"></a>主线</h3><p>从op开始就乱来……似乎裸男三人组又是长谷川氏的杰作……拜托你收手！我的眼睛说它受到了冲击！</p>
 <h4 id="欧蒂娜线"><a href="#欧蒂娜线" class="headerlink" title="欧蒂娜线"></a>欧蒂娜线</h4><p>总结起来就是，和utena同床共枕，一起打球，一起洗澡，结局向她告白，她还会为你拭去泪水……</p>
@@ -239,11 +238,10 @@
   <entry>
     <title>少革tv副音轨</title>
     <url>/posts/553ac501.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>b站可以直接看但是画面ppt，想本地看的可以下外挂字幕</center>
-
-<span id="more"></span>
-
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>b站可以直接看但是画面ppt，想本地看的可以下外挂字幕</p>
+<hr>
 <h3 id="在线观看（b站链接）"><a href="#在线观看（b站链接）" class="headerlink" title="在线观看（b站链接）"></a>在线观看（b站链接）</h3><p><a href="https://www.bilibili.com/video/BV18e4y1R7VS">副音轨37话</a><br><a href="https://www.bilibili.com/video/BV13d4y1P7RT">副音轨38话</a><br><a href="https://www.bilibili.com/video/BV1Mg411m7Ni">副音轨39话</a></p>
+<hr>
 <h3 id="外挂字幕"><a href="#外挂字幕" class="headerlink" title="外挂字幕"></a>外挂字幕</h3><p><a href="https://pan.baidu.com/s/1PtMolOfxtCgel2YkL35RHg?pwd=569s">度盘链接</a><br>提取码: 569s</p>
 ]]></content>
       <categories>
@@ -264,8 +262,6 @@
 
             <i class="fa fa-quote-right"></i>
           </blockquote>
-
-<span id="more"></span>
 
 <h2 id="バーチャルスター発生学"><a href="#バーチャルスター発生学" class="headerlink" title="バーチャルスター発生学"></a>バーチャルスター発生学</h2><p>主题：Relation（关系）<br>决斗者：西园寺荚一<br>集数：ep25.  ふたりの永遠黙示録<br>演唱：万有引力 東京混声合唱団</p>
 <table>
@@ -690,8 +686,6 @@
             <i class="fa fa-quote-right"></i>
           </blockquote>
 
-<span id="more"></span>
-
 <h1 id="剧场版ver"><a href="#剧场版ver" class="headerlink" title="剧场版ver"></a>剧场版ver</h1><h2 id="デュエリスト～甦れ！無窮の歴史『中世』よ"><a href="#デュエリスト～甦れ！無窮の歴史『中世』よ" class="headerlink" title="デュエリスト～甦れ！無窮の歴史『中世』よ"></a>デュエリスト～甦れ！無窮の歴史『中世』よ</h2><table>
 <thead>
 <tr>
@@ -945,8 +939,6 @@
             <i class="fa fa-quote-right"></i>
           </blockquote>
 
-<span id="more"></span>
-
 <h2 id="When-Where-Who-Which"><a href="#When-Where-Who-Which" class="headerlink" title="When Where Who Which"></a>When Where Who Which</h2><p>主题：Amitié（友情）<br>决斗者：西园寺荚一<br>集数：ep01. 薔薇の花嫁</p>
 <p>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉<br>原出处：『演劇装置 飢餓術師レクイエム～光、そう何もかも、その存在は一光のスパークに始まり、そして消滅す～』</p>
 <table>
@@ -1163,8 +1155,6 @@
             <i class="fa fa-quote-right"></i>
           </blockquote>
 
-<span id="more"></span>
-
 <h2 id="ゲルツェンの首"><a href="#ゲルツェンの首" class="headerlink" title="ゲルツェンの首"></a>ゲルツェンの首</h2><p>决斗者：三条院千种<br>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉 金子伸吾 大月俊倫</p>
 <table>
 <thead>
@@ -1221,16 +1211,9 @@
   <entry>
     <title>少革决斗曲翻译 - 绝对命运默示录（+完全版）</title>
     <url>/posts/f497660d.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p> 居然已经是半年前的翻译了(&gt;д&lt;)</p>
-<p>虽然渣翻，总之搬搬 </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<span id="more"></span>
-
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>居然已经是约半年前的翻译了(&gt;д&lt;)</p>
+<p>虽然渣翻，总之还是整理了下，部分歌词有些微小的修改，b站那边懒得修了，以blog内为准）</p>
+<hr>
 <h2 id="絶対運命黙示録"><a href="#絶対運命黙示録" class="headerlink" title="絶対運命黙示録"></a>絶対運命黙示録</h2><p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
 <p>原出处：『カスパーハウザー～人間の謎への序章、あるいはわたしのモーシェのために～』</p>
 <table>
@@ -1334,9 +1317,7 @@
   <entry>
     <title>少革各话staff整理</title>
     <url>/posts/6cb056e4.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>表格内容来源wiki，自用备查，不然每次想吐槽都得翻半天某部分到底出自谁的手笔（）</center>
-
-<span id="more"></span>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>表格内容来源wiki，自用备查</center>
 
 <hr>
 <h2 id="TV"><a href="#TV" class="headerlink" title="TV"></a>TV</h2><table>
@@ -1739,8 +1720,6 @@
             <i class="fa fa-quote-right"></i>
           </blockquote>
 
-<span id="more"></span>
-
 <h2 id="不人幻魂合体術"><a href="#不人幻魂合体術" class="headerlink" title="不人幻魂合体術"></a>不人幻魂合体術</h2><p>主题：Aliénation（疏外）<br>决斗者：凤香苗<br>集数：ep14. 黒薔薇の少年たち<br>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
 <table>
 <thead>
@@ -1964,7 +1943,7 @@
     <title>测试用文</title>
     <url>/posts/fd87c315.html</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="f0bf379517cab69cc805b950ee36424db8da39ba9a198788b845ae251462fe39">bd25ed9264b080267271e137e33d0ce1e1069d88f9699965ec2c8f2e4412683a11965185006bffa98a0a821510d9346f4fc1f32e8ed4140688d3ab40e3ed7a89817d4566b26936dfae7d3c97389e93130815176011906ed3740a2003a99b7504262109457d524da14cb9f0ef00a4562353ce039b9a6d85b647f9f2e4fea5379de855c6bdf46992db46f9b4c02f055ef3653d52b6a71c05cd385732ce7586598de9f6e8ef7eec12c27205271bd239741dfc981bfcd7ee5d63556ce1efed75d272f8b8ad368ad0f17751774c47b02275aef468ccea86bc931dadb17fc7da5943c37876af172affbe7d79b011449abfc7093041c96db39e16cd37820b891a9f0da8881a47fd46291581311b350f8155ccca66e0e3bec23a60b5ca5e493e9216a510cdaef44c515cdac2fc3a382e3feba995f981040689d443c8d57e2db3e96065a05f633d4f284c0f273cca28c4a9a66ecac7519249e0152f63e42977060fa483a63ed64c1ce87bb38feaa34c2a484d4e0ad75405f93e1f30b98e0cdd405500a9a7f111daaabda7768bc7bf88bd381eabf9f444bb7572a0db1d5d644aa32ba17ce5ee639296df138b15aa778ff913e9390ea0d9fdc7d47f4b802dcb84c18639d7720375f43cf0ec7263762d4d8aaefbda0973b6cb1bc5834d43de9b8a1df3bece223adea2870e25adb4eab2e00406947babf7997cf6492e23f6346e82c902cd557966ac43e226d10698735bb1eb479ed1e37f47f1c3d5d544ebad8cd2e93fe5546eab68f1a704bb8db8349b3843c1a71d10ac26c0017db9e51ef3ed9dc5cb7a179a0b0573e24a3f3338a88065368a75dac860ae393b975b1a50dae4e21b8a6cc4bcf4f3cd74d72fa8e788dab77a478102fbcbd1d519d4fad97c755ce4591a8fa74b0da7fb45792e03e96d2a06dbdfbea1709361f26cd82daf33c6cba7420dff3fd0eb0b1567d745c615adfaa19b508969ad1de82ffeed65bae1dec7b3e2e59dc06cdc701ab5ed1e07e61f0109c066ec95fd366dc04f8af44a80413a534fa33984ff29740e29068e76e743ad50181aae1b5250833fa63ada70b31891b54e49b72cec7a6daebfb7035c3dfd1c627384d5cfb97357d0dee9204ab16611c0e5bea372cc07adaf72ebeaa6743ba7ba27eace6b23625267418063cf6ecefd8a1079d7fb4bdfd7e6c7d6297db4adfce0c3913505131e13caae4decc9b9a657eed4a269c89c5f0452e8519e5bf19964c143d80661d71026c9b186b4c895866d67b59c3efbf8dbf7a2cacf5d2e16eca83786ead9fca97aaa1fdffbcf7b6b618daab4872bb34e2f9e00b18d70b3455e335efd5bbc4169ea109012f4b474384baad1dbadcbb3472934b84b266eeff63ed1ae4ac3cbd3a7ec5b1d78e53da6f1b18d05da34a936f8b58392b1f9d711bf3a17c19e15a59c8d9c0bda7642b7cb853fde78c06a1d1871a7838855e4e0528bbed53f4b3f3eb86dfe2fc0b2c77bdeda9b5718af1351c3221d2fdeb02fe3618b77f7e784efcb73ace182669662aaf6f887b769f57ca8e6c302ee96af86673a694eb933b5c6e2bb365954f205c799f6bf5a12a9beaef587eed85374444dc08d80c9a06223ffb2c39b49cd018f659de14059c6c8bab727e2873d5bcd926453784beff66e24b2645848</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="37a8b8df27a5989efde187fd5fa17b37e39dbe38df6dc69de8b89283224e3394">bd25ed9264b080267271e137e33d0ce1e1069d88f9699965ec2c8f2e4412683a11965185006bffa98a0a821510d9346f4fc1f32e8ed4140688d3ab40e3ed7a89817d4566b26936dfae7d3c97389e93130815176011906ed3740a2003a99b7504262109457d524da14cb9f0ef00a456236a727fae71260d6e5ae31a6208d1cec4f37372d2461045f4b65528b1f4ac689929c001bb2afcebc9d7faf87f83916199dd200110f1576a9c2c9153e28990b7a668809854cfb3136f295721c11d3fc61294fd39dccdb35ff599190d4c331d4a5612c024fa16dc94bc6df2fb5ba113d9888e197b779a256373005a3e89a937a5dc541cc784d61550f6f28d249299404106a88d4a8cc94b33590c490c3abc75fe49f9225afcc0808cf0f873f97a643bd941336d75ba3f116b2f5ca21aeadd9bf6d9d6a78284e53b76a125d933c23204abb66040ca00bf38504715f3cfb5f9bac068fd0f9f9434afa18ca3b05a771114d10ea6ef441436986ef0197de00712a3b98849898e70d55171e2127a74a9e36c8943e2c9a94f464ffffb8abd1214dd766c0f84c763ada7cb926adffd4f944210d9c9ea59d1dfd79e1546db839c6a19f87d43af41b351074d4d69cf4c926c4c7427c98aa6a4a0850de662a6b59b788f3f91d737793ac8b47ceaeed29fd78ce0413c53659b0bc2f30da0af4788209f6bbe1768659d38e90eea867c5e0ac2b39944f40f464c6cb90af5be3fd0e54b5cb573331070e04b2392f9d4608b02a483a0e1fe36bd3a10753c1405373cf0c4d2315a01e3850183518a45b4943e079c7f4965342d76ea178d05072ddc4276c08980d7c8e4bee829735278dfe82cd790977d8bb8e1ec0c39c54473fdc3a503478a929ef2b14259bcd162660d486a098f07c213d7a4b86395c7f695cf423fb6a20ad531f05b5212454ac1fc09fab04792d193cdd8765c85ae4958420f4d07a6b90660da01d00842ddd1bfb2cfdfb488e5ee24da35df613c7098b1b379a011a5b3384b85b21e629267e1b12c394fa5ee7e614ef104b268e85b332cfd60eac5a2909f902b77bdb0cf10e28741ed9ea39754c43946ec09ae49e19a727765113a5cf1fcb3816629b9ecf7bfbd52ef6b5b7030553fb1bedd80b674f1e128545063c956ce4f8b68d4c3babbe3f3d2716855cc662324b9011eb2be38d071bc0617fc666678ed359528693869df1db5156737f9c18a3283a78aa8f8baef5617e88ccb63dc9565474678bedff1b42188f89864509992ceb061c1671507a42c2adc217cd6e4764706beba172407806351435ba2bf21edd122bb365fc5e9896d3b1935c89e63883d580a08ec24377e731e92dce7c1ae2c064ac743</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -1988,9 +1967,12 @@
   <entry>
     <title>用kindle阅读日文小说/扫图/漫画/pdf的简明教程</title>
     <url>/posts/d4569923.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>对kindle执念深重的产物</center>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>对kindle执念深重的产物 </p>
 
-<span id="more"></span>
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
 
 <p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，正好重写一下。</p>
 <hr>
@@ -2038,10 +2020,7 @@
   <entry>
     <title>相对简单化的烤肉流程</title>
     <url>/posts/7eba5e9a.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>先整理篇最近琢磨的，日语废效率提升计划（？）</center>
-<span id="more"></span>
-
-<h3 id="先上总结"><a href="#先上总结" class="headerlink" title="先上总结"></a>先上总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="先上总结"><a href="#先上总结" class="headerlink" title="先上总结"></a>先上总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
 <li>自动打轴（DD烤肉机 &#x2F; Buzz）</li>
 <li>翻译+修正轴（aegisub，可用 飞书妙记 &#x2F; Buzz 辅助识别日文）</li>
 <li>校对翻译</li>
