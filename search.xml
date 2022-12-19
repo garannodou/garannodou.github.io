@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Aegisub 简明笔记</title>
-    <url>/posts/d9ea43c5.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
-<li><p>随便找几个教程瞄一眼：<a href="https://www.bilibili.com/video/BV1Kx411z7My">新手入门Aegisub教程以及压制相关</a> | <a href="https://www.bilibili.com/video/BV1ps411b7as">快速打轴法</a> | <a href="https://sspai.com/post/47557">Aegisub 的使用指南及技巧</a></p>
-</li>
-<li><p>记下基本操作：左键设置开始时间，右键设置结束时间（ctrl+滚轮可以缩放频谱）</p>
-<div class="note default">
-            <p>S键 &#x2F; Space：播放当前行<br>  G键：提交修改并进入下一行<br>  Z键：返回上一行</p><p>  Q键：播放选区之前500ms<br>  D键：播放选区最后500ms<br>  W键：播放选区之后500ms</p><p>  F键：音轨向后移动<br>  A键：音轨向前移动 </p>
-          </div>
-
-<p>以上基本就能满足普通打轴的需求了……！</p>
-</li>
-</ol>
-<hr>
-<h5 id="疑难杂症（其实也不难的一些问题记录）"><a href="#疑难杂症（其实也不难的一些问题记录）" class="headerlink" title="疑难杂症（其实也不难的一些问题记录）"></a>疑难杂症（其实也不难的一些问题记录）</h5><ol>
-<li><p>如何根据说话人来批量替换样式：字幕&gt;选择多行，根据需求选中后批量替换样式即可</p>
-</li>
-<li><p>对齐文本的代码<br>左上角  <code>&#123;\an7&#125;</code>     中上方  <code>&#123;\an8&#125;</code>     右上角  <code>&#123;\an9&#125;</code><br>左下角  <code>&#123;\an1&#125;</code>     其他同理，换换数字就行</p>
-</li>
-<li><p>做竖排字幕：使用开头带@的字体，同时在字幕编辑框里输入 <code>&#123;\frz-90&#125;+内容</code></p>
-</li>
-<li><p>给文本加简单的半透明边框：在编辑框输入■，调整透明度，去掉边框和阴影，然后用 <code>\fscx</code> 和 <code>\fscy</code> 实现加长和加宽， 比如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy220\pos(972,1022)&#125;■</span><br></pre></td></tr></table></figure>
-
-<p>或</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy170\pos(952,926)&#125;■</span><br></pre></td></tr></table></figure>
-
-<p>不过真的很偷懒，看起来一点都不精致，想要效果好点的话就得折腾了（）</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>视频与字幕制作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>First Blog</title>
     <url>/posts/a30a3587.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考</p>
@@ -118,6 +79,62 @@
       <tags>
         <tag>blog</tag>
         <tag>生命的意义在于折腾！</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>少革tv副音轨</title>
+    <url>/posts/553ac501.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>b站可以直接看但是画面ppt，想本地看的可以下外挂字幕</p>
+<hr>
+<h3 id="在线观看（b站链接）"><a href="#在线观看（b站链接）" class="headerlink" title="在线观看（b站链接）"></a>在线观看（b站链接）</h3><p><a href="https://www.bilibili.com/video/BV18e4y1R7VS">副音轨37话</a><br><a href="https://www.bilibili.com/video/BV13d4y1P7RT">副音轨38话</a><br><a href="https://www.bilibili.com/video/BV1Mg411m7Ni">副音轨39话</a></p>
+<hr>
+<h3 id="外挂字幕"><a href="#外挂字幕" class="headerlink" title="外挂字幕"></a>外挂字幕</h3><p><a href="https://pan.baidu.com/s/1PtMolOfxtCgel2YkL35RHg?pwd=569s">度盘链接</a><br>提取码: 569s</p>
+]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aegisub 简明笔记</title>
+    <url>/posts/d9ea43c5.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
+<li><p>随便找几个教程瞄一眼：<a href="https://www.bilibili.com/video/BV1Kx411z7My">新手入门Aegisub教程以及压制相关</a> | <a href="https://www.bilibili.com/video/BV1ps411b7as">快速打轴法</a> | <a href="https://sspai.com/post/47557">Aegisub 的使用指南及技巧</a></p>
+</li>
+<li><p>记下基本操作：左键设置开始时间，右键设置结束时间（ctrl+滚轮可以缩放频谱）</p>
+<div class="note default">
+            <p>S键 &#x2F; Space：播放当前行<br>  G键：提交修改并进入下一行<br>  Z键：返回上一行</p><p>  Q键：播放选区之前500ms<br>  D键：播放选区最后500ms<br>  W键：播放选区之后500ms</p><p>  F键：音轨向后移动<br>  A键：音轨向前移动 </p>
+          </div>
+
+<p>以上基本就能满足普通打轴的需求了……！</p>
+</li>
+</ol>
+<hr>
+<h5 id="疑难杂症（其实也不难的一些问题记录）"><a href="#疑难杂症（其实也不难的一些问题记录）" class="headerlink" title="疑难杂症（其实也不难的一些问题记录）"></a>疑难杂症（其实也不难的一些问题记录）</h5><ol>
+<li><p>如何根据说话人来批量替换样式：字幕&gt;选择多行，根据需求选中后批量替换样式即可</p>
+</li>
+<li><p>对齐文本的代码<br>左上角  <code>&#123;\an7&#125;</code>     中上方  <code>&#123;\an8&#125;</code>     右上角  <code>&#123;\an9&#125;</code><br>左下角  <code>&#123;\an1&#125;</code>     其他同理，换换数字就行</p>
+</li>
+<li><p>做竖排字幕：使用开头带@的字体，同时在字幕编辑框里输入 <code>&#123;\frz-90&#125;+内容</code></p>
+</li>
+<li><p>给文本加简单的半透明边框：在编辑框输入■，调整透明度，去掉边框和阴影，然后用 <code>\fscx</code> 和 <code>\fscy</code> 实现加长和加宽， 比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy220\pos(972,1022)&#125;■</span><br></pre></td></tr></table></figure>
+
+<p>或</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy170\pos(952,926)&#125;■</span><br></pre></td></tr></table></figure>
+
+<p>不过真的很偷懒，看起来一点都不精致，想要效果好点的话就得折腾了（）</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>视频与字幕制作</tag>
       </tags>
   </entry>
   <entry>
@@ -245,23 +262,6 @@
       <tags>
         <tag>少女革命</tag>
         <tag>吐槽</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>少革tv副音轨</title>
-    <url>/posts/553ac501.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>b站可以直接看但是画面ppt，想本地看的可以下外挂字幕</p>
-<hr>
-<h3 id="在线观看（b站链接）"><a href="#在线观看（b站链接）" class="headerlink" title="在线观看（b站链接）"></a>在线观看（b站链接）</h3><p><a href="https://www.bilibili.com/video/BV18e4y1R7VS">副音轨37话</a><br><a href="https://www.bilibili.com/video/BV13d4y1P7RT">副音轨38话</a><br><a href="https://www.bilibili.com/video/BV1Mg411m7Ni">副音轨39话</a></p>
-<hr>
-<h3 id="外挂字幕"><a href="#外挂字幕" class="headerlink" title="外挂字幕"></a>外挂字幕</h3><p><a href="https://pan.baidu.com/s/1PtMolOfxtCgel2YkL35RHg?pwd=569s">度盘链接</a><br>提取码: 569s</p>
-]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
       </tags>
   </entry>
   <entry>
@@ -517,6 +517,68 @@
       </tags>
   </entry>
   <entry>
+    <title>决斗曲翻译 - 游戏</title>
+    <url>/posts/c8fbc142.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>没有单发视频，b站传在音乐合集里：<a href="https://www.bilibili.com/video/BV1aT41137f4">BV1aT41137f4</a>  </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<h2 id="ゲルツェンの首"><a href="#ゲルツェンの首" class="headerlink" title="ゲルツェンの首"></a>ゲルツェンの首</h2><p>决斗者：三条院千种<br>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉 金子伸吾 大月俊倫</p>
+<table>
+<thead>
+<tr>
+<th>ゲルツェンの首</th>
+<th>赫尔岑之首<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="赫尔岑：19世纪的俄国哲学家、作家、革命家，被称为俄国社会主义之父。">[1]</span></a></sup></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ゲルツェンの首<br>ゲルツェンの首<br>氷国大手術<br>ゲルツェンの首よ</td>
+<td>赫尔岑之首<br>赫尔岑之首<br>冰国大手术<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="冰国：可能是指俄国。">[2]</span></a></sup><br>赫尔岑之首啊</td>
+</tr>
+<tr>
+<td>壜(びん)の闇の肺臓<br>凍結眼球・腱を<br>生き返らせる蘇生医学は<br>進歩をくりかえしながら<br>ついに</td>
+<td>让黑暗瓶中的肺脏、<br>冻结眼球和肌腱<br>全都复活的苏生医学<br>不断进步着<br>终于</td>
+</tr>
+<tr>
+<td>生命造出<br>部分再生<br>生き返らせる<br>実験に成功した</td>
+<td>生命造出<br>部分再生<br>复活实验<br>圆满成功</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="さかさまボクとボクの部屋"><a href="#さかさまボクとボクの部屋" class="headerlink" title="さかさまボクとボクの部屋"></a>さかさまボクとボクの部屋</h2><p>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉 金子伸吾 大月俊倫</p>
+<table>
+<thead>
+<tr>
+<th>さかさまボクとボクの部屋</th>
+<th>颠倒的我和我的房间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>臍の緒かたどる生活縄は<br>宇宙の果ての宇宙ブランコ<br>その紐をはげしくゆすり<br>その反動で宙に舞う<br>身は一回転とんぼを切り<br>屋上越えて大暗黒の<br>ボクの裏側にひとっとび</td>
+<td>形似脐带的生活绳是<br>宇宙尽头的宇宙秋千<br>剧烈地摇晃那绳<br>反作用力使其在宇宙中乱舞<br>翻一个跟头<br>越过屋顶<br>跃向我的黑暗里侧</td>
+</tr>
+<tr>
+<td>裏返された安アパートと<br>二つの世界　書物の外<br>何が起こるか縄だのみ<br>都会の空で大回転！</td>
+<td>上下颠倒的廉价公寓和两个世界<br>在书本之外<br>发生了什么？  <br>只见那绳 在城市上空猛烈旋转！</td>
+</tr>
+<tr>
+<td>バイバイバイバイ誰にグッドバイ<br>バイバイバイバイボクにグッドバイ</td>
+<td>bye bye bye bye 对谁说 goodbye<br>bye bye bye bye 对我说 goodbye</td>
+</tr>
+</tbody></table>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">赫尔岑：19世纪的俄国哲学家、作家、革命家，被称为俄国社会主义之父。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">冰国：可能是指俄国。<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>决斗曲翻译 - 学生会篇</title>
     <url>/posts/5fe4f7fb.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
@@ -732,68 +794,6 @@
       </tags>
   </entry>
   <entry>
-    <title>决斗曲翻译 - 游戏</title>
-    <url>/posts/c8fbc142.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>没有单发视频，b站传在音乐合集里：<a href="https://www.bilibili.com/video/BV1aT41137f4">BV1aT41137f4</a>  </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<h2 id="ゲルツェンの首"><a href="#ゲルツェンの首" class="headerlink" title="ゲルツェンの首"></a>ゲルツェンの首</h2><p>决斗者：三条院千种<br>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉 金子伸吾 大月俊倫</p>
-<table>
-<thead>
-<tr>
-<th>ゲルツェンの首</th>
-<th>赫尔岑之首<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="赫尔岑：19世纪的俄国哲学家、作家、革命家，被称为俄国社会主义之父。">[1]</span></a></sup></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ゲルツェンの首<br>ゲルツェンの首<br>氷国大手術<br>ゲルツェンの首よ</td>
-<td>赫尔岑之首<br>赫尔岑之首<br>冰国大手术<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="冰国：可能是指俄国。">[2]</span></a></sup><br>赫尔岑之首啊</td>
-</tr>
-<tr>
-<td>壜(びん)の闇の肺臓<br>凍結眼球・腱を<br>生き返らせる蘇生医学は<br>進歩をくりかえしながら<br>ついに</td>
-<td>让黑暗瓶中的肺脏、<br>冻结眼球和肌腱<br>全都复活的苏生医学<br>不断进步着<br>终于</td>
-</tr>
-<tr>
-<td>生命造出<br>部分再生<br>生き返らせる<br>実験に成功した</td>
-<td>生命造出<br>部分再生<br>复活实验<br>圆满成功</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="さかさまボクとボクの部屋"><a href="#さかさまボクとボクの部屋" class="headerlink" title="さかさまボクとボクの部屋"></a>さかさまボクとボクの部屋</h2><p>演唱：杉並児童合唱団 上谷麻紀 幾原邦彦 光宗信吉 金子伸吾 大月俊倫</p>
-<table>
-<thead>
-<tr>
-<th>さかさまボクとボクの部屋</th>
-<th>颠倒的我和我的房间</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>臍の緒かたどる生活縄は<br>宇宙の果ての宇宙ブランコ<br>その紐をはげしくゆすり<br>その反動で宙に舞う<br>身は一回転とんぼを切り<br>屋上越えて大暗黒の<br>ボクの裏側にひとっとび</td>
-<td>形似脐带的生活绳是<br>宇宙尽头的宇宙秋千<br>剧烈地摇晃那绳<br>反作用力使其在宇宙中乱舞<br>翻一个跟头<br>越过屋顶<br>跃向我的黑暗里侧</td>
-</tr>
-<tr>
-<td>裏返された安アパートと<br>二つの世界　書物の外<br>何が起こるか縄だのみ<br>都会の空で大回転！</td>
-<td>上下颠倒的廉价公寓和两个世界<br>在书本之外<br>发生了什么？  <br>只见那绳 在城市上空猛烈旋转！</td>
-</tr>
-<tr>
-<td>バイバイバイバイ誰にグッドバイ<br>バイバイバイバイボクにグッドバイ</td>
-<td>bye bye bye bye 对谁说 goodbye<br>bye bye bye bye 对我说 goodbye</td>
-</tr>
-</tbody></table>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">赫尔岑：19世纪的俄国哲学家、作家、革命家，被称为俄国社会主义之父。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">冰国：可能是指俄国。<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>决斗曲翻译 - 绝对命运默示录（+完全版）</title>
     <url>/posts/f497660d.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>居然已经是约半年前的翻译了(&gt;д&lt;)</p>
@@ -890,234 +890,6 @@
 </tr>
 </tbody></table>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">锡安：一般是指耶路撒冷，象征神居住的地方。<a href="#fnref:10" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>决斗曲翻译 - 黑蔷薇篇</title>
-    <url>/posts/eba9ed05.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p><a href="https://www.bilibili.com/video/BV1W34y1v7Fq">b站视频：BV1W34y1v7Fq</a>  </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<h2 id="不人幻魂合体術"><a href="#不人幻魂合体術" class="headerlink" title="不人幻魂合体術"></a>不人幻魂合体術</h2><p>主题：Aliénation（疏外）<br>决斗者：凤香苗<br>集数：ep14. 黒薔薇の少年たち<br>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
-<table>
-<thead>
-<tr>
-<th>不人幻魂合体術</th>
-<th>非人幻魂合体术<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="本曲歌词出自坪内逍遥日译版《哈姆雷特》第一幕第四场（哈姆雷特与已死父王的鬼魂对话部分）。参考朱生豪先生的中译版进行翻译。">[1]</span></a></sup></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>神霊にもあれ　悪鬼にもあれ<br>あー天の顆気　持ち来るとも<br>底意は善にもあれ！　悪にもあれ！<br>あー地獄の妖気　携へ来るとも<br>かかるいぶかしい姿にて来る上は<br>問答せん!</td>
-<td>无论你是神灵也好 恶鬼也罢<br>啊——不管是携带着上天的浩气而来<br>来意是善也好，恶也罢！<br>啊——还是说携带着地狱的妖气而来<br>既然你以如此可疑的姿态现身<br>我要对你说话！</td>
-</tr>
-<tr>
-<td>さらでも凄き月の夜に<br>あくがれいでたまひぞや<br>人智の及ばぬこの不思議<br>造化の侏儒たる人間を<br>怖れをののかせんその姿</td>
-<td>灵魂离开肉体<br>在阴森可怖的月夜游荡<br>以人智不能及的不可思议姿态现身<br>使我们这些为造化所玩弄的愚人<br>心惊胆颤</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="架空過去形《禁厭》まじない"><a href="#架空過去形《禁厭》まじない" class="headerlink" title="架空過去形《禁厭》まじない"></a>架空過去形《禁厭》まじない</h2><p>主题：Attaché（执着）<br>决斗者：薰梢<br>集数：ep15. その梢が指す風景</p>
-<p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦 金子伸吾 大月俊倫<br>原出处：『ダーウィン～時は幻想と仮説の舞台装置～』</p>
-<table>
-<thead>
-<tr>
-<th>架空過去形《禁厭》まじない</th>
-<th>架空过去咒语</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>タイムマシン<br>過去へ未来ヘ　ズビキュンシャズズン<br>タイムマシン<br>かわいいわたしの子供時代</td>
-<td>时间机器<br>回到过去 前往未来 轰隆隆启动<br>时间机器<br>带我回到可爱的孩童时代</td>
-</tr>
-<tr>
-<td>蓮華のじゅうたん<br>人形あそび<br>不思議なまじないフィーフィー<br>金平糖<br>きれいなべべ着た<br>七五三<br>オー·マイ·ドリームマシン<br>花吹雪<br>はるか昔のわたしヘ<br>テン　ツー　ワン　ゼロ！<br>テイク·オフ！</td>
-<td>在莲花纹的绒毯上<br>玩着人偶<br>不可思议的咒语 fiー fiー<br>金平糖<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="金平糖：日本的一种外形像星星的小小糖果粒。">[2]</span></a></sup> <br>穿着漂亮的和服<br>七五三节<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="日本「七五三节」这天，3岁、5岁男孩和3岁、7岁女孩，都会穿上传统和式礼服，跟父母到神社祈求身体健康。">[3]</span></a></sup> <br>噢——我的梦想机器<br>花吹雪<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="花吹雪：（樱花）花瓣像雪一样飘零。">[4]</span></a></sup> <br>向着遥远过去的我<br>10 … 2  1  0！<br>出发！</td>
-</tr>
-<tr>
-<td>タイムマシン<br>過去へ未来ヘ　ズビキュンシャズズン<br>タイムマシン<br>夢と希望のあの時に</td>
-<td>时间机器<br>回到过去 前往未来 轰隆隆启动<br>时间机器<br>回到我梦想与希望着的那时候</td>
-</tr>
-<tr>
-<td>髪を結んで<br>お弁当もって<br>不思議なまじないフィーフィー<br>遊園地<br>驚きももの木<br>わたしのこころは<br>オー·マイ·ドリームマシン<br>夢吹雪<br>はるか昔のわたしヘ<br>テン　ツー　ワン　ゼロ！<br>テイク·オフ！</td>
-<td>束起头发<br>带上便当<br>不可思议的咒语 fiー fiー<br>游乐园<br>令人惊奇的桃树<br>在我心里<br>噢——我的梦想机器<br>梦吹雪<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="梦吹雪：意同花吹雪，指梦像雪一样飘零。">[5]</span></a></sup> <br>向着遥远过去的我<br>10 … 2  1  0！<br>出发！</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="地球は人物陳列室"><a href="#地球は人物陳列室" class="headerlink" title="地球は人物陳列室"></a>地球は人物陳列室</h2><p>主题：Jalousis（嫉妒）<br>决斗者：高槻枝织<br>集数：ep17. 死の棘</p>
-<p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦<br>原出处：『あるサイズの奇術劇 アウトマトスの方舟～ネジ式宇宙の見果てぬ夢～』</p>
-<table>
-<thead>
-<tr>
-<th>地球は人物陳列室</th>
-<th>地球是人物陈列室</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>無限に対の関係が<br>二枚の鏡の狭間で<br>増殖してゆく欲望の<br>気まぐれ無情の偽りの<br>あー人は無し<br>あー闇の中<br>あー波の音</td>
-<td>两枚镜子的夹缝中<br>是无限对立的关系<br>想要不断增殖的欲望<br>任性又无情的伪装<br>啊——此处无人<br>啊——黑暗之中<br>啊——波浪的回音</td>
-</tr>
-<tr>
-<td>光とて、影つくり<br>わたしをわたしと対にする<br>孤独の発生、その理由<br>わたしをわたしと対にする</td>
-<td>即便知道有光就必然会有影<br>我和我相对立<br>孤独产生  其理由是<br>我和我相对立</td>
-</tr>
-<tr>
-<td>双児<br>義理の双児<br>カラクリ双児<br>不在の双児</td>
-<td>双子<br>义理的双子<br>诡计多端的的双子<br>不存在的双子</td>
-</tr>
-<tr>
-<td>見えないものが見えるため<br>カラクリ世界が浮上する<br>遊戯装置やだまし絵の<br>カラクリ世界が浮上する</td>
-<td>为了能看见不可视之物<br>充满诡计的世界浮上表面<br>游戏装置和视觉陷阱绘画<br>充满诡计的世界浮上表面</td>
-</tr>
-<tr>
-<td>地球は人物カラクリの<br>地球は人物おもちゃ箱<br>地球は人物百貨店<br>地球は人物博覧会<br>地球は人物博物館<br>地球は人物ガラス棚</td>
-<td>地球是人物诡计的<br>地球是人物玩具箱<br>地球是人物百货店<br>地球是人物博览会<br>地球是人物博物馆<br>地球是人物展览柜</td>
-</tr>
-<tr>
-<td>地球は…</td>
-<td>地球是……</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="円錐刑絶対卵アルシブラ"><a href="#円錐刑絶対卵アルシブラ" class="headerlink" title="円錐刑絶対卵アルシブラ"></a>円錐刑絶対卵アルシブラ</h2><p>主题：Impatience（焦躁）<br>决斗者：石蕗美蔓<br>集数：ep18. みつるもどかしさ</p>
-<p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦 金子伸吾 大月俊倫<br>原出处：『瓶詰実験劇 バーベＱソース』；寺山修司『棺桶島を記述する試み』</p>
-<table>
-<thead>
-<tr>
-<th>円錐刑絶対卵アルシブラ</th>
-<th>圆锥形绝对卵阿尔西布拉<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="阿尔西布拉（Archibras）：是傅立叶提出的概念，新人类能够在身体上长出一条像尾巴一样的东西，即阿尔西布拉，然后以这条类似现代情报终端的尾巴来获得各种各样的能力，人类因此变得万能化。（大概就是指后文的绝对人）">[6]</span></a></sup></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>哲学的存在<br>通俗奇術のグランギニョールの領域<br>吐息、溜息<br>青息、嘆息、鼻息<br>息の蒐集、息の貯蔵器、虫眼鏡</td>
-<td>哲学性的存在<br>通俗戏法的吉尼奥尔<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="吉尼奥尔（Grand Guignol）：法国大木偶剧场，创办于1896年。多表演强奸、情杀一类的恐怖剧和血腥的荒诞剧，滑稽又疯狂，内容颇不道德，更像是为大人所作。">[7]</span></a></sup>领域 <br>吐息、溜息<br>青息、叹息、鼻息<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="吐息、溜息、青息、叹息、鼻息：指各种不同情绪的气息。">[8]</span></a></sup> <br>气息的收集、气息的储藏器、放大镜</td>
-</tr>
-<tr>
-<td>溜息、吐息<br>青息、嘆息、鼻息<br>溜息、吐息<br>青息、嘆息、鼻息<br>溜息、吐息<br>青息、嘆息、鼻息<br>溜息<br>ハハハー</td>
-<td>溜息、吐息<br>青息、叹息、鼻息<br>溜息、吐息<br>青息、叹息、鼻息<br>溜息、吐息<br>青息、叹息、鼻息<br>溜息<br>哈哈哈——</td>
-</tr>
-<tr>
-<td>一切合切エネルギーなし!<br>一切無駄なエネルギーなし!<br>絶対人　息する機械<br>絶対人　肉の人体模型<br>絶対人　ラッキョの分解<br>絶対人　超なる合成</td>
-<td>所有能源都不存在！<br>一切无用的能源都不存在 ！<br>绝对人<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="绝对人：应是指进化后的完美人类。">[9]</span></a></sup> 会呼吸的机械<br>绝对人 活生生的人体模型<br>绝对人 像剥开藠头<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="藠头：植物，也叫荞头，构造类似洋葱。">[10]</span></a></sup>般一层又一层<br>绝对人 超级合成</td>
-</tr>
-<tr>
-<td>アツアー　天体回転<br>アツアー　存在合成<br>新種の誕生か<br>人間の成れの果てか</td>
-<td>啊—— 天体运转<br>啊—— 存在合成<br>不知是新物种的诞生<br>还是人类的穷途末路？</td>
-</tr>
-<tr>
-<td>どっちも　コチコチ<br>こっちも　ドキドキ<br>時打つハンマー<br>トントントントン<br>時行くボクが　戸をあける!</td>
-<td>到处的声音都是滴答滴答<br>这边的心跳也是嘭咚嘭咚<br>击打时间的大锤<br>咚咚咚咚<br>时间不断前进的我  会打开这扇门！</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="幻燈蝶蛾十六世紀"><a href="#幻燈蝶蛾十六世紀" class="headerlink" title="幻燈蝶蛾十六世紀"></a>幻燈蝶蛾十六世紀</h2><p>主题：Limite（限界）<br>决斗者：蓧原若叶<br>集数：ep20. 若葉繁れる<br>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦 金子伸吾 大月俊倫</p>
-<table>
-<thead>
-<tr>
-<th>幻燈蝶蛾十六世紀</th>
-<th>幻灯蝶蛾十六世纪<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="本曲歌词出自坪内逍遥日译版《哈姆雷特》第二幕第二场的剧中剧。大意是讲特洛伊战争中，皮鲁士向老国王普里阿摩斯复仇并将其处决之事。">[11]</span></a></sup></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>いたはしや老の身の<br>手馴れし剣に<br>力こめしも<br>老いたる腕のあわれなる<br>覘は外れて太刀風に<br>よろめきまろぶ  <br>老人よ！</td>
-<td>那老王正在苦战<br>向用惯的剑里<br>注入全力<br>可悲的是老王的手臂不听使唤<br>(皮鲁士的)剑虽未击中，刀风却<br>使老王摇晃着倒下！<br></td>
-</tr>
-<tr>
-<td>唸る太刀風  <br>トロイの城楼<br>燃ゆる頂上  <br>雷火と砕け落ちければ</td>
-<td>呼啸的刀风<br>特洛伊的城楼<br>燃烧着的楼顶<br>雷电击中  城楼倒塌化作齑粉</td>
-</tr>
-<tr>
-<td>ピーラス暫く  <br>耳聾ひたり</td>
-<td>皮鲁士一时被震得耳聋</td>
-</tr>
-<tr>
-<td>見よ！　白頭の老爺！<br>斫らんと上げし<br>剣は空にとどまりて<br>ピーラス立縮む<br>ピーラスやがて敵意を復し<br>血汐したたる血刀を<br>老王めがけて打下す！</td>
-<td>看啊！白发的老翁！<br>(皮鲁士)举起的剑在空中停住<br>皮鲁士兀立不动<br>皮鲁士不久就重燃敌意<br>将染血的刀<br>朝向老王斩落！</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="成熟年齢透明期"><a href="#成熟年齢透明期" class="headerlink" title="成熟年齢透明期"></a>成熟年齢透明期</h2><p>主题：Dépendance（依存）<br>决斗者：苑田茎子<br>集数：ep21. 悪い虫</p>
-<p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦 金子伸吾 大月俊倫<br>原出处：『錬劇術胚期劇 ペストシュタイン』</p>
-<table>
-<thead>
-<tr>
-<th>成熟年齢透明期</th>
-<th>成熟年龄透明期</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Vanish! 　Fade away! 　Melt away!<br>消えうせろ!<br>ありとあらゆるものたちよ<br>Vanish! 　Fade away! 　Melt away!<br>消えうせろ!<br>インスタントのニセモノたちよ</td>
-<td>Vanish!  Fade away!  Melt away!<br>消失吧！<br>所有一切事物啊<br>Vanish!  Fade away!  Melt away!<br>消失吧！<br>刹那间存在的伪物们啊</td>
-</tr>
-<tr>
-<td>望みに裏切られ<br>希望に復讐される<br>こんな时代はもうウンザリだ</td>
-<td>被期望背叛<br>被希望报复<br>我已经厌倦这种时代了</td>
-</tr>
-<tr>
-<td>ボクは逃げる<br>みんな消えろ!<br>ボクは　もう<br>何も欲しくない!</td>
-<td>我会逃走<br>让大家都消失吧！<br>我  已经<br>什么都不期望了！</td>
-</tr>
-<tr>
-<td>無人のサイドカーにまたがって<br>空想旅行三千里<br>地下鉄、高速、飛行場<br>ゆくぞ　時速百キロの<br>怪傑、疾風、逃亡者</td>
-<td>跨上无人驾驶的摩托车<br>空想旅行三千里<br>地下铁、高速公路、飞机场<br>出发吧！ 时速一百千米的<br>怪杰、疾风、逃亡者</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="ワタシ空想生命体"><a href="#ワタシ空想生命体" class="headerlink" title="ワタシ空想生命体"></a>ワタシ空想生命体</h2><p>主题：Conscience（自觉）<br>决斗者：御影草时<br>集数：ep23. デュエリストの条件<br>演唱：万有引力 東京混声合唱団</p>
-<table>
-<thead>
-<tr>
-<th>ワタシ空想生命体</th>
-<th>我是空想生命体</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>暗黒灼熱　誕生人形<br>名付けられて人動説</td>
-<td>暗黑灼热 人偶诞生<br>被命名为人动说<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="人动说：造词，猜测与天动说（地心说）、地动说（日心说）相对应，类似于人类中心主义，意为人是万物的尺度，把人类作为观察事物的中心。（并没有标答，请大家自己去理解吧）">[12]</span></a></sup></td>
-</tr>
-<tr>
-<td>世界あやつる　単一存在<br>他は空想人形術</td>
-<td>操纵世界的唯一存在<br>其他全是空想人偶</td>
-</tr>
-<tr>
-<td>暗黒零下　誕生生物<br>関係づけられ人動説</td>
-<td>暗黑零下 生物诞生<br>被赋予关联的人动说</td>
-</tr>
-<tr>
-<td>天然舞台に　単元存在<br>成るは空想生物術</td>
-<td>在天然舞台中 以独立单元存在<br>成为的是空想生物</td>
-</tr>
-<tr>
-<td>言葉誕生出会いそして迷い<br>知识誕生出会いそして現ろ<br>ああ、どこよここはいつよわたし</td>
-<td>言语诞生 与其相遇 随之迷茫<br>知识诞生 与其相遇 随之空虚<br>啊啊，我究竟身处何时何地</td>
-</tr>
-<tr>
-<td>呪文、まじない、神秘、祈り、わたし<br>舞台運命魔術鏡</td>
-<td>咒文、巫术、神秘、祈祷、我<br>舞台命运魔术镜</td>
-</tr>
-<tr>
-<td>満月　謎の　変幻自在　わたし果てなる空想生命体<br>満月　謎の　変幻自在　わたし果てなる空想生命体<br>時を求めて　安息なしの<br>生きつづける　空洞形態</td>
-<td>满月 谜之千变万化 我最终成为了空想生命体<br>满月 谜之千变万化 我最终成为了空想生命体 <br>追寻着时间 不得安息<br>持续存活的 空洞形态</td>
-</tr>
-<tr>
-<td>土地を求めて　手なく足なく<br>在りつづける　ワタシ　透明無形   かすかに吐息</td>
-<td>追寻着土地 无手无脚<br>持续存在的 我 透明无形 微微叹息</td>
-</tr>
-<tr>
-<td>ハッハッハッハ</td>
-<td>哈 哈 哈 哈</td>
-</tr>
-</tbody></table>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本曲歌词出自坪内逍遥日译版《哈姆雷特》第一幕第四场（哈姆雷特与已死父王的鬼魂对话部分）。参考朱生豪先生的中译版进行翻译。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">金平糖：日本的一种外形像星星的小小糖果粒。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">日本「七五三节」这天，3岁、5岁男孩和3岁、7岁女孩，都会穿上传统和式礼服，跟父母到神社祈求身体健康。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">花吹雪：（樱花）花瓣像雪一样飘零。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">梦吹雪：意同花吹雪，指梦像雪一样飘零。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">阿尔西布拉（Archibras）：是傅立叶提出的概念，新人类能够在身体上长出一条像尾巴一样的东西，即阿尔西布拉，然后以这条类似现代情报终端的尾巴来获得各种各样的能力，人类因此变得万能化。（大概就是指后文的绝对人）<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">吉尼奥尔（Grand Guignol）：法国大木偶剧场，创办于1896年。多表演强奸、情杀一类的恐怖剧和血腥的荒诞剧，滑稽又疯狂，内容颇不道德，更像是为大人所作。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">吐息、溜息、青息、叹息、鼻息：指各种不同情绪的气息。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">绝对人：应是指进化后的完美人类。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">藠头：植物，也叫荞头，构造类似洋葱。<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本曲歌词出自坪内逍遥日译版《哈姆雷特》第二幕第二场的剧中剧。大意是讲特洛伊战争中，皮鲁士向老国王普里阿摩斯复仇并将其处决之事。<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">人动说：造词，猜测与天动说（地心说）、地动说（日心说）相对应，类似于人类中心主义，意为人是万物的尺度，把人类作为观察事物的中心。（并没有标答，请大家自己去理解吧）<a href="#fnref:12" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
       <categories>
         <category>少女革命</category>
       </categories>
@@ -1522,25 +1294,231 @@
       </tags>
   </entry>
   <entry>
-    <title>测试用文</title>
-    <url>/posts/fd87c315.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="37a8b8df27a5989efde187fd5fa17b37e39dbe38df6dc69de8b89283224e3394">bd25ed9264b080267271e137e33d0ce1e1069d88f9699965ec2c8f2e4412683a11965185006bffa98a0a821510d9346f4fc1f32e8ed4140688d3ab40e3ed7a89817d4566b26936dfae7d3c97389e93130815176011906ed3740a2003a99b7504262109457d524da14cb9f0ef00a456236a727fae71260d6e5ae31a6208d1cec4f37372d2461045f4b65528b1f4ac689929c001bb2afcebc9d7faf87f83916199dd200110f1576a9c2c9153e28990b7a668809854cfb3136f295721c11d3fc61294fd39dccdb35ff599190d4c331d4a5612c024fa16dc94bc6df2fb5ba113d9888e197b779a256373005a3e89a937a5dc541cc784d61550f6f28d249299404106a88d4a8cc94b33590c490c3abc75fe49f9225afcc0808cf0f873f97a643bd941336d75ba3f116b2f5ca21aeadd9bf6d9d6a78284e53b76a125d933c23204abb66040ca00bf38504715f3cfb5f9bac068fd0f9f9434afa18ca3b05a771114d10ea6ef441436986ef0197de00712a3b98849898e70d55171e2127a74a9e36c8943e2c9a94f464ffffb8abd1214dd766c0f84c763ada7cb926adffd4f944210d9c9ea59d1dfd79e1546db839c6a19f87d43af41b351074d4d69cf4c926c4c7427c98aa6a4a0850de662a6b59b788f3f91d737793ac8b47ceaeed29fd78ce0413c53659b0bc2f30da0af4788209f6bbe1768659d38e90eea867c5e0ac2b39944f40f464c6cb90af5be3fd0e54b5cb573331070e04b2392f9d4608b02a483a0e1fe36bd3a10753c1405373cf0c4d2315a01e3850183518a45b4943e079c7f4965342d76ea178d05072ddc4276c08980d7c8e4bee829735278dfe82cd790977d8bb8e1ec0c39c54473fdc3a503478a929ef2b14259bcd162660d486a098f07c213d7a4b86395c7f695cf423fb6a20ad531f05b5212454ac1fc09fab04792d193cdd8765c85ae4958420f4d07a6b90660da01d00842ddd1bfb2cfdfb488e5ee24da35df613c7098b1b379a011a5b3384b85b21e629267e1b12c394fa5ee7e614ef104b268e85b332cfd60eac5a2909f902b77bdb0cf10e28741ed9ea39754c43946ec09ae49e19a727765113a5cf1fcb3816629b9ecf7bfbd52ef6b5b7030553fb1bedd80b674f1e128545063c956ce4f8b68d4c3babbe3f3d2716855cc662324b9011eb2be38d071bc0617fc666678ed359528693869df1db5156737f9c18a3283a78aa8f8baef5617e88ccb63dc9565474678bedff1b42188f89864509992ceb061c1671507a42c2adc217cd6e4764706beba172407806351435ba2bf21edd122bb365fc5e9896d3b1935c89e63883d580a08ec24377e731e92dce7c1ae2c064ac743</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>决斗曲翻译 - 黑蔷薇篇</title>
+    <url>/posts/eba9ed05.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p><a href="https://www.bilibili.com/video/BV1W34y1v7Fq">b站视频：BV1W34y1v7Fq</a>  </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<h2 id="不人幻魂合体術"><a href="#不人幻魂合体術" class="headerlink" title="不人幻魂合体術"></a>不人幻魂合体術</h2><p>主题：Aliénation（疏外）<br>决斗者：凤香苗<br>集数：ep14. 黒薔薇の少年たち<br>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
+<table>
+<thead>
+<tr>
+<th>不人幻魂合体術</th>
+<th>非人幻魂合体术<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="本曲歌词出自坪内逍遥日译版《哈姆雷特》第一幕第四场（哈姆雷特与已死父王的鬼魂对话部分）。参考朱生豪先生的中译版进行翻译。">[1]</span></a></sup></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>神霊にもあれ　悪鬼にもあれ<br>あー天の顆気　持ち来るとも<br>底意は善にもあれ！　悪にもあれ！<br>あー地獄の妖気　携へ来るとも<br>かかるいぶかしい姿にて来る上は<br>問答せん!</td>
+<td>无论你是神灵也好 恶鬼也罢<br>啊——不管是携带着上天的浩气而来<br>来意是善也好，恶也罢！<br>啊——还是说携带着地狱的妖气而来<br>既然你以如此可疑的姿态现身<br>我要对你说话！</td>
+</tr>
+<tr>
+<td>さらでも凄き月の夜に<br>あくがれいでたまひぞや<br>人智の及ばぬこの不思議<br>造化の侏儒たる人間を<br>怖れをののかせんその姿</td>
+<td>灵魂离开肉体<br>在阴森可怖的月夜游荡<br>以人智不能及的不可思议姿态现身<br>使我们这些为造化所玩弄的愚人<br>心惊胆颤</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="架空過去形《禁厭》まじない"><a href="#架空過去形《禁厭》まじない" class="headerlink" title="架空過去形《禁厭》まじない"></a>架空過去形《禁厭》まじない</h2><p>主题：Attaché（执着）<br>决斗者：薰梢<br>集数：ep15. その梢が指す風景</p>
+<p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦 金子伸吾 大月俊倫<br>原出处：『ダーウィン～時は幻想と仮説の舞台装置～』</p>
+<table>
+<thead>
+<tr>
+<th>架空過去形《禁厭》まじない</th>
+<th>架空过去咒语</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>タイムマシン<br>過去へ未来ヘ　ズビキュンシャズズン<br>タイムマシン<br>かわいいわたしの子供時代</td>
+<td>时间机器<br>回到过去 前往未来 轰隆隆启动<br>时间机器<br>带我回到可爱的孩童时代</td>
+</tr>
+<tr>
+<td>蓮華のじゅうたん<br>人形あそび<br>不思議なまじないフィーフィー<br>金平糖<br>きれいなべべ着た<br>七五三<br>オー·マイ·ドリームマシン<br>花吹雪<br>はるか昔のわたしヘ<br>テン　ツー　ワン　ゼロ！<br>テイク·オフ！</td>
+<td>在莲花纹的绒毯上<br>玩着人偶<br>不可思议的咒语 fiー fiー<br>金平糖<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="金平糖：日本的一种外形像星星的小小糖果粒。">[2]</span></a></sup> <br>穿着漂亮的和服<br>七五三节<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="日本「七五三节」这天，3岁、5岁男孩和3岁、7岁女孩，都会穿上传统和式礼服，跟父母到神社祈求身体健康。">[3]</span></a></sup> <br>噢——我的梦想机器<br>花吹雪<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="花吹雪：（樱花）花瓣像雪一样飘零。">[4]</span></a></sup> <br>向着遥远过去的我<br>10 … 2  1  0！<br>出发！</td>
+</tr>
+<tr>
+<td>タイムマシン<br>過去へ未来ヘ　ズビキュンシャズズン<br>タイムマシン<br>夢と希望のあの時に</td>
+<td>时间机器<br>回到过去 前往未来 轰隆隆启动<br>时间机器<br>回到我梦想与希望着的那时候</td>
+</tr>
+<tr>
+<td>髪を結んで<br>お弁当もって<br>不思議なまじないフィーフィー<br>遊園地<br>驚きももの木<br>わたしのこころは<br>オー·マイ·ドリームマシン<br>夢吹雪<br>はるか昔のわたしヘ<br>テン　ツー　ワン　ゼロ！<br>テイク·オフ！</td>
+<td>束起头发<br>带上便当<br>不可思议的咒语 fiー fiー<br>游乐园<br>令人惊奇的桃树<br>在我心里<br>噢——我的梦想机器<br>梦吹雪<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="梦吹雪：意同花吹雪，指梦像雪一样飘零。">[5]</span></a></sup> <br>向着遥远过去的我<br>10 … 2  1  0！<br>出发！</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="地球は人物陳列室"><a href="#地球は人物陳列室" class="headerlink" title="地球は人物陳列室"></a>地球は人物陳列室</h2><p>主题：Jalousis（嫉妒）<br>决斗者：高槻枝织<br>集数：ep17. 死の棘</p>
+<p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦<br>原出处：『あるサイズの奇術劇 アウトマトスの方舟～ネジ式宇宙の見果てぬ夢～』</p>
+<table>
+<thead>
+<tr>
+<th>地球は人物陳列室</th>
+<th>地球是人物陈列室</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>無限に対の関係が<br>二枚の鏡の狭間で<br>増殖してゆく欲望の<br>気まぐれ無情の偽りの<br>あー人は無し<br>あー闇の中<br>あー波の音</td>
+<td>两枚镜子的夹缝中<br>是无限对立的关系<br>想要不断增殖的欲望<br>任性又无情的伪装<br>啊——此处无人<br>啊——黑暗之中<br>啊——波浪的回音</td>
+</tr>
+<tr>
+<td>光とて、影つくり<br>わたしをわたしと対にする<br>孤独の発生、その理由<br>わたしをわたしと対にする</td>
+<td>即便知道有光就必然会有影<br>我和我相对立<br>孤独产生  其理由是<br>我和我相对立</td>
+</tr>
+<tr>
+<td>双児<br>義理の双児<br>カラクリ双児<br>不在の双児</td>
+<td>双子<br>义理的双子<br>诡计多端的的双子<br>不存在的双子</td>
+</tr>
+<tr>
+<td>見えないものが見えるため<br>カラクリ世界が浮上する<br>遊戯装置やだまし絵の<br>カラクリ世界が浮上する</td>
+<td>为了能看见不可视之物<br>充满诡计的世界浮上表面<br>游戏装置和视觉陷阱绘画<br>充满诡计的世界浮上表面</td>
+</tr>
+<tr>
+<td>地球は人物カラクリの<br>地球は人物おもちゃ箱<br>地球は人物百貨店<br>地球は人物博覧会<br>地球は人物博物館<br>地球は人物ガラス棚</td>
+<td>地球是人物诡计的<br>地球是人物玩具箱<br>地球是人物百货店<br>地球是人物博览会<br>地球是人物博物馆<br>地球是人物展览柜</td>
+</tr>
+<tr>
+<td>地球は…</td>
+<td>地球是……</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="円錐刑絶対卵アルシブラ"><a href="#円錐刑絶対卵アルシブラ" class="headerlink" title="円錐刑絶対卵アルシブラ"></a>円錐刑絶対卵アルシブラ</h2><p>主题：Impatience（焦躁）<br>决斗者：石蕗美蔓<br>集数：ep18. みつるもどかしさ</p>
+<p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦 金子伸吾 大月俊倫<br>原出处：『瓶詰実験劇 バーベＱソース』；寺山修司『棺桶島を記述する試み』</p>
+<table>
+<thead>
+<tr>
+<th>円錐刑絶対卵アルシブラ</th>
+<th>圆锥形绝对卵阿尔西布拉<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="阿尔西布拉（Archibras）：是傅立叶提出的概念，新人类能够在身体上长出一条像尾巴一样的东西，即阿尔西布拉，然后以这条类似现代情报终端的尾巴来获得各种各样的能力，人类因此变得万能化。（大概就是指后文的绝对人）">[6]</span></a></sup></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>哲学的存在<br>通俗奇術のグランギニョールの領域<br>吐息、溜息<br>青息、嘆息、鼻息<br>息の蒐集、息の貯蔵器、虫眼鏡</td>
+<td>哲学性的存在<br>通俗戏法的吉尼奥尔<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="吉尼奥尔（Grand Guignol）：法国大木偶剧场，创办于1896年。多表演强奸、情杀一类的恐怖剧和血腥的荒诞剧，滑稽又疯狂，内容颇不道德，更像是为大人所作。">[7]</span></a></sup>领域 <br>吐息、溜息<br>青息、叹息、鼻息<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="吐息、溜息、青息、叹息、鼻息：指各种不同情绪的气息。">[8]</span></a></sup> <br>气息的收集、气息的储藏器、放大镜</td>
+</tr>
+<tr>
+<td>溜息、吐息<br>青息、嘆息、鼻息<br>溜息、吐息<br>青息、嘆息、鼻息<br>溜息、吐息<br>青息、嘆息、鼻息<br>溜息<br>ハハハー</td>
+<td>溜息、吐息<br>青息、叹息、鼻息<br>溜息、吐息<br>青息、叹息、鼻息<br>溜息、吐息<br>青息、叹息、鼻息<br>溜息<br>哈哈哈——</td>
+</tr>
+<tr>
+<td>一切合切エネルギーなし!<br>一切無駄なエネルギーなし!<br>絶対人　息する機械<br>絶対人　肉の人体模型<br>絶対人　ラッキョの分解<br>絶対人　超なる合成</td>
+<td>所有能源都不存在！<br>一切无用的能源都不存在 ！<br>绝对人<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="绝对人：应是指进化后的完美人类。">[9]</span></a></sup> 会呼吸的机械<br>绝对人 活生生的人体模型<br>绝对人 像剥开藠头<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="藠头：植物，也叫荞头，构造类似洋葱。">[10]</span></a></sup>般一层又一层<br>绝对人 超级合成</td>
+</tr>
+<tr>
+<td>アツアー　天体回転<br>アツアー　存在合成<br>新種の誕生か<br>人間の成れの果てか</td>
+<td>啊—— 天体运转<br>啊—— 存在合成<br>不知是新物种的诞生<br>还是人类的穷途末路？</td>
+</tr>
+<tr>
+<td>どっちも　コチコチ<br>こっちも　ドキドキ<br>時打つハンマー<br>トントントントン<br>時行くボクが　戸をあける!</td>
+<td>到处的声音都是滴答滴答<br>这边的心跳也是嘭咚嘭咚<br>击打时间的大锤<br>咚咚咚咚<br>时间不断前进的我  会打开这扇门！</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="幻燈蝶蛾十六世紀"><a href="#幻燈蝶蛾十六世紀" class="headerlink" title="幻燈蝶蛾十六世紀"></a>幻燈蝶蛾十六世紀</h2><p>主题：Limite（限界）<br>决斗者：蓧原若叶<br>集数：ep20. 若葉繁れる<br>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦 金子伸吾 大月俊倫</p>
+<table>
+<thead>
+<tr>
+<th>幻燈蝶蛾十六世紀</th>
+<th>幻灯蝶蛾十六世纪<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="本曲歌词出自坪内逍遥日译版《哈姆雷特》第二幕第二场的剧中剧。大意是讲特洛伊战争中，皮鲁士向老国王普里阿摩斯复仇并将其处决之事。">[11]</span></a></sup></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>いたはしや老の身の<br>手馴れし剣に<br>力こめしも<br>老いたる腕のあわれなる<br>覘は外れて太刀風に<br>よろめきまろぶ  <br>老人よ！</td>
+<td>那老王正在苦战<br>向用惯的剑里<br>注入全力<br>可悲的是老王的手臂不听使唤<br>(皮鲁士的)剑虽未击中，刀风却<br>使老王摇晃着倒下！<br></td>
+</tr>
+<tr>
+<td>唸る太刀風  <br>トロイの城楼<br>燃ゆる頂上  <br>雷火と砕け落ちければ</td>
+<td>呼啸的刀风<br>特洛伊的城楼<br>燃烧着的楼顶<br>雷电击中  城楼倒塌化作齑粉</td>
+</tr>
+<tr>
+<td>ピーラス暫く  <br>耳聾ひたり</td>
+<td>皮鲁士一时被震得耳聋</td>
+</tr>
+<tr>
+<td>見よ！　白頭の老爺！<br>斫らんと上げし<br>剣は空にとどまりて<br>ピーラス立縮む<br>ピーラスやがて敵意を復し<br>血汐したたる血刀を<br>老王めがけて打下す！</td>
+<td>看啊！白发的老翁！<br>(皮鲁士)举起的剑在空中停住<br>皮鲁士兀立不动<br>皮鲁士不久就重燃敌意<br>将染血的刀<br>朝向老王斩落！</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="成熟年齢透明期"><a href="#成熟年齢透明期" class="headerlink" title="成熟年齢透明期"></a>成熟年齢透明期</h2><p>主题：Dépendance（依存）<br>决斗者：苑田茎子<br>集数：ep21. 悪い虫</p>
+<p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦 金子伸吾 大月俊倫<br>原出处：『錬劇術胚期劇 ペストシュタイン』</p>
+<table>
+<thead>
+<tr>
+<th>成熟年齢透明期</th>
+<th>成熟年龄透明期</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Vanish! 　Fade away! 　Melt away!<br>消えうせろ!<br>ありとあらゆるものたちよ<br>Vanish! 　Fade away! 　Melt away!<br>消えうせろ!<br>インスタントのニセモノたちよ</td>
+<td>Vanish!  Fade away!  Melt away!<br>消失吧！<br>所有一切事物啊<br>Vanish!  Fade away!  Melt away!<br>消失吧！<br>刹那间存在的伪物们啊</td>
+</tr>
+<tr>
+<td>望みに裏切られ<br>希望に復讐される<br>こんな时代はもうウンザリだ</td>
+<td>被期望背叛<br>被希望报复<br>我已经厌倦这种时代了</td>
+</tr>
+<tr>
+<td>ボクは逃げる<br>みんな消えろ!<br>ボクは　もう<br>何も欲しくない!</td>
+<td>我会逃走<br>让大家都消失吧！<br>我  已经<br>什么都不期望了！</td>
+</tr>
+<tr>
+<td>無人のサイドカーにまたがって<br>空想旅行三千里<br>地下鉄、高速、飛行場<br>ゆくぞ　時速百キロの<br>怪傑、疾風、逃亡者</td>
+<td>跨上无人驾驶的摩托车<br>空想旅行三千里<br>地下铁、高速公路、飞机场<br>出发吧！ 时速一百千米的<br>怪杰、疾风、逃亡者</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="ワタシ空想生命体"><a href="#ワタシ空想生命体" class="headerlink" title="ワタシ空想生命体"></a>ワタシ空想生命体</h2><p>主题：Conscience（自觉）<br>决斗者：御影草时<br>集数：ep23. デュエリストの条件<br>演唱：万有引力 東京混声合唱団</p>
+<table>
+<thead>
+<tr>
+<th>ワタシ空想生命体</th>
+<th>我是空想生命体</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>暗黒灼熱　誕生人形<br>名付けられて人動説</td>
+<td>暗黑灼热 人偶诞生<br>被命名为人动说<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="人动说：造词，猜测与天动说（地心说）、地动说（日心说）相对应，类似于人类中心主义，意为人是万物的尺度，把人类作为观察事物的中心。（并没有标答，请大家自己去理解吧）">[12]</span></a></sup></td>
+</tr>
+<tr>
+<td>世界あやつる　単一存在<br>他は空想人形術</td>
+<td>操纵世界的唯一存在<br>其他全是空想人偶</td>
+</tr>
+<tr>
+<td>暗黒零下　誕生生物<br>関係づけられ人動説</td>
+<td>暗黑零下 生物诞生<br>被赋予关联的人动说</td>
+</tr>
+<tr>
+<td>天然舞台に　単元存在<br>成るは空想生物術</td>
+<td>在天然舞台中 以独立单元存在<br>成为的是空想生物</td>
+</tr>
+<tr>
+<td>言葉誕生出会いそして迷い<br>知识誕生出会いそして現ろ<br>ああ、どこよここはいつよわたし</td>
+<td>言语诞生 与其相遇 随之迷茫<br>知识诞生 与其相遇 随之空虚<br>啊啊，我究竟身处何时何地</td>
+</tr>
+<tr>
+<td>呪文、まじない、神秘、祈り、わたし<br>舞台運命魔術鏡</td>
+<td>咒文、巫术、神秘、祈祷、我<br>舞台命运魔术镜</td>
+</tr>
+<tr>
+<td>満月　謎の　変幻自在　わたし果てなる空想生命体<br>満月　謎の　変幻自在　わたし果てなる空想生命体<br>時を求めて　安息なしの<br>生きつづける　空洞形態</td>
+<td>满月 谜之千变万化 我最终成为了空想生命体<br>满月 谜之千变万化 我最终成为了空想生命体 <br>追寻着时间 不得安息<br>持续存活的 空洞形态</td>
+</tr>
+<tr>
+<td>土地を求めて　手なく足なく<br>在りつづける　ワタシ　透明無形   かすかに吐息</td>
+<td>追寻着土地 无手无脚<br>持续存在的 我 透明无形 微微叹息</td>
+</tr>
+<tr>
+<td>ハッハッハッハ</td>
+<td>哈 哈 哈 哈</td>
+</tr>
+</tbody></table>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本曲歌词出自坪内逍遥日译版《哈姆雷特》第一幕第四场（哈姆雷特与已死父王的鬼魂对话部分）。参考朱生豪先生的中译版进行翻译。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">金平糖：日本的一种外形像星星的小小糖果粒。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">日本「七五三节」这天，3岁、5岁男孩和3岁、7岁女孩，都会穿上传统和式礼服，跟父母到神社祈求身体健康。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">花吹雪：（樱花）花瓣像雪一样飘零。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">梦吹雪：意同花吹雪，指梦像雪一样飘零。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">阿尔西布拉（Archibras）：是傅立叶提出的概念，新人类能够在身体上长出一条像尾巴一样的东西，即阿尔西布拉，然后以这条类似现代情报终端的尾巴来获得各种各样的能力，人类因此变得万能化。（大概就是指后文的绝对人）<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">吉尼奥尔（Grand Guignol）：法国大木偶剧场，创办于1896年。多表演强奸、情杀一类的恐怖剧和血腥的荒诞剧，滑稽又疯狂，内容颇不道德，更像是为大人所作。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">吐息、溜息、青息、叹息、鼻息：指各种不同情绪的气息。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">绝对人：应是指进化后的完美人类。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">藠头：植物，也叫荞头，构造类似洋葱。<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本曲歌词出自坪内逍遥日译版《哈姆雷特》第二幕第二场的剧中剧。大意是讲特洛伊战争中，皮鲁士向老国王普里阿摩斯复仇并将其处决之事。<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">人动说：造词，猜测与天动说（地心说）、地动说（日心说）相对应，类似于人类中心主义，意为人是万物的尺度，把人类作为观察事物的中心。（并没有标答，请大家自己去理解吧）<a href="#fnref:12" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
       <categories>
-        <category>草稿箱</category>
+        <category>少女革命</category>
       </categories>
       <tags>
-        <tag>生命的意义在于折腾！</tag>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
       </tags>
   </entry>
   <entry>
@@ -1597,6 +1575,28 @@
       </tags>
   </entry>
   <entry>
+    <title>测试用文</title>
+    <url>/posts/fd87c315.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="37a8b8df27a5989efde187fd5fa17b37e39dbe38df6dc69de8b89283224e3394">bd25ed9264b080267271e137e33d0ce1e1069d88f9699965ec2c8f2e4412683a11965185006bffa98a0a821510d9346f4fc1f32e8ed4140688d3ab40e3ed7a89817d4566b26936dfae7d3c97389e93130815176011906ed3740a2003a99b7504262109457d524da14cb9f0ef00a456236a727fae71260d6e5ae31a6208d1cec4f37372d2461045f4b65528b1f4ac689929c001bb2afcebc9d7faf87f83916199dd200110f1576a9c2c9153e28990b7a668809854cfb3136f295721c11d3fc61294fd39dccdb35ff599190d4c331d4a5612c024fa16dc94bc6df2fb5ba113d9888e197b779a256373005a3e89a937a5dc541cc784d61550f6f28d249299404106a88d4a8cc94b33590c490c3abc75fe49f9225afcc0808cf0f873f97a643bd941336d75ba3f116b2f5ca21aeadd9bf6d9d6a78284e53b76a125d933c23204abb66040ca00bf38504715f3cfb5f9bac068fd0f9f9434afa18ca3b05a771114d10ea6ef441436986ef0197de00712a3b98849898e70d55171e2127a74a9e36c8943e2c9a94f464ffffb8abd1214dd766c0f84c763ada7cb926adffd4f944210d9c9ea59d1dfd79e1546db839c6a19f87d43af41b351074d4d69cf4c926c4c7427c98aa6a4a0850de662a6b59b788f3f91d737793ac8b47ceaeed29fd78ce0413c53659b0bc2f30da0af4788209f6bbe1768659d38e90eea867c5e0ac2b39944f40f464c6cb90af5be3fd0e54b5cb573331070e04b2392f9d4608b02a483a0e1fe36bd3a10753c1405373cf0c4d2315a01e3850183518a45b4943e079c7f4965342d76ea178d05072ddc4276c08980d7c8e4bee829735278dfe82cd790977d8bb8e1ec0c39c54473fdc3a503478a929ef2b14259bcd162660d486a098f07c213d7a4b86395c7f695cf423fb6a20ad531f05b5212454ac1fc09fab04792d193cdd8765c85ae4958420f4d07a6b90660da01d00842ddd1bfb2cfdfb488e5ee24da35df613c7098b1b379a011a5b3384b85b21e629267e1b12c394fa5ee7e614ef104b268e85b332cfd60eac5a2909f902b77bdb0cf10e28741ed9ea39754c43946ec09ae49e19a727765113a5cf1fcb3816629b9ecf7bfbd52ef6b5b7030553fb1bedd80b674f1e128545063c956ce4f8b68d4c3babbe3f3d2716855cc662324b9011eb2be38d071bc0617fc666678ed359528693869df1db5156737f9c18a3283a78aa8f8baef5617e88ccb63dc9565474678bedff1b42188f89864509992ceb061c1671507a42c2adc217cd6e4764706beba172407806351435ba2bf21edd122bb365fc5e9896d3b1935c89e63883d580a08ec24377e731e92dce7c1ae2c064ac743</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>草稿箱</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>相对简单化的烤肉流程</title>
     <url>/posts/7eba5e9a.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="先上总结"><a href="#先上总结" class="headerlink" title="先上总结"></a>先上总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
@@ -1629,8 +1629,8 @@
         <category>杂货堆</category>
       </categories>
       <tags>
-        <tag>视频与字幕制作</tag>
         <tag>生命的意义在于折腾！</tag>
+        <tag>视频与字幕制作</tag>
       </tags>
   </entry>
 </search>
