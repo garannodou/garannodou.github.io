@@ -1185,7 +1185,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f795cf;
+  background: #fcffb9;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1582,7 +1582,7 @@ pre .javascript .function {
   width: 10px;
 }
 .posts-collapse .collection-year {
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
   margin: 60px 0;
   position: relative;
@@ -1626,7 +1626,7 @@ pre .javascript .function {
   left: 0;
   margin-left: -4px;
   position: absolute;
-  top: 0.5em;
+  top: 0.6em;
   transition-property: background;
   width: 6px;
   transition-delay: 0s;
@@ -1641,7 +1641,7 @@ pre .javascript .function {
 }
 .posts-collapse .post-meta {
   display: inline;
-  font-size: 0.5em;
+  font-size: 0.6em;
   margin-right: 10px;
 }
 .posts-collapse .post-title {
@@ -1770,7 +1770,7 @@ pre .javascript .function {
   font-size: 1.125em;
 }
 .posts-expand .post-title {
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: normal;
   margin: initial;
   text-align: center;
@@ -1809,7 +1809,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   color: #999;
   font-family: 'Noto Sans SC', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 0.5em;
+  font-size: 0.6em;
   margin: 3px 0 60px 0;
   text-align: center;
 }
@@ -1862,7 +1862,7 @@ pre .javascript .function {
   top: 2px;
 }
 .post-nav-item .fa {
-  font-size: 0.5em;
+  font-size: 0.6em;
 }
 .post-nav-item:first-child {
   margin-right: 15px;
@@ -2119,7 +2119,7 @@ pre .javascript .function {
   }
 }
 ul.breadcrumb {
-  font-size: 0.5em;
+  font-size: 0.6em;
   list-style: none;
   margin: 1em 0;
   padding: 0 2em;
@@ -2409,7 +2409,7 @@ hr {
   display: none;
 }
 .posts-expand .post-block:not(:first-child) {
-  margin-top: 30px;
+  margin-top: 120px;
 }
 .posts-expand .post-title,
 .posts-expand .post-meta {
