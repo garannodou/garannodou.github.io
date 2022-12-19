@@ -88,8 +88,8 @@
 <li><input checked disabled type="checkbox"> 关闭首页文章摘要（苦摘要久矣，终于找到方法了，安装 <a href="https://github.com/chekun/hexo-excerpt">hexo-excerpt </a>插件，将depth调为1即可）</li>
 <li><input checked disabled type="checkbox"> 更换样式为Mist</li>
 <li><input checked disabled type="checkbox"> 将默认120px的间距改为50（\themes\next\source\css_schemes\Mist_posts-expand.styl，约23行处  .post-block:not(:first-child) ）</li>
-<li><input checked disabled type="checkbox"> <del>去掉首页“阅读更多”按钮（read_more）</del></li>
-<li><input checked disabled type="checkbox"> 调整字体大小（\source\css_variables\base.styl，Font size）</li>
+<li><input checked disabled type="checkbox"> <del>去掉首页“阅读更多”按钮</del>（read_more）</li>
+<li><input checked disabled type="checkbox"> <del>调整字体大小</del>（\source\css_variables\base.styl，Font size）</li>
 </ul>
 <hr>
 <h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
