@@ -38,13 +38,13 @@
 <li><input checked disabled type="checkbox"> 添加社交账户链接</li>
 <li><input checked disabled type="checkbox"> 侧边栏添加标签、分类、关于</li>
 <li><input checked disabled type="checkbox"> 调整字体</li>
-<li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，之后换个方式实现吧）</li>
+<li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，试了试默认的感觉也没太大必要，放弃了）</li>
 <li><input checked disabled type="checkbox"> 修改底栏</li>
 <li><input checked disabled type="checkbox"> 增加文章更新时间</li>
 <li><input checked disabled type="checkbox"> 开启版权声明</li>
 </ul>
 <hr>
-<h3 id="后续更新（2022-12-19）"><a href="#后续更新（2022-12-19）" class="headerlink" title="后续更新（2022.12.19）"></a>后续更新（2022.12.19）</h3><ul>
+<h3 id="后续更新（2022-12-19-12-20）"><a href="#后续更新（2022-12-19-12-20）" class="headerlink" title="后续更新（2022.12.19-12.20）"></a>后续更新（2022.12.19-12.20）</h3><ul>
 <li><input checked disabled type="checkbox"> top按钮显示当前浏览进度（back2top）</li>
 <li><input checked disabled type="checkbox"> 关闭首页文章摘要（苦摘要久矣，终于找到曲线救国的方法了，安装 <a href="https://github.com/chekun/hexo-excerpt">hexo-excerpt </a>插件，将depth调为1即可）</li>
 <li><input checked disabled type="checkbox"> <del>更换样式为Mist</del><ul>
@@ -56,6 +56,13 @@
 <li><input checked disabled type="checkbox"> 去掉首页“阅读更多”按钮（read_more）</li>
 <li><input checked disabled type="checkbox"> 调整字体大小（\source\css_variables\base.styl，Font size）</li>
 <li><input checked disabled type="checkbox"> 关闭menu图标</li>
+</ul>
+</li>
+<li><input checked disabled type="checkbox"> 追番（<a href="https://github.com/HCLonely/hexo-bilibili-bangumi">hexo-bilibili-bangumi</a>）<ul>
+<li>更新数据：<code>hexo bangumi -u</code> &#x2F; <code>hexo cinema -u</code> </li>
+<li>删除数据：<code>hexo bangumi -d</code> &#x2F; <code>hexo cinema -d</code></li>
+<li>注：<a href="https://bangumi.github.io/api/">bgm api</a> 最多一年有效期，到期需要重新申请</li>
+<li>问题：番剧内容没显示出来啊……疑心是没设置代理导致api抓取失败？……嘛算了，简介什么的也并不重要，晚点再修）</li>
 </ul>
 </li>
 </ul>
@@ -195,133 +202,6 @@
       </tags>
   </entry>
   <entry>
-    <title>对少革游戏的吐槽</title>
-    <url>/posts/5d366c56.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>大概三个月前写的，<u><strong>全程剧透慎入</strong></u> </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<h3 id="主线"><a href="#主线" class="headerlink" title="主线"></a>主线</h3><p>从op开始就乱来……似乎裸男三人组又是长谷川氏的杰作……拜托你收手！我的眼睛说它受到了冲击！</p>
-<h4 id="欧蒂娜线"><a href="#欧蒂娜线" class="headerlink" title="欧蒂娜线"></a>欧蒂娜线</h4><p>总结起来就是，和utena同床共枕，一起打球，一起洗澡，结局向她告白，她还会为你拭去泪水……</p>
-<img src="/posts/5d366c56/01.jpg" width="50%" height="50%">
-
-<p><del>我好羡慕啊！</del>不对，你们置anthy于何地啊！<br>说起来，休息日出门会遇到欧安在外头<del>约会</del>喝茶</p>
-<img src="/posts/5d366c56/02.jpg" width="50%" height="50%">
-
-<p>这条线最让我感到震惊的是奇奇的战斗力，当女主被千种关在地下的时候，奇奇独自前来搭救，还干掉了被操控的学生会<strong>全员</strong>。<br>这英勇的身姿，这强大的战斗力……那什么，不如出个奇奇线吧……</p>
-<img src="/posts/5d366c56/03.jpg" width="50%" height="50%">
-
-<img src="/posts/5d366c56/04.jpg" width="50%" height="50%">
-
-
-
-<h4 id="冬芽线"><a href="#冬芽线" class="headerlink" title="冬芽线"></a>冬芽线</h4><p>跑题吐槽一下凤某人，看起来黑眼圈好重的样子，<del>你们时间管理大师都这样吗</del></p>
-<img src="/posts/5d366c56/08.jpg" width="50%" height="50%">
-
-<p>回到正题，冬芽线总之就是发展成这样了……不愧是你，playboy</p>
-<img src="/posts/5d366c56/09.jpg" width="50%" height="50%">
-
-<p>结局女主要转学，他就甜言蜜语约定好改日再见，我还以为……结果转头他就烧掉了女主给他的信，就像烧掉西园寺的交换日记那样……<br>女主转学后苦等冬芽来找她，却连一封信都收不到，这……是BE吧我说Σ(っ °Д °;)っ</p>
-<h4 id="干线"><a href="#干线" class="headerlink" title="干线"></a>干线</h4><p>游戏里miki的房间好可爱ww</p>
-<img src="/posts/5d366c56/10.jpg" width="50%" height="50%">
-
-<p>整条线女主可以说是A了上去，但在结局因为要转学了，就说自己本来有男朋友，阻止了miki告白。<br>怎么受伤的总是miki……</p>
-<blockquote>
-<p>“为什么谁都不愿意成为我的光辉闪耀之物……”</p>
-</blockquote>
-<p>强行圆tv剧情可恨！(ノ&#x3D;Д&#x3D;)ノ┻━┻</p>
-<h4 id="树璃线"><a href="#树璃线" class="headerlink" title="树璃线"></a>树璃线</h4><p>不知道女主脑子里都在想些什么，夜里睡不着出门遇到学姐→“难道树璃学姐也在想我吗？”<br><del>（你是玛丽苏言情女主角吗？哦你是啊，那没事了）</del></p>
-<img src="/posts/5d366c56/11.jpg" width="50%" height="50%">
-
-<center>（游戏新图或许也可以算是一种福利）</center>
-
-  
-
-<p>休息日的时候，学姐居然在外头打街机……水平还很高……虽然但是……好吧不愧是学姐！</p>
-<img src="/posts/5d366c56/12.jpg" width="50%" height="50%">
-
-<p>结局女主很果断地对树璃表白了，居然是直球！<br>离开的时候收获了放有学姐照片的吊坠✔是你赢了</p>
-<img src="/posts/5d366c56/13.jpg" width="50%" height="50%">
-
-<img src="/posts/5d366c56/14.jpg" width="50%" height="50%">
-
-
-
-<h4 id="西园寺线"><a href="#西园寺线" class="headerlink" title="西园寺线"></a>西园寺线</h4><p>这条线的新图还挺多……不家暴的话，感觉西园寺也只是个纯情baka罢了（）</p>
-<img src="/posts/5d366c56/18.jpg" width="50%" height="50%">
-
-<img src="/posts/5d366c56/17.jpg" width="50%" height="50%">
-
-<p>不过，女主在看到海带头洗澡的时候用很陶醉的声音说他看起来好sexy，还是让我喷出一口老血……</p>
-<img src="/posts/5d366c56/16.jpg" width="50%" height="50%">
-
-<p>结局居然把那个树叶发饰送给女主了……明明时间线在和冬芽决斗之前的……这不合理<del>（可恶，居然虐若叶</del></p>
-<img src="/posts/5d366c56/19.jpg" width="50%" height="50%">
-
-
-
-<h4 id="完美线"><a href="#完美线" class="headerlink" title="完美线"></a>完美线</h4><p>算是以上各线的揉合，总之就是大家都爱上了女主，结局热热闹闹的一起给女主送别。（anthy的存在感被削没了属于是）<br>最后画面一转，凤晓生表示仅有灵魂存在的决斗者试验成功了，然后镜头切到草时那里，突然放刀）</p>
-<img src="/posts/5d366c56/21.jpg" width="50%" height="50%">
-
-<hr>
-<h3 id="支线"><a href="#支线" class="headerlink" title="支线"></a>支线</h3><p>说实话感觉最<del>不正经</del>有趣的还是这几条线啊哈哈哈哈哈哈</p>
-<h4 id="黑蔷薇线"><a href="#黑蔷薇线" class="headerlink" title="黑蔷薇线"></a>黑蔷薇线</h4><p>女主去找草时相谈，草时一如既往的表示为你准备好了前进道路。</p>
-<img src="/posts/5d366c56/23.jpg" width="50%" height="50%">
-
-<p>然后她一上场决斗就被utena给秒杀了……<br>十分突然，连个过场动画都没有的那种，一秒钟就躺下了。<br>我真的笑到……战斗力惊人……</p>
-<img src="/posts/5d366c56/24.jpg" width="50%" height="50%">
-
-
-
-<h4 id="凤晓生线"><a href="#凤晓生线" class="headerlink" title="凤晓生线"></a>凤晓生线</h4><p>冬芽一敞胸，人就被带上了晓生的车，女主表示很懵。<br>不管回复选哪个选项，凤某根本就不听人说话，只是自顾自地称赞女主的心胸如大海般宽广，然后表示要让她看看世界的尽头。<br>女主：……这人到底在说什么？<br>在凤晓生翻上车前盖的时候，女主还大喊着叫他“停下来~~！”<br>（你是第一个上车了还有正常人反应的2333）</p>
-<img src="/posts/5d366c56/25.jpg" width="50%" height="50%">
-
-<p>不过，之后的决斗又被utena秒杀就是了……依旧是那种一秒躺的秒杀，真的是战斗力惊人啊（复读）</p>
-<img src="/posts/5d366c56/26.jpg" width="50%" height="50%">
-
-
-
-<h4 id="安希线"><a href="#安希线" class="headerlink" title="安希线"></a>安希线</h4><p>安希线……到底怎么回事啦！<br>女主因为自己的存在可能会消失，就去找安希商量，被安希一番洗脑开解之后，唐突表示：我想要你，想要蔷薇新娘！我要安希成为我的东西！<del>（逐渐西园寺化</del></p>
-<img src="/posts/5d366c56/27.jpg" width="50%" height="50%">
-
-<p>然后安希就背叛了（女主有这么大魅力吗？！），拔剑的时候给utena变了个玩具锤子当武器，虽然贴心的给她戴上了头盔，但utena完全没能掌握事情的现状，于是输了233</p>
-<img src="/posts/5d366c56/28.jpg" width="50%" height="50%">
-
-<img src="/posts/5d366c56/29.jpg" width="50%" height="50%">
-
-<p>女主赢了就算了，把蔷薇新娘据为己有之后，居然还对安希为所欲为……洗澡乱来什么的，和安希玩了一整晚什么的……<del>（你们到底能玩啥玩一晚上啊？</del></p>
-<details>
-<summary>大胆猜测</summary>
-<pre><code>翻译完学生会磁带之后，我完全明白了，你们一定是玩了一晚上银仙对吧……！
-</code></pre>
-</details>
-
-
-<img src="/posts/5d366c56/30.jpg" width="50%" height="50%">
-
-<p>utena第二天大清早的就来申请重新决斗了，就是不知为何登场的时候菠萝菠萝哒（但还是好可爱ww</p>
-<img src="/posts/5d366c56/31.jpg" width="50%" height="50%">
-
-<p>以及很轻易地就用锤子反杀了女主（女主，你的战斗力果然惊人*3</p>
-<img src="/posts/5d366c56/32.jpg" width="50%" height="50%">
-
-<p>顺利夺回安希之后，就这么结束了……（这条线完全意义不明啊喂！</p>
-<hr>
-<h3 id="Over"><a href="#Over" class="headerlink" title="Over"></a>Over</h3><p>最后，游戏里竟然并没有凤晓生汽车人，感觉被骗了o(￣ヘ￣o＃)<br>不过算了，反正这整个游戏还挺好笑的w<br>以及这居然是大河内写出来的东西(°ー°〃)</p>
-<hr>
-]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>吐槽</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>决斗曲翻译 - 绝对命运默示录（+完全版）</title>
     <url>/posts/f497660d.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>居然已经是约半年前的翻译了(&gt;д&lt;)</p>
@@ -427,7 +307,7 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>决斗曲翻译 - 学生会篇</title>
     <url>/posts/5fe4f7fb.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
             <i class="fa fa-quote-left"></i>
@@ -2077,6 +1957,133 @@
       <tags>
         <tag>少女革命</tag>
         <tag>翻译</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对少革游戏的吐槽</title>
+    <url>/posts/5d366c56.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>大概三个月前写的，<u><strong>全程剧透慎入</strong></u> </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<h3 id="主线"><a href="#主线" class="headerlink" title="主线"></a>主线</h3><p>从op开始就乱来……似乎裸男三人组又是长谷川氏的杰作……拜托你收手！我的眼睛说它受到了冲击！</p>
+<h4 id="欧蒂娜线"><a href="#欧蒂娜线" class="headerlink" title="欧蒂娜线"></a>欧蒂娜线</h4><p>总结起来就是，和utena同床共枕，一起打球，一起洗澡，结局向她告白，她还会为你拭去泪水……</p>
+<img src="/posts/5d366c56/01.jpg" width="50%" height="50%">
+
+<p><del>我好羡慕啊！</del>不对，你们置anthy于何地啊！<br>说起来，休息日出门会遇到欧安在外头<del>约会</del>喝茶</p>
+<img src="/posts/5d366c56/02.jpg" width="50%" height="50%">
+
+<p>这条线最让我感到震惊的是奇奇的战斗力，当女主被千种关在地下的时候，奇奇独自前来搭救，还干掉了被操控的学生会<strong>全员</strong>。<br>这英勇的身姿，这强大的战斗力……那什么，不如出个奇奇线吧……</p>
+<img src="/posts/5d366c56/03.jpg" width="50%" height="50%">
+
+<img src="/posts/5d366c56/04.jpg" width="50%" height="50%">
+
+
+
+<h4 id="冬芽线"><a href="#冬芽线" class="headerlink" title="冬芽线"></a>冬芽线</h4><p>跑题吐槽一下凤某人，看起来黑眼圈好重的样子，<del>你们时间管理大师都这样吗</del></p>
+<img src="/posts/5d366c56/08.jpg" width="50%" height="50%">
+
+<p>回到正题，冬芽线总之就是发展成这样了……不愧是你，playboy</p>
+<img src="/posts/5d366c56/09.jpg" width="50%" height="50%">
+
+<p>结局女主要转学，他就甜言蜜语约定好改日再见，我还以为……结果转头他就烧掉了女主给他的信，就像烧掉西园寺的交换日记那样……<br>女主转学后苦等冬芽来找她，却连一封信都收不到，这……是BE吧我说Σ(っ °Д °;)っ</p>
+<h4 id="干线"><a href="#干线" class="headerlink" title="干线"></a>干线</h4><p>游戏里miki的房间好可爱ww</p>
+<img src="/posts/5d366c56/10.jpg" width="50%" height="50%">
+
+<p>整条线女主可以说是A了上去，但在结局因为要转学了，就说自己本来有男朋友，阻止了miki告白。<br>怎么受伤的总是miki……</p>
+<blockquote>
+<p>“为什么谁都不愿意成为我的光辉闪耀之物……”</p>
+</blockquote>
+<p>强行圆tv剧情可恨！(ノ&#x3D;Д&#x3D;)ノ┻━┻</p>
+<h4 id="树璃线"><a href="#树璃线" class="headerlink" title="树璃线"></a>树璃线</h4><p>不知道女主脑子里都在想些什么，夜里睡不着出门遇到学姐→“难道树璃学姐也在想我吗？”<br><del>（你是玛丽苏言情女主角吗？哦你是啊，那没事了）</del></p>
+<img src="/posts/5d366c56/11.jpg" width="50%" height="50%">
+
+<center>（游戏新图或许也可以算是一种福利）</center>
+
+  
+
+<p>休息日的时候，学姐居然在外头打街机……水平还很高……虽然但是……好吧不愧是学姐！</p>
+<img src="/posts/5d366c56/12.jpg" width="50%" height="50%">
+
+<p>结局女主很果断地对树璃表白了，居然是直球！<br>离开的时候收获了放有学姐照片的吊坠✔是你赢了</p>
+<img src="/posts/5d366c56/13.jpg" width="50%" height="50%">
+
+<img src="/posts/5d366c56/14.jpg" width="50%" height="50%">
+
+
+
+<h4 id="西园寺线"><a href="#西园寺线" class="headerlink" title="西园寺线"></a>西园寺线</h4><p>这条线的新图还挺多……不家暴的话，感觉西园寺也只是个纯情baka罢了（）</p>
+<img src="/posts/5d366c56/18.jpg" width="50%" height="50%">
+
+<img src="/posts/5d366c56/17.jpg" width="50%" height="50%">
+
+<p>不过，女主在看到海带头洗澡的时候用很陶醉的声音说他看起来好sexy，还是让我喷出一口老血……</p>
+<img src="/posts/5d366c56/16.jpg" width="50%" height="50%">
+
+<p>结局居然把那个树叶发饰送给女主了……明明时间线在和冬芽决斗之前的……这不合理<del>（可恶，居然虐若叶</del></p>
+<img src="/posts/5d366c56/19.jpg" width="50%" height="50%">
+
+
+
+<h4 id="完美线"><a href="#完美线" class="headerlink" title="完美线"></a>完美线</h4><p>算是以上各线的揉合，总之就是大家都爱上了女主，结局热热闹闹的一起给女主送别。（anthy的存在感被削没了属于是）<br>最后画面一转，凤晓生表示仅有灵魂存在的决斗者试验成功了，然后镜头切到草时那里，突然放刀）</p>
+<img src="/posts/5d366c56/21.jpg" width="50%" height="50%">
+
+<hr>
+<h3 id="支线"><a href="#支线" class="headerlink" title="支线"></a>支线</h3><p>说实话感觉最<del>不正经</del>有趣的还是这几条线啊哈哈哈哈哈哈</p>
+<h4 id="黑蔷薇线"><a href="#黑蔷薇线" class="headerlink" title="黑蔷薇线"></a>黑蔷薇线</h4><p>女主去找草时相谈，草时一如既往的表示为你准备好了前进道路。</p>
+<img src="/posts/5d366c56/23.jpg" width="50%" height="50%">
+
+<p>然后她一上场决斗就被utena给秒杀了……<br>十分突然，连个过场动画都没有的那种，一秒钟就躺下了。<br>我真的笑到……战斗力惊人……</p>
+<img src="/posts/5d366c56/24.jpg" width="50%" height="50%">
+
+
+
+<h4 id="凤晓生线"><a href="#凤晓生线" class="headerlink" title="凤晓生线"></a>凤晓生线</h4><p>冬芽一敞胸，人就被带上了晓生的车，女主表示很懵。<br>不管回复选哪个选项，凤某根本就不听人说话，只是自顾自地称赞女主的心胸如大海般宽广，然后表示要让她看看世界的尽头。<br>女主：……这人到底在说什么？<br>在凤晓生翻上车前盖的时候，女主还大喊着叫他“停下来~~！”<br>（你是第一个上车了还有正常人反应的2333）</p>
+<img src="/posts/5d366c56/25.jpg" width="50%" height="50%">
+
+<p>不过，之后的决斗又被utena秒杀就是了……依旧是那种一秒躺的秒杀，真的是战斗力惊人啊（复读）</p>
+<img src="/posts/5d366c56/26.jpg" width="50%" height="50%">
+
+
+
+<h4 id="安希线"><a href="#安希线" class="headerlink" title="安希线"></a>安希线</h4><p>安希线……到底怎么回事啦！<br>女主因为自己的存在可能会消失，就去找安希商量，被安希一番洗脑开解之后，唐突表示：我想要你，想要蔷薇新娘！我要安希成为我的东西！<del>（逐渐西园寺化</del></p>
+<img src="/posts/5d366c56/27.jpg" width="50%" height="50%">
+
+<p>然后安希就背叛了（女主有这么大魅力吗？！），拔剑的时候给utena变了个玩具锤子当武器，虽然贴心的给她戴上了头盔，但utena完全没能掌握事情的现状，于是输了233</p>
+<img src="/posts/5d366c56/28.jpg" width="50%" height="50%">
+
+<img src="/posts/5d366c56/29.jpg" width="50%" height="50%">
+
+<p>女主赢了就算了，把蔷薇新娘据为己有之后，居然还对安希为所欲为……洗澡乱来什么的，和安希玩了一整晚什么的……<del>（你们到底能玩啥玩一晚上啊？</del></p>
+<details>
+<summary>大胆猜测</summary>
+<pre><code>翻译完学生会磁带之后，我完全明白了，你们一定是玩了一晚上银仙对吧……！
+</code></pre>
+</details>
+
+
+<img src="/posts/5d366c56/30.jpg" width="50%" height="50%">
+
+<p>utena第二天大清早的就来申请重新决斗了，就是不知为何登场的时候菠萝菠萝哒（但还是好可爱ww</p>
+<img src="/posts/5d366c56/31.jpg" width="50%" height="50%">
+
+<p>以及很轻易地就用锤子反杀了女主（女主，你的战斗力果然惊人*3</p>
+<img src="/posts/5d366c56/32.jpg" width="50%" height="50%">
+
+<p>顺利夺回安希之后，就这么结束了……（这条线完全意义不明啊喂！</p>
+<hr>
+<h3 id="Over"><a href="#Over" class="headerlink" title="Over"></a>Over</h3><p>最后，游戏里竟然并没有凤晓生汽车人，感觉被骗了o(￣ヘ￣o＃)<br>不过算了，反正这整个游戏还挺好笑的w<br>以及这居然是大河内写出来的东西(°ー°〃)</p>
+<hr>
+]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>吐槽</tag>
       </tags>
   </entry>
 </search>
