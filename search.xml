@@ -62,10 +62,10 @@
 <li>更新数据：<code>hexo bangumi -u</code> &#x2F; <code>hexo cinema -u</code> </li>
 <li>删除数据：<code>hexo bangumi -d</code> &#x2F; <code>hexo cinema -d</code></li>
 <li>注：<a href="https://bangumi.github.io/api/">bgm api</a> 最多一年有效期，到期需要重新申请</li>
-<li>问题：似乎……bgm源只能显示标题和封面……QAQ</li>
+<li>问题：似乎……bgm源只能显示番剧标题和封面……QAQ</li>
 </ul>
 </li>
-<li><input disabled type="checkbox"> 添加b站视频卡片（<a href="https://github.com/MaxChang3/hexo-bilibili-card">hexo-bilibili-card</a>）</li>
+<li><input checked disabled type="checkbox"> 添加b站视频卡片（<a href="https://github.com/MaxChang3/hexo-bilibili-card">hexo-bilibili-card</a>）</li>
 </ul>
 <hr>
 <h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
