@@ -147,59 +147,6 @@
       </tags>
   </entry>
   <entry>
-    <title>用kindle阅读日文相关物的简明教程</title>
-    <url>/posts/d4569923.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>对kindle执念深重的产物 </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，正好重写一下。</p>
-<hr>
-<h3 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h3><h4 id="日文书籍-x2F-小说资源获取"><a href="#日文书籍-x2F-小说资源获取" class="headerlink" title="日文书籍&#x2F;小说资源获取"></a>日文书籍&#x2F;小说资源获取</h4><ol>
-<li><p>现成的书籍资源：Z-Library  |  <a href="https://itazuraneko.neocities.org/library/shousetu.html">itazuraneko</a></p>
-</li>
-<li><p>未经处理的txt资源：<a href="https://nyaa.si/">nyaa</a>  |  <a href="https://www.aozora.gr.jp/">青空文库</a></p>
-</li>
-</ol>
-<p>其中青空文库可在网站中直接下载zip(txt)，图省事也可以直接在 <a href="http://www.netbuffalo.net/NetApps/kindle/aozora">MOBIぞら文庫</a> 下载mobi文件。</p>
-<h4 id="txt→epub"><a href="#txt→epub" class="headerlink" title="txt→epub"></a>txt→epub</h4><p>方法多样，任选其一即可：</p>
-<ol>
-<li><p><del>在 <a href="http://a2k.aill.org/">青空キンドル </a> 输入青空文库的zip链接，转换为竖排pdf。</del>（已失效）</p>
-</li>
-<li><p>使用 <a href="http://ebook.cdict.info/mobi/">天火藏書</a> 的网页端制作epub&#x2F;mobi文件。非常无脑简单，上传即可，但可能存在假名注音显示不全的问题。不在乎注音问题可以使用。</p>
-</li>
-<li><p><u><strong>AozoraEpub</strong></u>（推荐★），使用步骤如下：</p>
-<p>① 首先检查是否乱码，若乱码则通过 <u><strong>codeTransmit</strong></u> 等软件，把文本转换成<strong>UTF-8编码</strong>，得到正常显示的日文文本。</p>
-<p>② 用软件打开正常显示的文本（<strong>UTF-8编码</strong>）。<br><img src="/posts/d4569923/1.png" alt="1"></p>
-<p>③ 若文档格式正确则会出现完整的书名、作者封面和目录。确认即可。<br><img src="/posts/d4569923/2.png" alt="2"></p>
-<p>④ 可使用 <u><strong>kindlestrip</strong></u> 去冗余（注意文件名和目录不要有中文）：将文件放入temp文件夹后，点击auto.bat，运行完后在result文件夹找到去冗余后的文件，mobi文件的体积在去冗余后会大大缩小。</p>
-</li>
-</ol>
-<hr>
-<h3 id="图片类"><a href="#图片类" class="headerlink" title="图片类"></a>图片类</h3><h4 id="漫画-x2F-小说扫图资源获取"><a href="#漫画-x2F-小说扫图资源获取" class="headerlink" title="漫画&#x2F;小说扫图资源获取"></a>漫画&#x2F;小说扫图资源获取</h4><p>有许多小说并没有txt版本，但可以找到扫图，主要获取渠道和漫画一样：<a href="https://nyaa.si/">nyaa</a>  |  <a href="http://13dl.net/">13dl</a>  |  <a href="https://dlraw.net/raw/">dlraw</a></p>
-<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主。</p>
-<p>当然直接通过 <a href="https://booth.pm/zh-cn">booth</a> 和 <a href="https://www.dlsite.com/index.html">dlsite</a> 购买电子版最好，得到pdf后直接发送至kindle即可。</p>
-<h4 id="jpg-x2F-png→epub"><a href="#jpg-x2F-png→epub" class="headerlink" title="jpg&#x2F;png→epub"></a>jpg&#x2F;png→epub</h4><p>使用 <u><strong>ChainLP</strong></u> 打包图片，使用方法可以参照 <a href="https://tieba.baidu.com/p/2191868417">[超详细教程] MOBI全屏漫画&#x2F;图片书籍</a> 此帖，得到的mobi文件同样可使用 <u><strong>kindlestrip</strong></u> 去冗余。</p>
-<hr>
-<h3 id="PDF类"><a href="#PDF类" class="headerlink" title="PDF类"></a>PDF类</h3><p>pdf往往存在文件过大，无法用邮箱传送的问题，首先可以用 <a href="https://www.ilovepdf.com/compress_pdf">ilovepdf</a> 等方式压缩文件。</p>
-<p>如果内容比较难以阅读，则需要进一步处理，参考：<a href="https://bookfere.com/post/134.html">PDF 重排工具：K2pdfopt 简明教程</a></p>
-<p>然而很久都没遇到这种难以处理的pdf文件……没有实际用过，以后用过再来补充好了……</p>
-<hr>
-<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它如doc等等格式基本上全用 <u><strong>calibre</strong></u> 无脑转换就好啦，over。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-        <tag>kindle</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>对少革游戏的吐槽</title>
     <url>/posts/5d366c56.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note danger">
@@ -321,6 +268,59 @@
       <tags>
         <tag>少女革命</tag>
         <tag>吐槽</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用kindle阅读日文相关物的简明教程</title>
+    <url>/posts/d4569923.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>对kindle执念深重的产物 </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，正好重写一下。</p>
+<hr>
+<h3 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h3><h4 id="日文书籍-x2F-小说资源获取"><a href="#日文书籍-x2F-小说资源获取" class="headerlink" title="日文书籍&#x2F;小说资源获取"></a>日文书籍&#x2F;小说资源获取</h4><ol>
+<li><p>现成的书籍资源：Z-Library  |  <a href="https://itazuraneko.neocities.org/library/shousetu.html">itazuraneko</a></p>
+</li>
+<li><p>未经处理的txt资源：<a href="https://nyaa.si/">nyaa</a>  |  <a href="https://www.aozora.gr.jp/">青空文库</a></p>
+</li>
+</ol>
+<p>其中青空文库可在网站中直接下载zip(txt)，图省事也可以直接在 <a href="http://www.netbuffalo.net/NetApps/kindle/aozora">MOBIぞら文庫</a> 下载mobi文件。</p>
+<h4 id="txt→epub"><a href="#txt→epub" class="headerlink" title="txt→epub"></a>txt→epub</h4><p>方法多样，任选其一即可：</p>
+<ol>
+<li><p><del>在 <a href="http://a2k.aill.org/">青空キンドル </a> 输入青空文库的zip链接，转换为竖排pdf。</del>（已失效）</p>
+</li>
+<li><p>使用 <a href="http://ebook.cdict.info/mobi/">天火藏書</a> 的网页端制作epub&#x2F;mobi文件。非常无脑简单，上传即可，但可能存在假名注音显示不全的问题。不在乎注音问题可以使用。</p>
+</li>
+<li><p><u><strong>AozoraEpub</strong></u>（推荐★），使用步骤如下：</p>
+<p>① 首先检查是否乱码，若乱码则通过 <u><strong>codeTransmit</strong></u> 等软件，把文本转换成<strong>UTF-8编码</strong>，得到正常显示的日文文本。</p>
+<p>② 用软件打开正常显示的文本（<strong>UTF-8编码</strong>）。<br><img src="/posts/d4569923/1.png" alt="1"></p>
+<p>③ 若文档格式正确则会出现完整的书名、作者封面和目录。确认即可。<br><img src="/posts/d4569923/2.png" alt="2"></p>
+<p>④ 可使用 <u><strong>kindlestrip</strong></u> 去冗余（注意文件名和目录不要有中文）：将文件放入temp文件夹后，点击auto.bat，运行完后在result文件夹找到去冗余后的文件，mobi文件的体积在去冗余后会大大缩小。</p>
+</li>
+</ol>
+<hr>
+<h3 id="图片类"><a href="#图片类" class="headerlink" title="图片类"></a>图片类</h3><h4 id="漫画-x2F-小说扫图资源获取"><a href="#漫画-x2F-小说扫图资源获取" class="headerlink" title="漫画&#x2F;小说扫图资源获取"></a>漫画&#x2F;小说扫图资源获取</h4><p>有许多小说并没有txt版本，但可以找到扫图，主要获取渠道和漫画一样：<a href="https://nyaa.si/">nyaa</a>  |  <a href="http://13dl.net/">13dl</a>  |  <a href="https://dlraw.net/raw/">dlraw</a></p>
+<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主。</p>
+<p>当然直接通过 <a href="https://booth.pm/zh-cn">booth</a> 和 <a href="https://www.dlsite.com/index.html">dlsite</a> 购买电子版最好，得到pdf后直接发送至kindle即可。</p>
+<h4 id="jpg-x2F-png→epub"><a href="#jpg-x2F-png→epub" class="headerlink" title="jpg&#x2F;png→epub"></a>jpg&#x2F;png→epub</h4><p>使用 <u><strong>ChainLP</strong></u> 打包图片，使用方法可以参照 <a href="https://tieba.baidu.com/p/2191868417">[超详细教程] MOBI全屏漫画&#x2F;图片书籍</a> 此帖，得到的mobi文件同样可使用 <u><strong>kindlestrip</strong></u> 去冗余。</p>
+<hr>
+<h3 id="PDF类"><a href="#PDF类" class="headerlink" title="PDF类"></a>PDF类</h3><p>pdf往往存在文件过大，无法用邮箱传送的问题，首先可以用 <a href="https://www.ilovepdf.com/compress_pdf">ilovepdf</a> 等方式压缩文件。</p>
+<p>如果内容比较难以阅读，则需要进一步处理，参考：<a href="https://bookfere.com/post/134.html">PDF 重排工具：K2pdfopt 简明教程</a></p>
+<p>然而很久都没遇到这种难以处理的pdf文件……没有实际用过，以后用过再来补充好了……</p>
+<hr>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它如doc等等格式基本上全用 <u><strong>calibre</strong></u> 无脑转换就好啦，over。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+        <tag>kindle</tag>
       </tags>
   </entry>
   <entry>
@@ -918,6 +918,281 @@
       </tags>
   </entry>
   <entry>
+    <title>决斗曲翻译 - 剧场版（+原曲）</title>
+    <url>/posts/87f32d42.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<div class="bvideo"><a href="//www.bilibili.com/video/BV1Xr4y137zn" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/00bd79335672776bf77d4c46f0b8efd4848e37d4.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:15:36</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">【少女革命】决斗部分/决斗曲 自制中日字幕④</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>4561</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>8</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">望月木</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+
+<hr>
+<h1 id="剧场版ver"><a href="#剧场版ver" class="headerlink" title="剧场版ver"></a>剧场版ver</h1><h2 id="デュエリスト～甦れ！無窮の歴史『中世』よ"><a href="#デュエリスト～甦れ！無窮の歴史『中世』よ" class="headerlink" title="デュエリスト～甦れ！無窮の歴史『中世』よ"></a>デュエリスト～甦れ！無窮の歴史『中世』よ</h2><table>
+<thead>
+<tr>
+<th>デュエリスト～甦れ！無窮の歴史『中世』よ</th>
+<th>决斗者～苏醒吧！「中世」的无穷历史啊<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="中世：即中世纪">[1]</span></a></sup></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>私のすべて「中世」にして <br>スコラ抽象<br>私のすべて「中世」にして <br>麻痺する思想<br>私のすべて「中世」にして <br>不吉予言書<br>私のすべて「中世」にして <br>精神魔法陣</td>
+<td>我的一切将化为「中世」<br>抽象的经院哲学<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="经院哲学：中世纪时期形成、发展的哲学思想流派。是运用理性形式，通过抽象的、繁琐的辩证方法论证基督教信仰、为宗教神学服务的思辨哲学。">[3]</span></a></sup><br>我的一切将化为「中世」<br>麻痹的思想<br>我的一切将化为「中世」<br>不详预言书<br>我的一切将化为「中世」<br>精神魔法阵</td>
+</tr>
+<tr>
+<td>存在創造<br>不思議な快楽<br>歯車装置</td>
+<td>存在创造<br>不可思议的快乐<br>齿轮装置</td>
+</tr>
+<tr>
+<td>聖なるデカダン<br>未完の歴史<br>硝壜装置</td>
+<td>神圣的颓废主义<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="颓废主义：19世纪下半叶欧洲的资产阶级知识分子对社会表示不满而又无力反抗所产生的苦闷彷徨情绪在文艺领域中的反映。">[2]</span></a></sup><br>未完成的历史<br>火药瓶装置</td>
+</tr>
+<tr>
+<td>永遠なる奇蹟のそれを信じ<br>永久なる神を試みた<br>ああ、無窮の歴史「中世」よ<br>我れに甦れ</td>
+<td>相信着那永恒的奇迹<br>尝试成为不朽的神明<br>啊啊，「中世」的无穷历史啊<br>在我体内苏醒吧！</td>
+</tr>
+<tr>
+<td>臓餐歴史</td>
+<td>脏餐历史</td>
+</tr>
+<tr>
+<td>あゝ甦れ<br>無窮の歴史「中世」よ<br>「我が眼球に <br>我が両の手に <br>我が血と息に」</td>
+<td>啊啊 苏醒吧<br>「中世」的无穷历史啊<br>「在吾之眼球<br>吾之双手<br>吾之血流与呼吸中」</td>
+</tr>
+<tr>
+<td>甦れ!　甦れ!<br>甦れ!　甦れ!<br>甦れ!　甦れ!<br>甦れ!</td>
+<td>苏醒吧！ 苏醒吧！<br>苏醒吧！ 苏醒吧！<br>苏醒吧！ 苏醒吧！<br>苏醒吧！</td>
+</tr>
+<tr>
+<td>「中世」、そのすべての　時よ!<br>部屋よ!　衣類よ!</td>
+<td>「中世」、其所有的时间啊！<br>房屋啊！衣装啊！</td>
+</tr>
+<tr>
+<td>私のすべて「中世」にして <br>狂気と愚味<br>私のすべて「中世」にして <br>占星医学<br>私のすべて「中世」にして <br>囈言(うわごと)死術<br>私のすべて「中世」にして <br>光学解毒剤<br>私のすべて「中世」にして <br>スコラ抽象<br>私のすべて「中世」にして</td>
+<td>我的一切将化为「中世」<br>疯狂和愚昧<br>我的一切将化为「中世」<br>占星术医学<br>我的一切将化为「中世」<br>呓语诅咒<br>我的一切将化为「中世」<br>光学解毒剂<br>我的一切将化为「中世」<br>抽象的经院哲学<br>我的一切将化为「中世」</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="薔薇の裸身～シュラ-肉体星座αψζ星雲"><a href="#薔薇の裸身～シュラ-肉体星座αψζ星雲" class="headerlink" title="薔薇の裸身～シュラ -肉体星座αψζ星雲-"></a>薔薇の裸身～シュラ -肉体星座αψζ星雲-</h2><table>
+<thead>
+<tr>
+<th>薔薇の裸身～シュラ -肉体星座αψζ星雲-</th>
+<th>蔷薇的裸身～修罗 -肉身星座αψζ星云-<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="修罗：即阿修罗。在印度教和佛教中，其为天神的对立面，与天神为敌。">[5]</span></a></sup></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>シュラ　今、燃えん<br>手の足の鼓動に<br>シュラ　今、熱焼(あつ)く<br>終焉(おわり)知らぬ、ままに</td>
+<td>修罗  如今、燃烧着<br>在手与足的震颤中<br>修罗  如今、焦躁着<br>对结局茫然不知</td>
+</tr>
+<tr>
+<td>暗き「さらば」<br>現身(うつしみ)脱ぎ<br>荒闇(こうやみ)に吹き<br>虚空のかぎり</td>
+<td>黑暗中道出「再见」<br>(灵魂)便从肉身脱离<br>投入荒无人烟的黑暗中<br>直抵虚空的尽头</td>
+</tr>
+<tr>
+<td>シュラ　今、沈黙<br>地動　天・人道　凝視(みつ)めつつ<br>シュラ　今、ありし<br>宇宙(てん)の果てありしなら</td>
+<td>修罗  如今、沉默着<br>持续凝视  地球运转、天道与人道<br>修罗  如今、已成过往<br>就似天之尽头亦成过往</td>
+</tr>
+<tr>
+<td>曲難(みにく)さ「さらば」<br>血潮に溶け<br>蒸気の如く<br>また冷たく</td>
+<td>不悦地道出「再见」<br>便溶于血流<br>似蒸汽一般<br>复又冷却</td>
+</tr>
+<tr>
+<td>シュラは孤独(ひとり)なり<br>孤独(ひとり)とはおりし虚無</td>
+<td>修罗如今化身孤独<br>所谓孤独即是虚无</td>
+</tr>
+<tr>
+<td>シュラ　蛍のように蒼白く透けて<br>臨終(いまわ)のきわに立つ</td>
+<td>修罗  像萤火虫一样苍白透明<br>驻立在临终之际</td>
+</tr>
+<tr>
+<td>シュラ　今、静寂<br>光栄　権力　みな星なり<br>シュラ　今、変身す<br>雷鳴　凄稲妻(いなづま)　大暗黒</td>
+<td>修罗  如今、静寂着<br>光荣与权利  全都化作天边星斗<br>修罗  如今、大变身<br>雷鸣  闪电  极致黑暗</td>
+</tr>
+<tr>
+<td>悲劇(かな)しき「さらば」<br>運命星(えいえん)をも<br>配偶(つれあい)にして<br>地球(テラ)を心臓に</td>
+<td>悲伤地道出「再见」<br>以永恒为伴侣<br>以大地为心脏<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Terra：拉丁语中大地的意思，常也用来指地球，在意思上更倾向于指代星球上的土地。">[8]</span></a></sup></td>
+</tr>
+<tr>
+<td>シュラは　星人(ほし)なり<br>星人(ほし)とは生命源(みなもと)なり</td>
+<td>修罗  化身为星<br>星 成为生命起源</td>
+</tr>
+<tr>
+<td>シュラ　幻星(まぼろし)あてて、幾世紀をつつみ<br>恐力(ちから)の源核(コア)・コロナ</td>
+<td>修罗  触碰虚幻之星、历经数世纪<br>力量的核心・日冕<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="日冕（Corona）：太阳大气的最外层。其内部分别为色球层和光球层。">[9]</span></a></sup></td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="原曲ver"><a href="#原曲ver" class="headerlink" title="原曲ver"></a>原曲ver</h1><h2 id="甦れ！無窮の歴史「中世」よ"><a href="#甦れ！無窮の歴史「中世」よ" class="headerlink" title="甦れ！無窮の歴史「中世」よ"></a>甦れ！無窮の歴史「中世」よ</h2><p>演唱：東京混声合唱団 杉並児童合唱団 上谷麻紀</p>
+<table>
+<thead>
+<tr>
+<th>甦れ！無窮の歴史「中世」よ</th>
+<th>苏醒吧！「中世」的无穷历史啊<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="中世：即中世纪">[1]</span></a></sup></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>存在創造<br>不思議な快楽<br>歯車装置</td>
+<td>存在创造<br>不可思议的快乐<br>齿轮装置</td>
+</tr>
+<tr>
+<td>聖なるデカダン<br>未完の歴史<br>硝壜装置</td>
+<td>神圣的颓废主义<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="颓废主义：19世纪下半叶欧洲的资产阶级知识分子对社会表示不满而又无力反抗所产生的苦闷彷徨情绪在文艺领域中的反映。">[2]</span></a></sup> <br>未完成的历史<br>火药瓶装置</td>
+</tr>
+<tr>
+<td>永遠なる奇蹟のそれを信じ<br>永久なる神を試みた<br>ああ、無窮の歴史「中世」よ<br>我れに甦れ</td>
+<td>相信着那永恒的奇迹<br>尝试成为不朽的神明<br>啊啊，「中世」的无穷历史啊<br>在我体内苏醒吧！</td>
+</tr>
+<tr>
+<td>生命造出<br>錬金道士<br>気体装置</td>
+<td>生命造出<br>炼金道士<br>气体装置</td>
+</tr>
+<tr>
+<td>憑かれた人物<br>電気(エレキ)魔術師<br>稲妻装置</td>
+<td>被附身的人物<br>电气魔术师<br>闪电装置</td>
+</tr>
+<tr>
+<td>秘めたる悪魔の鼓動に時をうち<br>百弦琴の<br>魔曲句をなぜに奏でるか<br>ああ、無窮の歴史「中世」よ<br>我れに甦れ</td>
+<td>在隐秘恶魔的心跳中敲响时间之钟<br>百弦琴的<br>魔曲乐句为何奏响<br>啊啊，「中世」的无穷历史啊<br>在我体内苏醒吧！</td>
+</tr>
+<tr>
+<td>私のすべて「中世」にして<br>スコラ抽象<br>私のすべて「中世」にして<br>麻痺する思想<br>私のすべて「中世」にして<br>不吉予言書<br>私のすべて「中世」にして<br>精神魔法陣</td>
+<td>我的一切将化为「中世」<br>抽象的经院哲学<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="经院哲学：中世纪时期形成、发展的哲学思想流派。是运用理性形式，通过抽象的、繁琐的辩证方法论证基督教信仰、为宗教神学服务的思辨哲学。">[3]</span></a></sup> <br>我的一切将化为「中世」<br>麻痹的思想<br>我的一切将化为「中世」<br>不详预言书<br>我的一切将化为「中世」<br>精神魔法阵</td>
+</tr>
+<tr>
+<td>金属胎児<br>聖性(せい)なる実験<br>未来のイヴ<br>心息(き)の蒸溜器<br>腐肉体(ふはい)生動<br>胚貯蔵壜</td>
+<td>金属胎儿<br>神圣性实验<br>未来的夏娃<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《未来的夏娃》：利尔·亚当在1886年出版的科幻小说，描写大发明家利用电学原理制作了一个完美的女人，但她毕竟只是机器人，人性、灵魂和科学的矛盾碰撞导致了一场悲剧。">[4]</span></a></sup> <br>呼吸蒸馏器<br>腐败肉体栩栩如生<br>胚胎储藏瓶</td>
+</tr>
+<tr>
+<td>私のすべて「中世」にして<br>狂気と愚昧<br>私のすべて「中世」にして<br>占星医学<br>私のすべて「中世」にして<br>囈言(うわごと)死術<br>私のすべて「中世」にして<br>光学解毒剤</td>
+<td>我的一切将化为「中世」<br>疯狂和愚昧<br>我的一切将化为「中世」<br>占星术医学<br>我的一切将化为「中世」<br>呓语诅咒<br>我的一切将化为「中世」<br>光学解毒剂</td>
+</tr>
+<tr>
+<td>驚愕実験<br>苦痛実験<br>残酷実験<br>悶絶実験</td>
+<td>惊愕实验<br>苦痛实验<br>残酷实验<br>闷杀实验</td>
+</tr>
+<tr>
+<td>硝煙実験<br>眼球実験<br>刻搾実験<br>惨絶実験</td>
+<td>硝烟实验<br>眼球实验<br>剁绞实验<br>惨绝实验</td>
+</tr>
+<tr>
+<td>癇癪歴史<br>白眼歴史<br>癲癇歴史<br>痙攣歴史</td>
+<td>暴怒历史<br>白眼历史<br>癫痫历史<br>痉挛历史</td>
+</tr>
+<tr>
+<td>瘋癲歴史<br>欝血歴史<br>歪肉歴史<br>臓餐歴史</td>
+<td>疯癫历史<br>淤血历史<br>畸体历史 <br>脏餐历史</td>
+</tr>
+<tr>
+<td>あゝ甦れ<br>無窮の歴史「中世」よ<br>「我が魂<br>我が精神<br>我が肉体に」</td>
+<td>啊啊 苏醒吧<br>「中世」的无穷历史啊<br>「在吾之灵魂<br>吾之精神<br>吾之肉体中」</td>
+</tr>
+<tr>
+<td>あゝ甦れ<br>無窮の歴史「中世」よ<br>「我が眼球に<br>我が両の手に<br>我が血と息に」</td>
+<td>啊啊 苏醒吧<br>「中世」的无穷历史啊<br>「在吾之眼球<br>吾之双手<br>吾之血流与呼吸中」</td>
+</tr>
+<tr>
+<td>甦れ!　無窮の<br>甦れ!　歴史なる<br>甦れ!　甦れ! <br>「中世」、そのすべての　時よ！<br>部屋よ!　衣類よ!</td>
+<td>苏醒吧！　无穷的<br>苏醒吧！　成为历史<br>苏醒吧！　苏醒吧！<br>「中世」、其所有的时间啊！<br>房屋啊！衣装啊！</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="シュラ-肉体星座αψζ星雲"><a href="#シュラ-肉体星座αψζ星雲" class="headerlink" title="シュラ -肉体星座αψζ星雲-"></a>シュラ -肉体星座αψζ星雲-</h2><p>演唱：東京混声合唱団 杉並児童合唱団 上谷麻紀</p>
+<table>
+<thead>
+<tr>
+<th>シュラ -肉体星座αψζ星雲-</th>
+<th>修罗 -肉身星座αψζ星云-<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="修罗：即阿修罗。在印度教和佛教中，其为天神的对立面，与天神为敌。">[5]</span></a></sup></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>シュラ　今、燃えん<br>手の足の鼓動に<br>シュラ　今、熱焼(あつ)く<br>終焉(おわり)知らぬ、ままに</td>
+<td>修罗  如今、燃烧着<br>在手与足的震颤中<br>修罗  如今、焦躁着<br>对结局茫然不知</td>
+</tr>
+<tr>
+<td>暗き「さらば」<br>現身(うつしみ)脱ぎ<br>荒闇(こうやみ)に吹き<br>虚空のかぎり</td>
+<td>黑暗中道出「再见」<br>(灵魂)便从肉身脱离<br>投入荒无人烟的黑暗中<br>直抵虚空的尽头</td>
+</tr>
+<tr>
+<td>シュラ　今、沈黙<br>地動　天・人道　凝視(みつ)めつつ<br>シュラ　今、ありし<br>宇宙(てん)の果てありしなら</td>
+<td>修罗  如今、沉默着<br>持续凝视  地球运转、天道与人道 <br>修罗  如今、已成过往<br>就似天之尽头亦成过往</td>
+</tr>
+<tr>
+<td>曲難(みにく)さ「さらば」<br>血潮に溶け<br>蒸気の如く<br>また冷たく</td>
+<td>不悦地道出「再见」<br>便溶于血流<br>似蒸汽一般<br>复又冷却</td>
+</tr>
+<tr>
+<td>シュラは孤独(ひとり)なり<br>孤独(ひとり)とはおりし虚無</td>
+<td>修罗如今化身孤独<br>所谓孤独即是虚无</td>
+</tr>
+<tr>
+<td>シュラ　蛍のように蒼白く透けて<br>臨終(いまわ)のきわに立つ</td>
+<td>修罗  像萤火虫一样苍白透明<br>驻立在临终之际</td>
+</tr>
+<tr>
+<td>シュラ　今、生かん<br>嵐　熱風(シロッコ)　捲くなか<br>シュラ　今、煌めく<br>星座　星雲　鬣(たてがみ)に</td>
+<td>修罗  如今、弥留着<br>暴风 西洛可风<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="西洛可风（Sirocco）：为地中海地区的一种热风，源自撒哈拉，在北非、南欧地区变为飓风。西洛克风会导致干燥炎热的天气。许多人会因此而患上疾病。">[6]</span></a></sup> 漩涡狂卷<br>修罗  如今、闪耀着<br>在星座  星云 鬃毛<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="鬃毛：猜测是指猎户星座中，马头星云的“鬃毛”。马头星云的“鬃毛”由冷气构成的云团形成，可以发出荧光。">[7]</span></a></sup>中</td>
+</tr>
+<tr>
+<td>懼(おそれ)り「さらば」<br>遠近(おちこち)に<br>自然霊(こだま)仮面<br>我亡霊(われ)を身体( かた)造る</td>
+<td>畏惧地道出「再见」<br>远近皆有<br>自然精灵假面<br>为我重塑身形</td>
+</tr>
+<tr>
+<td>シュラ　今、静寂<br>光栄　権力　みな星なり<br>シュラ　今、変身す<br>雷鳴　凄稲妻(いなづま)　大暗黒</td>
+<td>修罗  如今、静寂着<br>光荣与权利  全都化作天边星斗<br>修罗  如今、大变身<br>雷鸣  闪电  极致黑暗</td>
+</tr>
+<tr>
+<td>悲劇(かな)しき「さらば」<br>運命星(えいえん)をも<br>配偶(つれあい)にして<br>地球(テラ)を心臓に</td>
+<td>悲伤地道出「再见」<br>以永恒为伴侣<br>以大地为心脏<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Terra：拉丁语中大地的意思，常也用来指地球，在意思上更倾向于指代星球上的土地。">[8]</span></a></sup></td>
+</tr>
+<tr>
+<td>シュラは　星人(ほし)なり<br>星人(ほし)とは生命源(みなもと)なり</td>
+<td>修罗  化身为星<br>星 成为生命起源</td>
+</tr>
+<tr>
+<td>シュラ　幻星(まぼろし)あてて、幾世紀をつつみ<br>恐力(ちから)の源核(コア)・コロナ</td>
+<td>修罗  触碰虚幻之星、历经数世纪<br>力量的核心・日冕<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="日冕（Corona）：太阳大气的最外层。其内部分别为色球层和光球层。">[9]</span></a></sup></td>
+</tr>
+<tr>
+<td>シュラ　天の河<br>シュラ　アンドロメダ<br>シュラ　オリオン<br>シュラ　カシオペア<br>シュラ　クリューガー<br>シュラ　セフェウス<br>シュラ　シリウス<br>シュラ　ソンブレロ<br>シュラ　マジェラン</td>
+<td>修罗  银河<br>修罗  仙女座  <br>修罗  猎户座  <br>修罗  仙后座  <br>修罗  克鲁格60<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="克鲁格60（Kruger 60）：是一个距离太阳大约13.15光年的恒星系统。这对红矮星大约每隔44.6年围绕彼此运行一次。">[10]</span></a></sup> <br>修罗  仙王座  <br>修罗  天狼星  <br>修罗  草帽星系<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="草帽星系（The Sombrero Galaxy）：又称阔边帽星系、墨西哥草帽星系，位于室女座。因形似一顶墨西哥草帽而得名。">[11]</span></a></sup> <br>修罗  麦哲伦星系<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="麦哲伦星系：也被称作麦哲伦云（Magellanic clouds） ， 是银河系的两个伴星系。">[12]</span></a></sup></td>
+</tr>
+<tr>
+<td>シュラ　今、チャンドーラセカールの限界<br>シュラ　今、チャンドーラセカールの限界<br>シュラ　今、チャンドーラセカールの限界</td>
+<td>修罗  如今、钱德拉塞卡极限<sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="钱德拉塞卡极限：是天体物理学中的一个重要极限。指白矮星的最高质量约为3×10^30公斤，是太阳质量的1.44倍。如果星体的质量高于钱德拉塞卡极限，它就会收缩变成中子星、黑洞等。">[13]</span></a></sup>  <br>修罗  如今、钱德拉塞卡极限<br>修罗  如今、钱德拉塞卡极限</td>
+</tr>
+</tbody></table>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">中世：即中世纪<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">颓废主义：19世纪下半叶欧洲的资产阶级知识分子对社会表示不满而又无力反抗所产生的苦闷彷徨情绪在文艺领域中的反映。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">经院哲学：中世纪时期形成、发展的哲学思想流派。是运用理性形式，通过抽象的、繁琐的辩证方法论证基督教信仰、为宗教神学服务的思辨哲学。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《未来的夏娃》：利尔·亚当在1886年出版的科幻小说，描写大发明家利用电学原理制作了一个完美的女人，但她毕竟只是机器人，人性、灵魂和科学的矛盾碰撞导致了一场悲剧。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">修罗：即阿修罗。在印度教和佛教中，其为天神的对立面，与天神为敌。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">西洛可风（Sirocco）：为地中海地区的一种热风，源自撒哈拉，在北非、南欧地区变为飓风。西洛克风会导致干燥炎热的天气。许多人会因此而患上疾病。<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">鬃毛：猜测是指猎户星座中，马头星云的“鬃毛”。马头星云的“鬃毛”由冷气构成的云团形成，可以发出荧光。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Terra：拉丁语中大地的意思，常也用来指地球，在意思上更倾向于指代星球上的土地。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">日冕（Corona）：太阳大气的最外层。其内部分别为色球层和光球层。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">克鲁格60（Kruger 60）：是一个距离太阳大约13.15光年的恒星系统。这对红矮星大约每隔44.6年围绕彼此运行一次。<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">草帽星系（The Sombrero Galaxy）：又称阔边帽星系、墨西哥草帽星系，位于室女座。因形似一顶墨西哥草帽而得名。<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">麦哲伦星系：也被称作麦哲伦云（Magellanic clouds） ， 是银河系的两个伴星系。<a href="#fnref:12" rev="footnote"> ↩</a></span></li><li id="fn:13"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">13.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">钱德拉塞卡极限：是天体物理学中的一个重要极限。指白矮星的最高质量约为3×10^30公斤，是太阳质量的1.44倍。如果星体的质量高于钱德拉塞卡极限，它就会收缩变成中子星、黑洞等。<a href="#fnref:13" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>决斗曲翻译 - 凤晓生篇&amp;默示录篇</title>
     <url>/posts/f37446ce.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
@@ -1363,281 +1638,6 @@
       </tags>
   </entry>
   <entry>
-    <title>决斗曲翻译 - 剧场版（+原曲）</title>
-    <url>/posts/87f32d42.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<div class="bvideo"><a href="//www.bilibili.com/video/BV1Xr4y137zn" target="_blank">
-        <div class="bvideo-box">
-            <div class="bvideo-cover">
-                <div class="cover-default"></div>
-                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/00bd79335672776bf77d4c46f0b8efd4848e37d4.jpg)">
-                    <i class="icon-video"></i>
-                </div>
-                <span class="duration">00:15:36</span>
-            </div>
-            <div class="bvideo-info">
-                <p class="title">【少女革命】决斗部分/决斗曲 自制中日字幕④</p>
-                <p class="card-status">
-                    <span class="play-num">
-                        <i class="fa fa-youtube-play"></i>
-                        <span>4560</span></span>
-                    <span>
-                        <i class="fa fa-list-alt"></i>
-                        <span>8</span></span></p>
-                <div class="partition">
-                    <label class="card-label">视频</label>
-                    <label class="up-label"></label>
-                    <label class="up-name">望月木</label>
-                </div>
-                <div class="actions hide"></div>
-            </div>
-        </div>
-    </a></div>
-
-<hr>
-<h1 id="剧场版ver"><a href="#剧场版ver" class="headerlink" title="剧场版ver"></a>剧场版ver</h1><h2 id="デュエリスト～甦れ！無窮の歴史『中世』よ"><a href="#デュエリスト～甦れ！無窮の歴史『中世』よ" class="headerlink" title="デュエリスト～甦れ！無窮の歴史『中世』よ"></a>デュエリスト～甦れ！無窮の歴史『中世』よ</h2><table>
-<thead>
-<tr>
-<th>デュエリスト～甦れ！無窮の歴史『中世』よ</th>
-<th>决斗者～苏醒吧！「中世」的无穷历史啊<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="中世：即中世纪">[1]</span></a></sup></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>私のすべて「中世」にして <br>スコラ抽象<br>私のすべて「中世」にして <br>麻痺する思想<br>私のすべて「中世」にして <br>不吉予言書<br>私のすべて「中世」にして <br>精神魔法陣</td>
-<td>我的一切将化为「中世」<br>抽象的经院哲学<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="经院哲学：中世纪时期形成、发展的哲学思想流派。是运用理性形式，通过抽象的、繁琐的辩证方法论证基督教信仰、为宗教神学服务的思辨哲学。">[3]</span></a></sup><br>我的一切将化为「中世」<br>麻痹的思想<br>我的一切将化为「中世」<br>不详预言书<br>我的一切将化为「中世」<br>精神魔法阵</td>
-</tr>
-<tr>
-<td>存在創造<br>不思議な快楽<br>歯車装置</td>
-<td>存在创造<br>不可思议的快乐<br>齿轮装置</td>
-</tr>
-<tr>
-<td>聖なるデカダン<br>未完の歴史<br>硝壜装置</td>
-<td>神圣的颓废主义<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="颓废主义：19世纪下半叶欧洲的资产阶级知识分子对社会表示不满而又无力反抗所产生的苦闷彷徨情绪在文艺领域中的反映。">[2]</span></a></sup><br>未完成的历史<br>火药瓶装置</td>
-</tr>
-<tr>
-<td>永遠なる奇蹟のそれを信じ<br>永久なる神を試みた<br>ああ、無窮の歴史「中世」よ<br>我れに甦れ</td>
-<td>相信着那永恒的奇迹<br>尝试成为不朽的神明<br>啊啊，「中世」的无穷历史啊<br>在我体内苏醒吧！</td>
-</tr>
-<tr>
-<td>臓餐歴史</td>
-<td>脏餐历史</td>
-</tr>
-<tr>
-<td>あゝ甦れ<br>無窮の歴史「中世」よ<br>「我が眼球に <br>我が両の手に <br>我が血と息に」</td>
-<td>啊啊 苏醒吧<br>「中世」的无穷历史啊<br>「在吾之眼球<br>吾之双手<br>吾之血流与呼吸中」</td>
-</tr>
-<tr>
-<td>甦れ!　甦れ!<br>甦れ!　甦れ!<br>甦れ!　甦れ!<br>甦れ!</td>
-<td>苏醒吧！ 苏醒吧！<br>苏醒吧！ 苏醒吧！<br>苏醒吧！ 苏醒吧！<br>苏醒吧！</td>
-</tr>
-<tr>
-<td>「中世」、そのすべての　時よ!<br>部屋よ!　衣類よ!</td>
-<td>「中世」、其所有的时间啊！<br>房屋啊！衣装啊！</td>
-</tr>
-<tr>
-<td>私のすべて「中世」にして <br>狂気と愚味<br>私のすべて「中世」にして <br>占星医学<br>私のすべて「中世」にして <br>囈言(うわごと)死術<br>私のすべて「中世」にして <br>光学解毒剤<br>私のすべて「中世」にして <br>スコラ抽象<br>私のすべて「中世」にして</td>
-<td>我的一切将化为「中世」<br>疯狂和愚昧<br>我的一切将化为「中世」<br>占星术医学<br>我的一切将化为「中世」<br>呓语诅咒<br>我的一切将化为「中世」<br>光学解毒剂<br>我的一切将化为「中世」<br>抽象的经院哲学<br>我的一切将化为「中世」</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="薔薇の裸身～シュラ-肉体星座αψζ星雲"><a href="#薔薇の裸身～シュラ-肉体星座αψζ星雲" class="headerlink" title="薔薇の裸身～シュラ -肉体星座αψζ星雲-"></a>薔薇の裸身～シュラ -肉体星座αψζ星雲-</h2><table>
-<thead>
-<tr>
-<th>薔薇の裸身～シュラ -肉体星座αψζ星雲-</th>
-<th>蔷薇的裸身～修罗 -肉身星座αψζ星云-<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="修罗：即阿修罗。在印度教和佛教中，其为天神的对立面，与天神为敌。">[5]</span></a></sup></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>シュラ　今、燃えん<br>手の足の鼓動に<br>シュラ　今、熱焼(あつ)く<br>終焉(おわり)知らぬ、ままに</td>
-<td>修罗  如今、燃烧着<br>在手与足的震颤中<br>修罗  如今、焦躁着<br>对结局茫然不知</td>
-</tr>
-<tr>
-<td>暗き「さらば」<br>現身(うつしみ)脱ぎ<br>荒闇(こうやみ)に吹き<br>虚空のかぎり</td>
-<td>黑暗中道出「再见」<br>(灵魂)便从肉身脱离<br>投入荒无人烟的黑暗中<br>直抵虚空的尽头</td>
-</tr>
-<tr>
-<td>シュラ　今、沈黙<br>地動　天・人道　凝視(みつ)めつつ<br>シュラ　今、ありし<br>宇宙(てん)の果てありしなら</td>
-<td>修罗  如今、沉默着<br>持续凝视  地球运转、天道与人道<br>修罗  如今、已成过往<br>就似天之尽头亦成过往</td>
-</tr>
-<tr>
-<td>曲難(みにく)さ「さらば」<br>血潮に溶け<br>蒸気の如く<br>また冷たく</td>
-<td>不悦地道出「再见」<br>便溶于血流<br>似蒸汽一般<br>复又冷却</td>
-</tr>
-<tr>
-<td>シュラは孤独(ひとり)なり<br>孤独(ひとり)とはおりし虚無</td>
-<td>修罗如今化身孤独<br>所谓孤独即是虚无</td>
-</tr>
-<tr>
-<td>シュラ　蛍のように蒼白く透けて<br>臨終(いまわ)のきわに立つ</td>
-<td>修罗  像萤火虫一样苍白透明<br>驻立在临终之际</td>
-</tr>
-<tr>
-<td>シュラ　今、静寂<br>光栄　権力　みな星なり<br>シュラ　今、変身す<br>雷鳴　凄稲妻(いなづま)　大暗黒</td>
-<td>修罗  如今、静寂着<br>光荣与权利  全都化作天边星斗<br>修罗  如今、大变身<br>雷鸣  闪电  极致黑暗</td>
-</tr>
-<tr>
-<td>悲劇(かな)しき「さらば」<br>運命星(えいえん)をも<br>配偶(つれあい)にして<br>地球(テラ)を心臓に</td>
-<td>悲伤地道出「再见」<br>以永恒为伴侣<br>以大地为心脏<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Terra：拉丁语中大地的意思，常也用来指地球，在意思上更倾向于指代星球上的土地。">[8]</span></a></sup></td>
-</tr>
-<tr>
-<td>シュラは　星人(ほし)なり<br>星人(ほし)とは生命源(みなもと)なり</td>
-<td>修罗  化身为星<br>星 成为生命起源</td>
-</tr>
-<tr>
-<td>シュラ　幻星(まぼろし)あてて、幾世紀をつつみ<br>恐力(ちから)の源核(コア)・コロナ</td>
-<td>修罗  触碰虚幻之星、历经数世纪<br>力量的核心・日冕<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="日冕（Corona）：太阳大气的最外层。其内部分别为色球层和光球层。">[9]</span></a></sup></td>
-</tr>
-</tbody></table>
-<hr>
-<h1 id="原曲ver"><a href="#原曲ver" class="headerlink" title="原曲ver"></a>原曲ver</h1><h2 id="甦れ！無窮の歴史「中世」よ"><a href="#甦れ！無窮の歴史「中世」よ" class="headerlink" title="甦れ！無窮の歴史「中世」よ"></a>甦れ！無窮の歴史「中世」よ</h2><p>演唱：東京混声合唱団 杉並児童合唱団 上谷麻紀</p>
-<table>
-<thead>
-<tr>
-<th>甦れ！無窮の歴史「中世」よ</th>
-<th>苏醒吧！「中世」的无穷历史啊<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="中世：即中世纪">[1]</span></a></sup></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>存在創造<br>不思議な快楽<br>歯車装置</td>
-<td>存在创造<br>不可思议的快乐<br>齿轮装置</td>
-</tr>
-<tr>
-<td>聖なるデカダン<br>未完の歴史<br>硝壜装置</td>
-<td>神圣的颓废主义<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="颓废主义：19世纪下半叶欧洲的资产阶级知识分子对社会表示不满而又无力反抗所产生的苦闷彷徨情绪在文艺领域中的反映。">[2]</span></a></sup> <br>未完成的历史<br>火药瓶装置</td>
-</tr>
-<tr>
-<td>永遠なる奇蹟のそれを信じ<br>永久なる神を試みた<br>ああ、無窮の歴史「中世」よ<br>我れに甦れ</td>
-<td>相信着那永恒的奇迹<br>尝试成为不朽的神明<br>啊啊，「中世」的无穷历史啊<br>在我体内苏醒吧！</td>
-</tr>
-<tr>
-<td>生命造出<br>錬金道士<br>気体装置</td>
-<td>生命造出<br>炼金道士<br>气体装置</td>
-</tr>
-<tr>
-<td>憑かれた人物<br>電気(エレキ)魔術師<br>稲妻装置</td>
-<td>被附身的人物<br>电气魔术师<br>闪电装置</td>
-</tr>
-<tr>
-<td>秘めたる悪魔の鼓動に時をうち<br>百弦琴の<br>魔曲句をなぜに奏でるか<br>ああ、無窮の歴史「中世」よ<br>我れに甦れ</td>
-<td>在隐秘恶魔的心跳中敲响时间之钟<br>百弦琴的<br>魔曲乐句为何奏响<br>啊啊，「中世」的无穷历史啊<br>在我体内苏醒吧！</td>
-</tr>
-<tr>
-<td>私のすべて「中世」にして<br>スコラ抽象<br>私のすべて「中世」にして<br>麻痺する思想<br>私のすべて「中世」にして<br>不吉予言書<br>私のすべて「中世」にして<br>精神魔法陣</td>
-<td>我的一切将化为「中世」<br>抽象的经院哲学<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="经院哲学：中世纪时期形成、发展的哲学思想流派。是运用理性形式，通过抽象的、繁琐的辩证方法论证基督教信仰、为宗教神学服务的思辨哲学。">[3]</span></a></sup> <br>我的一切将化为「中世」<br>麻痹的思想<br>我的一切将化为「中世」<br>不详预言书<br>我的一切将化为「中世」<br>精神魔法阵</td>
-</tr>
-<tr>
-<td>金属胎児<br>聖性(せい)なる実験<br>未来のイヴ<br>心息(き)の蒸溜器<br>腐肉体(ふはい)生動<br>胚貯蔵壜</td>
-<td>金属胎儿<br>神圣性实验<br>未来的夏娃<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《未来的夏娃》：利尔·亚当在1886年出版的科幻小说，描写大发明家利用电学原理制作了一个完美的女人，但她毕竟只是机器人，人性、灵魂和科学的矛盾碰撞导致了一场悲剧。">[4]</span></a></sup> <br>呼吸蒸馏器<br>腐败肉体栩栩如生<br>胚胎储藏瓶</td>
-</tr>
-<tr>
-<td>私のすべて「中世」にして<br>狂気と愚昧<br>私のすべて「中世」にして<br>占星医学<br>私のすべて「中世」にして<br>囈言(うわごと)死術<br>私のすべて「中世」にして<br>光学解毒剤</td>
-<td>我的一切将化为「中世」<br>疯狂和愚昧<br>我的一切将化为「中世」<br>占星术医学<br>我的一切将化为「中世」<br>呓语诅咒<br>我的一切将化为「中世」<br>光学解毒剂</td>
-</tr>
-<tr>
-<td>驚愕実験<br>苦痛実験<br>残酷実験<br>悶絶実験</td>
-<td>惊愕实验<br>苦痛实验<br>残酷实验<br>闷杀实验</td>
-</tr>
-<tr>
-<td>硝煙実験<br>眼球実験<br>刻搾実験<br>惨絶実験</td>
-<td>硝烟实验<br>眼球实验<br>剁绞实验<br>惨绝实验</td>
-</tr>
-<tr>
-<td>癇癪歴史<br>白眼歴史<br>癲癇歴史<br>痙攣歴史</td>
-<td>暴怒历史<br>白眼历史<br>癫痫历史<br>痉挛历史</td>
-</tr>
-<tr>
-<td>瘋癲歴史<br>欝血歴史<br>歪肉歴史<br>臓餐歴史</td>
-<td>疯癫历史<br>淤血历史<br>畸体历史 <br>脏餐历史</td>
-</tr>
-<tr>
-<td>あゝ甦れ<br>無窮の歴史「中世」よ<br>「我が魂<br>我が精神<br>我が肉体に」</td>
-<td>啊啊 苏醒吧<br>「中世」的无穷历史啊<br>「在吾之灵魂<br>吾之精神<br>吾之肉体中」</td>
-</tr>
-<tr>
-<td>あゝ甦れ<br>無窮の歴史「中世」よ<br>「我が眼球に<br>我が両の手に<br>我が血と息に」</td>
-<td>啊啊 苏醒吧<br>「中世」的无穷历史啊<br>「在吾之眼球<br>吾之双手<br>吾之血流与呼吸中」</td>
-</tr>
-<tr>
-<td>甦れ!　無窮の<br>甦れ!　歴史なる<br>甦れ!　甦れ! <br>「中世」、そのすべての　時よ！<br>部屋よ!　衣類よ!</td>
-<td>苏醒吧！　无穷的<br>苏醒吧！　成为历史<br>苏醒吧！　苏醒吧！<br>「中世」、其所有的时间啊！<br>房屋啊！衣装啊！</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="シュラ-肉体星座αψζ星雲"><a href="#シュラ-肉体星座αψζ星雲" class="headerlink" title="シュラ -肉体星座αψζ星雲-"></a>シュラ -肉体星座αψζ星雲-</h2><p>演唱：東京混声合唱団 杉並児童合唱団 上谷麻紀</p>
-<table>
-<thead>
-<tr>
-<th>シュラ -肉体星座αψζ星雲-</th>
-<th>修罗 -肉身星座αψζ星云-<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="修罗：即阿修罗。在印度教和佛教中，其为天神的对立面，与天神为敌。">[5]</span></a></sup></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>シュラ　今、燃えん<br>手の足の鼓動に<br>シュラ　今、熱焼(あつ)く<br>終焉(おわり)知らぬ、ままに</td>
-<td>修罗  如今、燃烧着<br>在手与足的震颤中<br>修罗  如今、焦躁着<br>对结局茫然不知</td>
-</tr>
-<tr>
-<td>暗き「さらば」<br>現身(うつしみ)脱ぎ<br>荒闇(こうやみ)に吹き<br>虚空のかぎり</td>
-<td>黑暗中道出「再见」<br>(灵魂)便从肉身脱离<br>投入荒无人烟的黑暗中<br>直抵虚空的尽头</td>
-</tr>
-<tr>
-<td>シュラ　今、沈黙<br>地動　天・人道　凝視(みつ)めつつ<br>シュラ　今、ありし<br>宇宙(てん)の果てありしなら</td>
-<td>修罗  如今、沉默着<br>持续凝视  地球运转、天道与人道 <br>修罗  如今、已成过往<br>就似天之尽头亦成过往</td>
-</tr>
-<tr>
-<td>曲難(みにく)さ「さらば」<br>血潮に溶け<br>蒸気の如く<br>また冷たく</td>
-<td>不悦地道出「再见」<br>便溶于血流<br>似蒸汽一般<br>复又冷却</td>
-</tr>
-<tr>
-<td>シュラは孤独(ひとり)なり<br>孤独(ひとり)とはおりし虚無</td>
-<td>修罗如今化身孤独<br>所谓孤独即是虚无</td>
-</tr>
-<tr>
-<td>シュラ　蛍のように蒼白く透けて<br>臨終(いまわ)のきわに立つ</td>
-<td>修罗  像萤火虫一样苍白透明<br>驻立在临终之际</td>
-</tr>
-<tr>
-<td>シュラ　今、生かん<br>嵐　熱風(シロッコ)　捲くなか<br>シュラ　今、煌めく<br>星座　星雲　鬣(たてがみ)に</td>
-<td>修罗  如今、弥留着<br>暴风 西洛可风<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="西洛可风（Sirocco）：为地中海地区的一种热风，源自撒哈拉，在北非、南欧地区变为飓风。西洛克风会导致干燥炎热的天气。许多人会因此而患上疾病。">[6]</span></a></sup> 漩涡狂卷<br>修罗  如今、闪耀着<br>在星座  星云 鬃毛<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="鬃毛：猜测是指猎户星座中，马头星云的“鬃毛”。马头星云的“鬃毛”由冷气构成的云团形成，可以发出荧光。">[7]</span></a></sup>中</td>
-</tr>
-<tr>
-<td>懼(おそれ)り「さらば」<br>遠近(おちこち)に<br>自然霊(こだま)仮面<br>我亡霊(われ)を身体( かた)造る</td>
-<td>畏惧地道出「再见」<br>远近皆有<br>自然精灵假面<br>为我重塑身形</td>
-</tr>
-<tr>
-<td>シュラ　今、静寂<br>光栄　権力　みな星なり<br>シュラ　今、変身す<br>雷鳴　凄稲妻(いなづま)　大暗黒</td>
-<td>修罗  如今、静寂着<br>光荣与权利  全都化作天边星斗<br>修罗  如今、大变身<br>雷鸣  闪电  极致黑暗</td>
-</tr>
-<tr>
-<td>悲劇(かな)しき「さらば」<br>運命星(えいえん)をも<br>配偶(つれあい)にして<br>地球(テラ)を心臓に</td>
-<td>悲伤地道出「再见」<br>以永恒为伴侣<br>以大地为心脏<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Terra：拉丁语中大地的意思，常也用来指地球，在意思上更倾向于指代星球上的土地。">[8]</span></a></sup></td>
-</tr>
-<tr>
-<td>シュラは　星人(ほし)なり<br>星人(ほし)とは生命源(みなもと)なり</td>
-<td>修罗  化身为星<br>星 成为生命起源</td>
-</tr>
-<tr>
-<td>シュラ　幻星(まぼろし)あてて、幾世紀をつつみ<br>恐力(ちから)の源核(コア)・コロナ</td>
-<td>修罗  触碰虚幻之星、历经数世纪<br>力量的核心・日冕<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="日冕（Corona）：太阳大气的最外层。其内部分别为色球层和光球层。">[9]</span></a></sup></td>
-</tr>
-<tr>
-<td>シュラ　天の河<br>シュラ　アンドロメダ<br>シュラ　オリオン<br>シュラ　カシオペア<br>シュラ　クリューガー<br>シュラ　セフェウス<br>シュラ　シリウス<br>シュラ　ソンブレロ<br>シュラ　マジェラン</td>
-<td>修罗  银河<br>修罗  仙女座  <br>修罗  猎户座  <br>修罗  仙后座  <br>修罗  克鲁格60<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="克鲁格60（Kruger 60）：是一个距离太阳大约13.15光年的恒星系统。这对红矮星大约每隔44.6年围绕彼此运行一次。">[10]</span></a></sup> <br>修罗  仙王座  <br>修罗  天狼星  <br>修罗  草帽星系<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="草帽星系（The Sombrero Galaxy）：又称阔边帽星系、墨西哥草帽星系，位于室女座。因形似一顶墨西哥草帽而得名。">[11]</span></a></sup> <br>修罗  麦哲伦星系<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="麦哲伦星系：也被称作麦哲伦云（Magellanic clouds） ， 是银河系的两个伴星系。">[12]</span></a></sup></td>
-</tr>
-<tr>
-<td>シュラ　今、チャンドーラセカールの限界<br>シュラ　今、チャンドーラセカールの限界<br>シュラ　今、チャンドーラセカールの限界</td>
-<td>修罗  如今、钱德拉塞卡极限<sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="钱德拉塞卡极限：是天体物理学中的一个重要极限。指白矮星的最高质量约为3×10^30公斤，是太阳质量的1.44倍。如果星体的质量高于钱德拉塞卡极限，它就会收缩变成中子星、黑洞等。">[13]</span></a></sup>  <br>修罗  如今、钱德拉塞卡极限<br>修罗  如今、钱德拉塞卡极限</td>
-</tr>
-</tbody></table>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">中世：即中世纪<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">颓废主义：19世纪下半叶欧洲的资产阶级知识分子对社会表示不满而又无力反抗所产生的苦闷彷徨情绪在文艺领域中的反映。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">经院哲学：中世纪时期形成、发展的哲学思想流派。是运用理性形式，通过抽象的、繁琐的辩证方法论证基督教信仰、为宗教神学服务的思辨哲学。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《未来的夏娃》：利尔·亚当在1886年出版的科幻小说，描写大发明家利用电学原理制作了一个完美的女人，但她毕竟只是机器人，人性、灵魂和科学的矛盾碰撞导致了一场悲剧。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">修罗：即阿修罗。在印度教和佛教中，其为天神的对立面，与天神为敌。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">西洛可风（Sirocco）：为地中海地区的一种热风，源自撒哈拉，在北非、南欧地区变为飓风。西洛克风会导致干燥炎热的天气。许多人会因此而患上疾病。<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">鬃毛：猜测是指猎户星座中，马头星云的“鬃毛”。马头星云的“鬃毛”由冷气构成的云团形成，可以发出荧光。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Terra：拉丁语中大地的意思，常也用来指地球，在意思上更倾向于指代星球上的土地。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">日冕（Corona）：太阳大气的最外层。其内部分别为色球层和光球层。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">克鲁格60（Kruger 60）：是一个距离太阳大约13.15光年的恒星系统。这对红矮星大约每隔44.6年围绕彼此运行一次。<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">草帽星系（The Sombrero Galaxy）：又称阔边帽星系、墨西哥草帽星系，位于室女座。因形似一顶墨西哥草帽而得名。<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">麦哲伦星系：也被称作麦哲伦云（Magellanic clouds） ， 是银河系的两个伴星系。<a href="#fnref:12" rev="footnote"> ↩</a></span></li><li id="fn:13"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">13.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">钱德拉塞卡极限：是天体物理学中的一个重要极限。指白矮星的最高质量约为3×10^30公斤，是太阳质量的1.44倍。如果星体的质量高于钱德拉塞卡极限，它就会收缩变成中子星、黑洞等。<a href="#fnref:13" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>决斗曲翻译 - 游戏</title>
     <url>/posts/c8fbc142.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
@@ -1722,116 +1722,6 @@
       <tags>
         <tag>少女革命</tag>
         <tag>翻译</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>少革tv副音轨（几原邦彦×斋藤千穗）</title>
-    <url>/posts/553ac501.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note danger">
-            <p>b站可以直接看但是画面ppt，想本地看的可以下载外挂字幕 </p>
-          </div>
-
-<h3 id="在线观看"><a href="#在线观看" class="headerlink" title="在线观看"></a>在线观看</h3><br>
-
-<div class="bvideo"><a href="//www.bilibili.com/video/BV18e4y1R7VS" target="_blank">
-        <div class="bvideo-box">
-            <div class="bvideo-cover">
-                <div class="cover-default"></div>
-                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/ac077aefe4920cabc8b39cb18c07c565c7bb9f8f.jpg)">
-                    <i class="icon-video"></i>
-                </div>
-                <span class="duration">00:23:28</span>
-            </div>
-            <div class="bvideo-info">
-                <p class="title">【个人中字】少女革命 第37话副音轨（几原邦彦x斋藤千穗）</p>
-                <p class="card-status">
-                    <span class="play-num">
-                        <i class="fa fa-youtube-play"></i>
-                        <span>3117</span></span>
-                    <span>
-                        <i class="fa fa-list-alt"></i>
-                        <span>53</span></span></p>
-                <div class="partition">
-                    <label class="card-label">视频</label>
-                    <label class="up-label"></label>
-                    <label class="up-name">望月木</label>
-                </div>
-                <div class="actions hide"></div>
-            </div>
-        </div>
-    </a></div>
-
-<br>
-
-<div class="bvideo"><a href="//www.bilibili.com/video/BV13d4y1P7RT" target="_blank">
-        <div class="bvideo-box">
-            <div class="bvideo-cover">
-                <div class="cover-default"></div>
-                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i2.hdslb.com/bfs/archive/665dacb3fab67754a3c10f21c6934a7bf5916cb0.jpg)">
-                    <i class="icon-video"></i>
-                </div>
-                <span class="duration">00:23:28</span>
-            </div>
-            <div class="bvideo-info">
-                <p class="title">【个人中字】少女革命 第38话副音轨（几原邦彦x斋藤千穗）</p>
-                <p class="card-status">
-                    <span class="play-num">
-                        <i class="fa fa-youtube-play"></i>
-                        <span>1851</span></span>
-                    <span>
-                        <i class="fa fa-list-alt"></i>
-                        <span>29</span></span></p>
-                <div class="partition">
-                    <label class="card-label">视频</label>
-                    <label class="up-label"></label>
-                    <label class="up-name">望月木</label>
-                </div>
-                <div class="actions hide"></div>
-            </div>
-        </div>
-    </a></div>
-
-<br>
-
-<div class="bvideo"><a href="//www.bilibili.com/video/BV1Mg411m7Ni" target="_blank">
-        <div class="bvideo-box">
-            <div class="bvideo-cover">
-                <div class="cover-default"></div>
-                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i2.hdslb.com/bfs/archive/d5e1640680c7c9c4d90736669644eb0230ed765e.jpg)">
-                    <i class="icon-video"></i>
-                </div>
-                <span class="duration">00:23:05</span>
-            </div>
-            <div class="bvideo-info">
-                <p class="title">【个人中字】少女革命 第39话副音轨（几原邦彦x斋藤千穗）</p>
-                <p class="card-status">
-                    <span class="play-num">
-                        <i class="fa fa-youtube-play"></i>
-                        <span>4231</span></span>
-                    <span>
-                        <i class="fa fa-list-alt"></i>
-                        <span>9</span></span></p>
-                <div class="partition">
-                    <label class="card-label">视频</label>
-                    <label class="up-label"></label>
-                    <label class="up-name">望月木</label>
-                </div>
-                <div class="actions hide"></div>
-            </div>
-        </div>
-    </a></div>
-
-<hr>
-<h3 id="外挂字幕"><a href="#外挂字幕" class="headerlink" title="外挂字幕"></a>外挂字幕</h3><p><a href="https://pan.baidu.com/s/1PtMolOfxtCgel2YkL35RHg?pwd=569s">度盘链接</a><br>提取码: 569s</p>
-]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-        <tag>几原邦彦</tag>
-        <tag>斋藤千穗</tag>
       </tags>
   </entry>
   <entry>
@@ -2227,6 +2117,116 @@
       </categories>
       <tags>
         <tag>少女革命</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>少革tv副音轨（几原邦彦×斋藤千穗）</title>
+    <url>/posts/553ac501.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note danger">
+            <p>b站可以直接看但是画面ppt，想本地看的可以下载外挂字幕 </p>
+          </div>
+
+<h3 id="在线观看"><a href="#在线观看" class="headerlink" title="在线观看"></a>在线观看</h3><br>
+
+<div class="bvideo"><a href="//www.bilibili.com/video/BV18e4y1R7VS" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/ac077aefe4920cabc8b39cb18c07c565c7bb9f8f.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:23:28</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">【个人中字】少女革命 第37话副音轨（几原邦彦x斋藤千穗）</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>3121</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>53</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">望月木</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+
+<br>
+
+<div class="bvideo"><a href="//www.bilibili.com/video/BV13d4y1P7RT" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i2.hdslb.com/bfs/archive/665dacb3fab67754a3c10f21c6934a7bf5916cb0.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:23:28</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">【个人中字】少女革命 第38话副音轨（几原邦彦x斋藤千穗）</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>1856</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>29</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">望月木</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+
+<br>
+
+<div class="bvideo"><a href="//www.bilibili.com/video/BV1Mg411m7Ni" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i2.hdslb.com/bfs/archive/d5e1640680c7c9c4d90736669644eb0230ed765e.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:23:05</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">【个人中字】少女革命 第39话副音轨（几原邦彦x斋藤千穗）</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>4235</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>9</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">望月木</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+
+<hr>
+<h3 id="外挂字幕"><a href="#外挂字幕" class="headerlink" title="外挂字幕"></a>外挂字幕</h3><p><a href="https://pan.baidu.com/s/1PtMolOfxtCgel2YkL35RHg?pwd=569s">度盘链接</a><br>提取码: 569s</p>
+]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+        <tag>几原邦彦</tag>
+        <tag>斋藤千穗</tag>
       </tags>
   </entry>
   <entry>
