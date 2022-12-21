@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Blog记录</title>
+    <title>Blog 记录</title>
     <url>/posts/a30a3587.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考</p>
 <hr>
@@ -68,15 +68,15 @@
 <li><input checked disabled type="checkbox"> 添加b站视频卡片（<a href="https://github.com/MaxChang3/hexo-bilibili-card">hexo-bilibili-card</a>）</li>
 </ul>
 <hr>
-<h3 id="搁置"><a href="#搁置" class="headerlink" title="搁置"></a>搁置</h3><p>以后有闲心再折腾罢）</p>
+<h3 id="搁置与放弃"><a href="#搁置与放弃" class="headerlink" title="搁置与放弃"></a>搁置与放弃</h3><p>以后有闲心再折腾罢）</p>
 <ul>
+<li><input disabled type="checkbox"> 修改文章内链接样式</li>
+<li><input disabled type="checkbox"> 添加文件附件</li>
 <li><input disabled type="checkbox"> RSS</li>
-<li><input disabled type="checkbox"> 修改网站图标</li>
-<li><input disabled type="checkbox"> 首页显示文章标签（没找到方法）</li>
-<li><input disabled type="checkbox"> 修改文章内文本链接样式</li>
 <li><input disabled type="checkbox"> 网站数据分析</li>
 <li><input disabled type="checkbox"> 国内访问速度优化</li>
-<li><input disabled type="checkbox"> 添加文件附件</li>
+<li><input disabled type="checkbox"> 首页显示文章标签（暂时没找到方法）</li>
+<li><input disabled type="checkbox"> <del>修改网站图标</del>（折腾了半天，感觉没什么合适的，还是先用默认的吧）</li>
 <li><input disabled type="checkbox"> <del>阅读量统计</del> （反正又没人看.jpg）</li>
 <li><input disabled type="checkbox"> <del>评论功能</del>（反正又没人评论.jpg）</li>
 </ul>
@@ -108,9 +108,6 @@
       <categories>
         <category>草稿箱</category>
       </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-      </tags>
   </entry>
   <entry>
     <title>难度直降的视频翻译流程</title>
@@ -1660,7 +1657,7 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>9874</span></span>
+                        <span>9914</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
                         <span>4</span></span></p>
@@ -2233,7 +2230,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Aegisub使用笔记</title>
+    <title>Aegisub 使用笔记</title>
     <url>/posts/d9ea43c5.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
 <li><p>随便找几个教程瞄一眼：<a href="https://www.bilibili.com/video/BV1Kx411z7My">新手入门Aegisub教程以及压制相关</a> | <a href="https://www.bilibili.com/video/BV1ps411b7as">快速打轴法</a> | <a href="https://sspai.com/post/47557">Aegisub 的使用指南及技巧</a></p>
@@ -2269,29 +2266,7 @@
       </categories>
       <tags>
         <tag>视频与字幕制作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>音乐剧 学生会篇最终战 自听歌词</title>
-    <url>/posts/611fa50f.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="87072106aedac7fee2ac098e5549d1320db0416d1465dde83472af2623c9be65">bd25ed9264b080267271e137e33d0ce1e1069d88f9699965ec2c8f2e4412683a11965185006bffa98a0a821510d9346f4fc1f32e8ed4140688d3ab40e3ed7a89817d4566b26936dfae7d3c97389e93130815176011906ed3740a2003a99b7504262109457d524da14cb9f0ef00a45623164e357b4e66e4993f5c192b8fafde6aeb0930526dcb8d2b30918cbe7c02f2164b7ea2a371f86919408aca0ea99fdda9e429a1fef9cdff8b3824a0bcff06f4526bf0fe0cbe09e7950ea69151c53dc4495b7e2846f51b53fe49862094f2eb6b4396c45e23f3292eb25706385596b9c5e5a479899e098abf6b4d770a495d4bcdd8180250b27ef0fa8ee16254071aa7597159a246f3eade9f7f92342211f73db2e18a9fd6fb43103828400755c78ffaacfc7d6573a2f013d0d8c07947a5f159fee33fa1aa4550674be993f6aa1fe33cdd03ba89630bc12efe6b8e884c8189187011e86c8744cd0b4d9c28e1af2cc730a477e0d65fb696920c4f61fa92435b94dce6481ca8e9c17d4fa40daf25332f170b869257cbd2236478701720d1890b052b4bfecf13762457c55b2b7c7a0a939b934ddfd96b89ddb95d485a06330fd81d601c0759085b475a17cbc5a905e489e5dfd3460a16d605ccd7b7db61e21112d449d1a10e201f773199c24b33c5a4e85ff600ad7b5b721d1f87cea50924fdd77345dae9a2c1479c51a8b97630275291b3c6ed38ec927069385db1e533a28e0f30996d9a0ed30784d295fda59232ae174dffcee0bda3b94ced54b0911b7eba56025d1b9de5e21980d1d86ea5cd1338c1494d965410e1d355f531f5df33f6f7423bfeccffcbcfbf760438304ff7465e200b99ee4a90f1d4f589be9243f0c31c2dc574ce1e0f17d07ec3b4119facc841c0751ff94b2a5f09adaf9f8592dc6028c9593b1cf73c9acde52bc8adfae67e8feaa65f1278f2952e1f41205cf1d39d6968bba11c7f2f7c2b3a545213a8012f38cb997da83b24e659a6f92dce868f7a2f089ea8e2b01c94a8e99a619c49a2e8049fdb5cee76e284e1af2ab48ed50bb43582ea5f0e68c2952bc2931f594dd0dbee932905a2376b188f72b994dcd862fc18288e41e81ef41ebec5cc42e88110e67ddb5c6156710ecedbb31ce3308a9656abdb35bb9c2e288b39cdde96e00f127e74d4c35271914077061b0b0b32fe4aebcba5262618003655a6baaed0bec834a5784d40050a9f107e7af6b4a28920aec9e0e2d33281312373b602e547fab5c47ad5228994e3aaba91f8123fbd2299f00e724a0745a58fc6a1e8e40c9bdc5c7930f69c7d36e1ae87740a3b39963c566a16e5f6f55053ca6eaf3ebf8f8b522a5ce7fe1daafea30397d374460fb8250ff50222c42990bf73d3a78432adab9c42dc3f17d9968c901718c7d53ce1382f1097ecbc6ef4ed5256fa66239506d3af05b780efa89737c0f9b2c2e833b50715240659eac5efe09212f67aa3f460f5023d4db33d7c5ba83013231a6655e15f17b0a7e5fb8771208cbc535207040c91a14474dc6ff3853ad06feae5ebe9de504bd0a281c2b4ce980027525482a3eddb973f30431c542cfd6c83281692056b6ab839c50555488728ed9746150437b66ac0d6b3b62557028b8dd9e52fa92e5f7c00f448dbcef74128d81abba367c272227f5b3e65c6af9d46aae18c820ecfdcc7221ce9b7aa0fb784309fdf34538405831fba5c7a52fd159dbc4821a1da247dbf197132c2aede5b639ae174ebd0525993fcc96792e955cfb5596c79829f3421b2e4ed100dbc4e33dc8c6ee275c73ccb33b50fbe6e227902de0c0ac4202e3241560bab3fc4f13079ea2bb38dbcf60542517d74d0a5a30f4acf8f27574a973ef9ad5dc568a83a09e957d0b594261cd3d7c244025625f93fb9894bc6710304c3820a7f9e6f2ab2566443555c47e718ec18b9e139e55895206dd2dcd4f418ca60aab57b3e93fbc38c09f03c6b6079393ec86975181e756e2fc3b4e9ff41aae7e81c6ca1537c3ddb0fc2a4a140166fd4cf54efca6945f8c049ed7996ee6cfa787cf9bbfe397aab9e7e7980a3ba683418b4663031577957a3ff2a6e375f0d1a9dbc2696a4ce3599a197f634158aaff34c5517a3b855f5b7600c8db371e673b6ac705017fe68d724cb7e36003e7a220a7f324e119c54e558d7ecc68ce3bc82039a816ef8456ebd6e6c811eaed6748ab462f49b582f0136e9d43dc2be0729a58e507c7743c06d7108caccd888ffa8d2d5c98ae8ad8bc6320aede82c6914d13c03710c23a768575e51406c5ed4eaad3fadec42b78b3c73adecf645c8081e7320843cd85ad9456a8ec46bcc7fb523a28fbf7f38f925862060669db4dd6eddf03237ce7b5c8378621785bdceb8383bffcbff8056a5acb6c0e895f329564ed57dc9a602d64ba19084b8239edfdf44fc802eea66818f5b3ba76bfe240083e030012f5e70e09d07794aafab4e4807c4ca152ef7a2747b2aa5ce9a1be32cc69f848e462e55cf4bbc0a4d2a6c455a4a99b466fa5e5529b28b8b4a902e01a1ab1ee1c5d49cebd22a5ef5c07af4724e8881744d6f43c330de9c7817151a647fd798f2efdb385d7d03e35b4f98226b0ee84f5373af5b43a69b985e6de06d1311424bad3942ca2762862508567453603d730172b25c7c1b502e66f6ad0e45d11d6064146123518b644dca8c47a687fc9224fcc8ad4fe2ff4e2603e72b042391b55a3e895904c02b1cb8a9cef3bc6525a2171910cfc128a40b7264196285519f90b2ce2d988b41b1e2e6d3ed103f7d83574b00df4896491774bfd093c41bd99b4b070cfd461bee122211b6565f1575aeccd5329f6469a1b07248e0a5b6a08e195e78a08bc7c31ff7d1801247be4ccbb05142056768a8ed02b81acad25e6e9043b2dfc1bfa00f0f4b0a5bed287cf1227dcef6a2cb9c6df168b7d41af83ad6bb66176ae2fe590cafc549094e20baf217560a63746579db6c9b7098dd6a4d7e231adbd704eb6f6a6bea8258a68e07931888826517d8a48fb860c49de389d16bd8b7a22f785187134a7de8fb58146c1b284d7668e0042ca6f7501fd3dd3b72d3f1a99451eb3753830b0eff393e7a1b1d53720463f4d2</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>草稿箱</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -2311,6 +2286,83 @@
         <tag>翻译</tag>
         <tag>几原邦彦</tag>
         <tag>川上伦子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>少革音乐剧 学生会篇last scene歌词</title>
+    <url>/posts/611fa50f.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<div class="bvideo"><a href="//www.bilibili.com/video/BV1VK41167Dc" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i2.hdslb.com/bfs/archive/da70e8940c1d4ac66f537d3403579b49e661df2c.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:06:58</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">【欧安超尊cut】学生会篇最终战 少女革命音乐剧（中日歌词付）</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>61</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>0</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">望月木</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+
+<center>歌词自听不一定完全准确，如有误还请指正~</center>
+
+<hr>
+<table>
+<thead>
+<tr>
+<th>日文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><ruby>狂<rt>く</rt></ruby>わされた運命<br>支配された<br>魂縛り付けて<br>広がる虚無の世界</td>
+<td>那无常命运所支配的灵魂<br>被禁锢在虚无蔓延的世界</td>
+</tr>
+<tr>
+<td>炎で燃やし尽くしても<br>消えない肖像を<br>絵の中から救ってくれる<br>あの人の影<br>無数のあなたの幻影が<br>重なり合ってかつての<br>自分を<ruby>塗<rt>ぬ</rt></ruby>りつぶしてゆく<br></td>
+<td>将烈火焚烧也抹不去的肖像<br>从画中拯救出来的 那个人的身影<br>与数不清的你的幻影互相重叠<br>过去的自己染上新的色彩</td>
+</tr>
+<tr>
+<td>漆黒の闇もあなたの手も<br>温もり感じ前に進む<br>光の庭に<br>辿り着く日がきっと来る</td>
+<td>即使在深不见底的黑暗中<br>也能感受到你双手的温暖 伴我前行<br>终有一日 定会来到流光倾泄的庭园</td>
+</tr>
+<tr>
+<td>その時にあなたが手を離して<br><ruby>去<rt>さ</rt></ruby>っていっても構わない<br>温もり忘れない<br>きっと<ruby>永久<rt>とわ</rt></ruby>に</td>
+<td>到那时即便你放开我的手<br>离我而去也没关系<br>那份温暖已刻在我心间<br>铭记至永远</td>
+</tr>
+<tr>
+<td>一輪の薔薇の散らされた<br>天空を見上げれば<br>幻の城<br>いつかみもとに舞い降りる</td>
+<td>只要抬头望向蔷薇散落的天空<br>幻之城总有一天会落至你身边</td>
+</tr>
+<tr>
+<td>神のリズムに<ruby>翻弄<rt>ほんろう</rt></ruby>される<br>漆黒に歌う二人の影<br>薔薇の<ruby>花園<rt>はなぞの</rt></ruby><br>花嫁の君<br>二度と離れない</td>
+<td>被神明的节奏玩弄<br>于黑暗中歌唱的两人的身影<br>在植满蔷薇的庭园中<br>与身为新娘的你<br>一定不再分离</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+        <tag>欧安真好磕</tag>
       </tags>
   </entry>
 </search>
