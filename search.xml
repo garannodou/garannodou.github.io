@@ -92,43 +92,6 @@
       </tags>
   </entry>
   <entry>
-    <title>难度直降的视频翻译流程</title>
-    <url>/posts/7eba5e9a.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="先上总结"><a href="#先上总结" class="headerlink" title="先上总结"></a>先上总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
-<li>自动打轴（DD烤肉机 &#x2F; Buzz）</li>
-<li>翻译+修正轴（aegisub，可用 飞书妙记 &#x2F; Buzz 辅助识别日文）</li>
-<li>校对翻译</li>
-<li>检查视频</li>
-<li>压制字幕（小丸）</li>
-</ol>
-<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有佬录的文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
-<hr>
-<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
-<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的 <u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂，但还是帮大忙了……but还是要多练听力啊不要依赖这些东西（告诫自己.gif<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进 <a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a> 或 <a href="https://www.nikse.dk/subtitleedit/online">SubtitleEdit Online</a> 直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
-<p>　　翻译好像没什么可偷懒的地方，打铁还需自身硬啊555</p>
-<hr>
-<h3 id="后续补充（2022-11-22-2022-11-26）"><a href="#后续补充（2022-11-22-2022-11-26）" class="headerlink" title="后续补充（2022-11-22~2022-11-26）"></a>后续补充（2022-11-22~2022-11-26）</h3><p>　　偶然发现一个能同时完成打轴和日语字幕的软件 <a href="https://github.com/openai/whisper">whisper</a> ，不过安装有点麻烦，依赖比较多，折腾了下没装成功，后来发现了 <a href="https://github.com/chidiwilliams/buzz#buzz">Buzz</a> 调用的 whisper，还提供GUI界面，开箱即用，于是下下来试了试。</p>
-<p>把学生会磁带的p1拖进去试下识别效果（质量high）：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br><span class="line">00:00:00.000 --&gt; 00:00:02.000</span><br><span class="line">卵の殻を破らねば</span><br><span class="line"></span><br><span class="line">2</span><br><span class="line">00:00:02.000 --&gt; 00:00:04.000</span><br><span class="line">ひなどりは生まれずに死んでゆく</span><br><span class="line"></span><br><span class="line">3</span><br><span class="line">00:00:04.000 --&gt; 00:00:06.000</span><br><span class="line">我らはひな、卵は世界だ</span><br><span class="line"></span><br><span class="line">4</span><br><span class="line">00:00:06.000 --&gt; 00:00:08.000</span><br><span class="line">世界の殻を破らねば</span><br><span class="line"></span><br><span class="line">5</span><br><span class="line">00:00:08.000 --&gt; 00:00:10.000</span><br><span class="line">僕らは生まれずに死んでゆく</span><br><span class="line"></span><br><span class="line">6</span><br><span class="line">00:00:10.000 --&gt; 00:00:12.000</span><br><span class="line">世界の殻を破壊せよ</span><br><span class="line"></span><br><span class="line">7</span><br><span class="line">00:00:12.000 --&gt; 00:00:14.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">8</span><br><span class="line">00:00:14.000 --&gt; 00:00:16.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">9</span><br><span class="line">00:00:16.000 --&gt; 00:00:18.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">10</span><br><span class="line">00:00:18.000 --&gt; 00:00:20.000</span><br><span class="line">というわけで全員バージョンは楽しんでもらえたかな</span><br><span class="line"></span><br><span class="line">11</span><br><span class="line">00:00:20.000 --&gt; 00:00:22.000</span><br><span class="line">誰に向かって喋っているとは</span><br><span class="line"></span><br><span class="line">12</span><br><span class="line">00:00:22.000 --&gt; 00:00:24.000</span><br><span class="line">いや、しっけ</span><br><span class="line"></span><br><span class="line">13</span><br><span class="line">00:00:24.000 --&gt; 00:00:26.000</span><br><span class="line">俺としたことが楽屋落ちなネタとは</span><br><span class="line"></span><br><span class="line">14</span><br><span class="line">00:00:26.000 --&gt; 00:00:30.000</span><br><span class="line">無水だったな</span><br><span class="line"></span><br><span class="line">15</span><br><span class="line">00:00:30.000 --&gt; 00:00:32.000</span><br><span class="line">生徒会長、僕らを呼び出したのは</span><br><span class="line"></span><br><span class="line">16</span><br><span class="line">00:00:32.000 --&gt; 00:00:34.000</span><br><span class="line">こんなことをやらせるためなのか</span><br><span class="line"></span><br><span class="line">17</span><br><span class="line">00:00:34.000 --&gt; 00:00:36.000</span><br><span class="line">意外に乗っていたようだな</span><br><span class="line"></span><br><span class="line">18</span><br><span class="line">00:00:36.000 --&gt; 00:00:38.000</span><br><span class="line">それは</span><br><span class="line"></span><br><span class="line">19</span><br><span class="line">00:00:38.000 --&gt; 00:00:40.000</span><br><span class="line">今日集まっていただいたのは</span><br><span class="line"></span><br><span class="line">20</span><br><span class="line">00:00:40.000 --&gt; 00:00:42.000</span><br><span class="line">大鳥学園内で使われるメッセージを</span><br></pre></td></tr></table></figure>
-
-<p>对比飞书妙记的识别结果：</p>
-<blockquote>
-<p>说话人 1 00:03<br>卵の殻を破らねば、雛鳥は生まれずに死んでゆく。我らはひな卵は世界だ。世界のカラーを破られれば、僕らが生まれずに死んでいく世界の殻を破壊せよ、世界を革命するために。</p>
-<p>说话人 2 00:20<br>というわけで、全員バージョンは楽しんでもらえたかな。誰に向かってしゃべっていると思います。いやして、俺としたことが楽屋落ち投げたのは無理だった。</p>
-<p>说话人 1 00:31<br>八回と僕らを呼び出したのは、こんなことをやらせるためなのか、意外に載っていたようだな。あー今日集まっていただいたのは、大鳥学園内で使われるメッセージを吹き込んでもらうため、何でメッセージ、これも生徒会の仕事のうちでちょっと待ってよ。なんで生徒会メンバーでもない、僕までやらなくちゃいけないんだ。本来ならこれは生徒会副会長の仕事なのだ、ライオンに先輩退学しちゃいましたからねぇ。</p>
-</blockquote>
-<p>　　Buzz的断句好多了，不过是从有声音的地方开始打的轴，需要调轴。“世界を革命するために”这句有好几个人的声音重叠，居然识别出来了还挺意外。<br>　　后续又测试了几个音频，Buzz对于多个声音的识别比飞书好上许多，飞书一旦多人就一团糟，堪称灾难。没有声音重叠的话，准确率还是飞书更高，Buzz即使调到high等级，依旧有许多错误……还是不够智能啊orz<br>　　总之各有优劣吧，图打轴安逸&#x2F;打多人语音轴可以Buzz，单人语音想要更准确的参考还是用飞书语记更靠谱。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-        <tag>视频与字幕制作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>用kindle阅读日文相关物的简明教程</title>
     <url>/posts/d4569923.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
@@ -2538,6 +2501,43 @@
       <tags>
         <tag>吐槽</tag>
         <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>降低视频翻译难度的一点尝试</title>
+    <url>/posts/7eba5e9a.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="先上总结"><a href="#先上总结" class="headerlink" title="先上总结"></a>先上总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
+<li>自动打轴（DD烤肉机 &#x2F; Buzz）</li>
+<li>翻译+修正轴（aegisub，可用 飞书妙记 &#x2F; Buzz 辅助识别日文）</li>
+<li>校对翻译</li>
+<li>检查视频</li>
+<li>压制字幕（小丸）</li>
+</ol>
+<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
+<hr>
+<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
+<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的 <u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂……但可以作为参考。<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进 <a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a> 或 <a href="https://www.nikse.dk/subtitleedit/online">SubtitleEdit Online</a> 直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
+<p>　　翻译好像没什么可偷懒的地方，打铁还需自身硬啊555</p>
+<hr>
+<h3 id="后续补充（2022-11-22-2022-11-26）"><a href="#后续补充（2022-11-22-2022-11-26）" class="headerlink" title="后续补充（2022-11-22~2022-11-26）"></a>后续补充（2022-11-22~2022-11-26）</h3><p>　　偶然发现一个能同时完成打轴和日语字幕的软件 <a href="https://github.com/openai/whisper">whisper</a> ，不过安装有点麻烦，依赖比较多，折腾了下没装成功，后来发现了 <a href="https://github.com/chidiwilliams/buzz#buzz">Buzz</a> 调用的 whisper，还提供GUI界面，开箱即用，于是下下来试了试。</p>
+<p>把学生会磁带的p1拖进去试下识别效果（质量high）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br><span class="line">00:00:00.000 --&gt; 00:00:02.000</span><br><span class="line">卵の殻を破らねば</span><br><span class="line"></span><br><span class="line">2</span><br><span class="line">00:00:02.000 --&gt; 00:00:04.000</span><br><span class="line">ひなどりは生まれずに死んでゆく</span><br><span class="line"></span><br><span class="line">3</span><br><span class="line">00:00:04.000 --&gt; 00:00:06.000</span><br><span class="line">我らはひな、卵は世界だ</span><br><span class="line"></span><br><span class="line">4</span><br><span class="line">00:00:06.000 --&gt; 00:00:08.000</span><br><span class="line">世界の殻を破らねば</span><br><span class="line"></span><br><span class="line">5</span><br><span class="line">00:00:08.000 --&gt; 00:00:10.000</span><br><span class="line">僕らは生まれずに死んでゆく</span><br><span class="line"></span><br><span class="line">6</span><br><span class="line">00:00:10.000 --&gt; 00:00:12.000</span><br><span class="line">世界の殻を破壊せよ</span><br><span class="line"></span><br><span class="line">7</span><br><span class="line">00:00:12.000 --&gt; 00:00:14.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">8</span><br><span class="line">00:00:14.000 --&gt; 00:00:16.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">9</span><br><span class="line">00:00:16.000 --&gt; 00:00:18.000</span><br><span class="line">世界を革命するために</span><br><span class="line"></span><br><span class="line">10</span><br><span class="line">00:00:18.000 --&gt; 00:00:20.000</span><br><span class="line">というわけで全員バージョンは楽しんでもらえたかな</span><br><span class="line"></span><br><span class="line">11</span><br><span class="line">00:00:20.000 --&gt; 00:00:22.000</span><br><span class="line">誰に向かって喋っているとは</span><br><span class="line"></span><br><span class="line">12</span><br><span class="line">00:00:22.000 --&gt; 00:00:24.000</span><br><span class="line">いや、しっけ</span><br><span class="line"></span><br><span class="line">13</span><br><span class="line">00:00:24.000 --&gt; 00:00:26.000</span><br><span class="line">俺としたことが楽屋落ちなネタとは</span><br><span class="line"></span><br><span class="line">14</span><br><span class="line">00:00:26.000 --&gt; 00:00:30.000</span><br><span class="line">無水だったな</span><br><span class="line"></span><br><span class="line">15</span><br><span class="line">00:00:30.000 --&gt; 00:00:32.000</span><br><span class="line">生徒会長、僕らを呼び出したのは</span><br><span class="line"></span><br><span class="line">16</span><br><span class="line">00:00:32.000 --&gt; 00:00:34.000</span><br><span class="line">こんなことをやらせるためなのか</span><br><span class="line"></span><br><span class="line">17</span><br><span class="line">00:00:34.000 --&gt; 00:00:36.000</span><br><span class="line">意外に乗っていたようだな</span><br><span class="line"></span><br><span class="line">18</span><br><span class="line">00:00:36.000 --&gt; 00:00:38.000</span><br><span class="line">それは</span><br><span class="line"></span><br><span class="line">19</span><br><span class="line">00:00:38.000 --&gt; 00:00:40.000</span><br><span class="line">今日集まっていただいたのは</span><br><span class="line"></span><br><span class="line">20</span><br><span class="line">00:00:40.000 --&gt; 00:00:42.000</span><br><span class="line">大鳥学園内で使われるメッセージを</span><br></pre></td></tr></table></figure>
+
+<p>对比飞书妙记的识别结果：</p>
+<blockquote>
+<p>说话人 1 00:03<br>卵の殻を破らねば、雛鳥は生まれずに死んでゆく。我らはひな卵は世界だ。世界のカラーを破られれば、僕らが生まれずに死んでいく世界の殻を破壊せよ、世界を革命するために。</p>
+<p>说话人 2 00:20<br>というわけで、全員バージョンは楽しんでもらえたかな。誰に向かってしゃべっていると思います。いやして、俺としたことが楽屋落ち投げたのは無理だった。</p>
+<p>说话人 1 00:31<br>八回と僕らを呼び出したのは、こんなことをやらせるためなのか、意外に載っていたようだな。あー今日集まっていただいたのは、大鳥学園内で使われるメッセージを吹き込んでもらうため、何でメッセージ、これも生徒会の仕事のうちでちょっと待ってよ。なんで生徒会メンバーでもない、僕までやらなくちゃいけないんだ。本来ならこれは生徒会副会長の仕事なのだ、ライオンに先輩退学しちゃいましたからねぇ。</p>
+</blockquote>
+<p>　　Buzz的断句好多了，不过是从有声音的地方开始打的轴，需要调轴。“世界を革命するために”这句有好几个人的声音重叠，居然识别出来了还挺意外。<br>　　后续又测试了几个音频，Buzz对于多个声音的识别比飞书好上许多，飞书一旦多人就一团糟，堪称灾难。没有声音重叠的话，准确率还是飞书更高，Buzz即使调到high等级，依旧有许多错误……这个AI还是不够智能啊orz<br>　　总之各有优劣吧，图打轴安逸&#x2F;打多人语音轴可以Buzz，单人语音想要更准确的参考还是用飞书语记更靠谱。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+        <tag>视频与字幕制作</tag>
       </tags>
   </entry>
 </search>
