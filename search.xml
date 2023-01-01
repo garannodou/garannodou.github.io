@@ -94,16 +94,7 @@
   <entry>
     <title>降低视频翻译难度的一点尝试</title>
     <url>/posts/7eba5e9a.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="先上总结"><a href="#先上总结" class="headerlink" title="先上总结"></a>先上总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
-<li>自动打轴（DD烤肉机 &#x2F; Buzz）</li>
-<li>翻译+修正轴（aegisub，可用 飞书妙记 &#x2F; Buzz 辅助识别日文）</li>
-<li>校对翻译</li>
-<li>检查视频</li>
-<li>压制字幕（小丸）</li>
-</ol>
-<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
-<hr>
-<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
 <h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>　　没有国外card，申请不了谷歌翻译api真的可惜，免费的一些都不太好使，某天想起以前看网课时用来识别内容的 <u><strong>飞书妙记</strong></u>，意外的居然识别日文的准确率不错，足够用来弥补一些我听不懂的部分，虽然有些还是识别得稀烂……但可以作为参考。<br>　　<del>想着打轴能自动了，那翻译能不能也简单化？然而转了一圈似乎并不能……飞书妙记虽然可以直接导出srt文件，但它打轴的一段文字非常长，并不太好用，可以丢进 <a href="https://github.com/1c7/Translate-Subtitle-File">Tern</a> 或 <a href="https://www.nikse.dk/subtitleedit/online">SubtitleEdit Online</a> 直接翻译字幕文件，但是机翻的质量感觉完全不行，还是得老老实实自己翻译。</del></p>
 <p>　　翻译好像没什么可偷懒的地方，打铁还需自身硬啊555</p>
 <hr>
@@ -117,8 +108,18 @@
 <p>说话人 2 00:20<br>というわけで、全員バージョンは楽しんでもらえたかな。誰に向かってしゃべっていると思います。いやして、俺としたことが楽屋落ち投げたのは無理だった。</p>
 <p>说话人 1 00:31<br>八回と僕らを呼び出したのは、こんなことをやらせるためなのか、意外に載っていたようだな。あー今日集まっていただいたのは、大鳥学園内で使われるメッセージを吹き込んでもらうため、何でメッセージ、これも生徒会の仕事のうちでちょっと待ってよ。なんで生徒会メンバーでもない、僕までやらなくちゃいけないんだ。本来ならこれは生徒会副会長の仕事なのだ、ライオンに先輩退学しちゃいましたからねぇ。</p>
 </blockquote>
+<br>
+
 <p>　　Buzz的断句好多了，不过是从有声音的地方开始打的轴，需要调轴。“世界を革命するために”这句有好几个人的声音重叠，居然识别出来了还挺意外。<br>　　后续又测试了几个音频，Buzz对于多个声音的识别比飞书好上许多，飞书一旦多人就一团糟，堪称灾难。没有声音重叠的话，准确率还是飞书更高，Buzz即使调到high等级，依旧有许多错误……这个AI还是不够智能啊orz<br>　　总之各有优劣吧，图打轴安逸&#x2F;打多人语音轴可以Buzz，单人语音想要更准确的参考还是用飞书语记更靠谱。</p>
 <hr>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><h4 id="先轴后翻-★"><a href="#先轴后翻-★" class="headerlink" title="先轴后翻 ★"></a>先轴后翻 ★</h4><ol>
+<li>自动打轴（DD烤肉机 &#x2F; Buzz）</li>
+<li>翻译+修正轴（aegisub，可用 飞书妙记 &#x2F; Buzz 辅助识别日文）</li>
+<li>校对翻译</li>
+<li>检查视频</li>
+<li>压制字幕（小丸）</li>
+</ol>
+<h4 id="先翻后轴"><a href="#先翻后轴" class="headerlink" title="先翻后轴"></a>先翻后轴</h4><p>　　之前翻译副音轨的时候有文本可以看，但感觉先翻译的效率并不高，在听的时候可能会出现一些文本不完全对应，或者语气把握不准的问题，修正起来体验并不好，或许更适用于不方便听音频的时候翻译个粗稿再打轴修正。</p>
 ]]></content>
       <categories>
         <category>杂货堆</category>
@@ -2446,9 +2447,15 @@
 <p><strong>《异端者与新娘》</strong></p>
 <p>　　作为几原作品补完的一部分当然必看。</p>
 <p>　　某人原型的那只鹿看起来真的好欠扁哦（x）</p>
-<p><img src="/posts/a429673f/01.jpg" alt="01"></p>
+<div align="center">
+<img src="/posts/a429673f/01.jpg" width="35%">
+</div>
+
 <p>　　想起少革的早期设定叫《少女革命ウテナKiss》，看到异端者初期构想的时候我都要喷了，几原桑你是和kiss还有花嫁过不去了是吗www感觉到处都是新娘，什么蔷薇的新娘，异端者的新娘，命运的新娘<del>，熊的新娘，河童的新娘</del><span style="background:#555555;">，还有那个没能做出来的uranus的新娘</span>。</p>
-<p><img src="/posts/a429673f/02.jpg" alt="02"></p>
+<div align="center">
+<img src="/posts/a429673f/02.jpg" width="35%">
+</div>
+
 <p><strong>《来自星星的弦乐》</strong></p>
 <p>　　<del>画这个短篇的土笔看起来精神状态还比较稳定。</del>总之冒险和希望和绝望什么的，这很来自深渊。</p>
 <p><strong>《电锯人》</strong></p>
@@ -2459,9 +2466,15 @@
 <p>　　看腻了王道热血少年漫，换换口味倒也不错。</p>
 <p><strong>《火之鸟》</strong></p>
 <p>　　还在阅中，今年看不完了，明年再写。不过手冢的一些漫画分镜真是有意思。</p>
-<p><img src="/posts/a429673f/03.png" alt="03"></p>
+<div align="center">
+<img src="/posts/a429673f/03.png" width="60%">
+</div>
+
 <p>　　太皮了您老。</p>
-<p><img src="/posts/a429673f/04.png" alt="04"></p>
+<div align="center">
+<img src="/posts/a429673f/04.png" width="60%">
+</div>
+
 <hr>
 <h4 id="应该算是小结"><a href="#应该算是小结" class="headerlink" title="应该算是小结"></a>应该算是小结</h4><p>　　今年恐怕是我看动画最打鸡血的一年，嗯……都是因为少革太好看了，所以疯看了好多片，然而喜欢的作品果然还是可遇而不可求，补来补去也找不到同样的感觉，想想也是理所当然……本就喜好冷门作的口味倒是越来越挑剔……真的还会有比少革更让我心动的作品出现吗（）</p>
 <p>　　年底写着这篇总结，突然又想开始六刷少革了。正好之后想翻译脚本集的一些回数，理由非常合理正当（）</p>
@@ -2475,7 +2488,10 @@
 <p><strong>《宝可梦》</strong></p>
 <p>　　身为pm厨，对阿尔宙斯和朱紫都挺满意（不谈技术力的话）。ns上终于有不错的宝可梦作了！</p>
 <p>　　相比之下其实更喜欢阿尔宙斯的生态，朱紫虽然挺开放世界的，但是不能扔树果……也不能偷袭扔球，野外互动的乐趣减少了好多。（虽然但是我还是全图鉴了，真不愧是宗教游戏）</p>
-<p><img src="/posts/a429673f/05.jpg" alt="05"></p>
+<div align="center">
+<img src="/posts/a429673f/05.jpg" width="60%">
+</div>
+
 <p>　　剧情则是朱紫要好得多，三线通完下坑之后真的太棒力！</p>
 <p>　　联机方面感觉比较微妙……和朋友折腾半天，发现最有趣的好像是露营做<del>黑暗</del>三明治<del>以及压榨百变怪</del>。</p>
 <p>　　朱紫的人设还挺特别，有好几位中性风人士。倒是为什么看到辛俐我心动了？！<del>看见大家都说是姛诱捕器，难道我终于开始不对劲了吗</del>，但是这个关西腔+土王也太有意思了吧，谁能抵挡得了啊.jpg</p>
@@ -2502,12 +2518,28 @@
 <p>　　以及丝之鸽明年一定会出的对吧？一定会出的对吧？！一定会出的对吧！！无伤四锁五门都给整出来了，<del>再跳票空洞玩家都要进化成怪物了</del>。</p>
 <hr>
 <h2 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h2><p>　　偷个懒直接上网易云年度总结。</p>
-<p><img src="/posts/a429673f/08.jpg" alt="08"></p>
-<p><img src="/posts/a429673f/09.jpg" alt="09"></p>
-<p><img src="/posts/a429673f/10.jpg" alt="10"></p>
-<p><img src="/posts/a429673f/11.jpg" alt="11"></p>
-<p><img src="/posts/a429673f/12.jpg" alt="12"></p>
-<p>　　只能说……几原监督您作品对我影响太大了啊！<del>明年一定会恢复到全是梶浦的对吧。</del></p>
+<div align="center">
+<img src="/posts/a429673f/08.jpg" width="35%">
+</div>
+
+<div align="center">
+<img src="/posts/a429673f/09.jpg" width="35%">
+</div>
+
+<p>　　动画看多了→猛刷ost→什么今年听了1w+首？！听得最多的居然是这首真是超我预料，都是太好磕的错（x）</p>
+<div align="center">
+<img src="/posts/a429673f/11.jpg" width="35%">
+</div>
+
+<div align="center">
+<img src="/posts/a429673f/12.jpg" width="35%">
+</div>
+
+<div align="center">
+<img src="/posts/a429673f/10.jpg" width="35%">
+</div>
+
+<p>　　只能说……今年的歌单完全被某监督影响了啊！<del>明年一定会恢复到全是梶浦的对吧。</del></p>
 <hr>
 <h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><h3 id="音乐剧-x2F-舞台剧"><a href="#音乐剧-x2F-舞台剧" class="headerlink" title="音乐剧&#x2F;舞台剧"></a>音乐剧&#x2F;舞台剧</h3><p>　　11部。（当然都是b站补的）</p>
 <p>　　今年动画看太多了，都没怎么补音乐剧，一年下来发现听的比较多的好像还是法扎法红黑这些。虽然剧情经常比较迷，但该死的法语剧为什么这么好听。</p>
