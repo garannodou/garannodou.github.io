@@ -1,59 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>用kindle阅读日文相关物的简明教程</title>
-    <url>/posts/d4569923.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>对kindle执念深重的产物 </p>
-
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，正好重写一下。</p>
-<hr>
-<h3 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h3><h4 id="日文书籍-x2F-小说资源获取"><a href="#日文书籍-x2F-小说资源获取" class="headerlink" title="日文书籍&#x2F;小说资源获取"></a>日文书籍&#x2F;小说资源获取</h4><ol>
-<li><p>现成的书籍资源：Z-Library  |  <a href="https://itazuraneko.neocities.org/library/shousetu.html">itazuraneko</a></p>
-</li>
-<li><p>未经处理的txt资源：<a href="https://nyaa.si/">nyaa</a>  |  <a href="https://www.aozora.gr.jp/">青空文库</a></p>
-</li>
-</ol>
-<p>其中青空文库可在网站中直接下载zip(txt)，图省事也可以直接在 <a href="http://www.netbuffalo.net/NetApps/kindle/aozora">MOBIぞら文庫</a> 下载mobi文件。</p>
-<h4 id="txt→epub"><a href="#txt→epub" class="headerlink" title="txt→epub"></a>txt→epub</h4><p>方法多样，任选其一即可：</p>
-<ol>
-<li><p><del>在 <a href="http://a2k.aill.org/">青空キンドル </a> 输入青空文库的zip链接，转换为竖排pdf。</del>（已失效）</p>
-</li>
-<li><p>使用 <a href="http://ebook.cdict.info/mobi/">天火藏書</a> 的网页端制作epub&#x2F;mobi文件。非常无脑简单，上传即可，但可能存在假名注音显示不全的问题。不在乎注音问题可以使用。</p>
-</li>
-<li><p><u><strong>AozoraEpub</strong></u>（推荐★），使用步骤如下：</p>
-<p>① 首先检查是否乱码，若乱码则通过 <u><strong>codeTransmit</strong></u> 等软件，把文本转换成<strong>UTF-8编码</strong>，得到正常显示的日文文本。</p>
-<p>② 用软件打开正常显示的文本（<strong>UTF-8编码</strong>）。<br><img src="/posts/d4569923/1.png" alt="1"></p>
-<p>③ 若文档格式正确则会出现完整的书名、作者封面和目录。确认即可。<br><img src="/posts/d4569923/2.png" alt="2"></p>
-<p>④ 可使用 <u><strong>kindlestrip</strong></u> 去冗余（注意文件名和目录不要有中文）：将文件放入temp文件夹后，点击auto.bat，运行完后在result文件夹找到去冗余后的文件，mobi文件的体积在去冗余后会大大缩小。</p>
-</li>
-</ol>
-<hr>
-<h3 id="图片类"><a href="#图片类" class="headerlink" title="图片类"></a>图片类</h3><h4 id="漫画-x2F-小说扫图资源获取"><a href="#漫画-x2F-小说扫图资源获取" class="headerlink" title="漫画&#x2F;小说扫图资源获取"></a>漫画&#x2F;小说扫图资源获取</h4><p>有许多小说并没有txt版本，但可以找到扫图，主要获取渠道和漫画一样：<a href="https://nyaa.si/">nyaa</a>  |  <a href="http://13dl.net/">13dl</a>  |  <a href="https://dlraw.net/raw/">dlraw</a></p>
-<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主。</p>
-<p>当然直接通过 <a href="https://booth.pm/zh-cn">booth</a> 和 <a href="https://www.dlsite.com/index.html">dlsite</a> 购买电子版最好，得到pdf后直接发送至kindle即可。</p>
-<h4 id="jpg-x2F-png→epub"><a href="#jpg-x2F-png→epub" class="headerlink" title="jpg&#x2F;png→epub"></a>jpg&#x2F;png→epub</h4><p>使用 <u><strong>ChainLP</strong></u> 打包图片，使用方法可以参照 <a href="https://tieba.baidu.com/p/2191868417">[超详细教程] MOBI全屏漫画&#x2F;图片书籍</a> 此帖，得到的mobi文件同样可使用 <u><strong>kindlestrip</strong></u> 去冗余。</p>
-<hr>
-<h3 id="PDF类"><a href="#PDF类" class="headerlink" title="PDF类"></a>PDF类</h3><p>pdf往往存在文件过大，无法用邮箱传送的问题，首先可以用 <a href="https://www.ilovepdf.com/compress_pdf">ilovepdf</a> 等方式压缩文件。</p>
-<p>如果内容比较难以阅读，则需要进一步处理，参考：<a href="https://bookfere.com/post/134.html">PDF 重排工具：K2pdfopt 简明教程</a></p>
-<p>然而很久都没遇到这种难以处理的pdf文件……没有实际用过，以后用过再来补充好了……</p>
-<hr>
-<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它如doc等等格式基本上全用 <u><strong>calibre</strong></u> 无脑转换就好啦，over。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-        <tag>kindle</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Blog 记录</title>
     <url>/posts/a30a3587.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考</p>
@@ -183,6 +130,59 @@
       </tags>
   </entry>
   <entry>
+    <title>用kindle阅读日文相关物的简明教程</title>
+    <url>/posts/d4569923.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>对kindle执念深重的产物 </p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
+<p>　　以前只用kindle看看漫画读读小说，然而最近有一些读同人本的需求<del>（麻里央太太的同人文写得好长好美妙然而用电脑看得累死我了）</del>，并且kindle也已经支持epub了……再也不用折腾做成mobi了，正好重写一下。</p>
+<hr>
+<h3 id="文字类"><a href="#文字类" class="headerlink" title="文字类"></a>文字类</h3><h4 id="日文书籍-x2F-小说资源获取"><a href="#日文书籍-x2F-小说资源获取" class="headerlink" title="日文书籍&#x2F;小说资源获取"></a>日文书籍&#x2F;小说资源获取</h4><ol>
+<li><p>现成的书籍资源：Z-Library  |  <a href="https://itazuraneko.neocities.org/library/shousetu.html">itazuraneko</a></p>
+</li>
+<li><p>未经处理的txt资源：<a href="https://nyaa.si/">nyaa</a>  |  <a href="https://www.aozora.gr.jp/">青空文库</a></p>
+</li>
+</ol>
+<p>其中青空文库可在网站中直接下载zip(txt)，图省事也可以直接在 <a href="http://www.netbuffalo.net/NetApps/kindle/aozora">MOBIぞら文庫</a> 下载mobi文件。</p>
+<h4 id="txt→epub"><a href="#txt→epub" class="headerlink" title="txt→epub"></a>txt→epub</h4><p>方法多样，任选其一即可：</p>
+<ol>
+<li><p><del>在 <a href="http://a2k.aill.org/">青空キンドル </a> 输入青空文库的zip链接，转换为竖排pdf。</del>（已失效）</p>
+</li>
+<li><p>使用 <a href="http://ebook.cdict.info/mobi/">天火藏書</a> 的网页端制作epub&#x2F;mobi文件。非常无脑简单，上传即可，但可能存在假名注音显示不全的问题。不在乎注音问题可以使用。</p>
+</li>
+<li><p><u><strong>AozoraEpub</strong></u>（推荐★），使用步骤如下：</p>
+<p>① 首先检查是否乱码，若乱码则通过 <u><strong>codeTransmit</strong></u> 等软件，把文本转换成<strong>UTF-8编码</strong>，得到正常显示的日文文本。</p>
+<p>② 用软件打开正常显示的文本（<strong>UTF-8编码</strong>）。<br><img src="/posts/d4569923/1.png" alt="1"></p>
+<p>③ 若文档格式正确则会出现完整的书名、作者封面和目录。确认即可。<br><img src="/posts/d4569923/2.png" alt="2"></p>
+<p>④ 可使用 <u><strong>kindlestrip</strong></u> 去冗余（注意文件名和目录不要有中文）：将文件放入temp文件夹后，点击auto.bat，运行完后在result文件夹找到去冗余后的文件，mobi文件的体积在去冗余后会大大缩小。</p>
+</li>
+</ol>
+<hr>
+<h3 id="图片类"><a href="#图片类" class="headerlink" title="图片类"></a>图片类</h3><h4 id="漫画-x2F-小说扫图资源获取"><a href="#漫画-x2F-小说扫图资源获取" class="headerlink" title="漫画&#x2F;小说扫图资源获取"></a>漫画&#x2F;小说扫图资源获取</h4><p>有许多小说并没有txt版本，但可以找到扫图，主要获取渠道和漫画一样：<a href="https://nyaa.si/">nyaa</a>  |  <a href="http://13dl.net/">13dl</a>  |  <a href="https://dlraw.net/raw/">dlraw</a></p>
+<p>同人的获取当然以p站为主，还有各种个人站和论坛……尤以国外站点为主。</p>
+<p>当然直接通过 <a href="https://booth.pm/zh-cn">booth</a> 和 <a href="https://www.dlsite.com/index.html">dlsite</a> 购买电子版最好，得到pdf后直接发送至kindle即可。</p>
+<h4 id="jpg-x2F-png→epub"><a href="#jpg-x2F-png→epub" class="headerlink" title="jpg&#x2F;png→epub"></a>jpg&#x2F;png→epub</h4><p>使用 <u><strong>ChainLP</strong></u> 打包图片，使用方法可以参照 <a href="https://tieba.baidu.com/p/2191868417">[超详细教程] MOBI全屏漫画&#x2F;图片书籍</a> 此帖，得到的mobi文件同样可使用 <u><strong>kindlestrip</strong></u> 去冗余。</p>
+<hr>
+<h3 id="PDF类"><a href="#PDF类" class="headerlink" title="PDF类"></a>PDF类</h3><p>pdf往往存在文件过大，无法用邮箱传送的问题，首先可以用 <a href="https://www.ilovepdf.com/compress_pdf">ilovepdf</a> 等方式压缩文件。</p>
+<p>如果内容比较难以阅读，则需要进一步处理，参考：<a href="https://bookfere.com/post/134.html">PDF 重排工具：K2pdfopt 简明教程</a></p>
+<p>然而很久都没遇到这种难以处理的pdf文件……没有实际用过，以后用过再来补充好了……</p>
+<hr>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>其它如doc等等格式基本上全用 <u><strong>calibre</strong></u> 无脑转换就好啦，over。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+        <tag>kindle</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>对少革游戏的吐槽</title>
     <url>/posts/5d366c56.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note danger">
@@ -304,6 +304,112 @@
       <tags>
         <tag>少女革命</tag>
         <tag>吐槽</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>决斗曲翻译 - 绝对命运默示录（+完全版）</title>
+    <url>/posts/f497660d.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>居然已经是约半年前的翻译了(&gt;д&lt;)</p>
+<p>虽然渣翻，总之还是整理了下，部分歌词有些微小的修改，b站那边懒得修了，以blog内为准）</p>
+<hr>
+<h2 id="絶対運命黙示録"><a href="#絶対運命黙示録" class="headerlink" title="絶対運命黙示録"></a>絶対運命黙示録</h2><p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
+<p>原出处：『カスパーハウザー～人間の謎への序章、あるいはわたしのモーシェのために～』</p>
+<table>
+<thead>
+<tr>
+<th>絶対運命黙示録</th>
+<th>绝对命运默示录</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>出生登録・洗礼名簿・死亡登録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>出生登录・洗礼名簿・死亡登录</td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>わたしの誕生・絶対誕生・黙示録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>吾之诞生・绝对诞生・默示录</td>
+</tr>
+<tr>
+<td>闇の砂漠に　燦場・宇葉<br>金のメッキの桃源郷<br>昼と夜とが逆回り<br>時のメッキの失楽園</td>
+<td>黑暗沙漠里的灿场・宇叶<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。">[1]</span></a></sup> <br>是镀了金的桃花源<br>白日与黑夜逆转之处<br>是镀了时间的失乐园<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。">[2]</span></a></sup></td>
+</tr>
+<tr>
+<td>ソドムの闇<br>光の闇<br>彼方の闇<br>果てなき闇<br>絶対運命黙示録<br>絶対運命黙示闇・黙示録</td>
+<td>索多玛<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。">[3]</span></a></sup>的黑暗<br>光的黑暗<br>彼方的黑暗<br>永无止境的黑暗<br>绝对命运默示录<br>绝对命运默示暗・默示录</td>
+</tr>
+<tr>
+<td>もくし　くしも<br>しもく　くもし<br>もしく　しくも</td>
+<td>mokushi kushimo<br>shimoku kumoshi<br>moshiku shikumo</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="絶対運命黙示録-industrial-mix"><a href="#絶対運命黙示録-industrial-mix" class="headerlink" title="絶対運命黙示録(industrial mix)"></a>絶対運命黙示録(industrial mix)</h2><p>演唱：東京混声合唱団 杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
+<p>歌词同上</p>
+<h2 id="绝对命运默示录-With-万有引力"><a href="#绝对命运默示录-With-万有引力" class="headerlink" title="绝对命运默示录 With 万有引力"></a>绝对命运默示录 With 万有引力</h2><p>演唱：東京混声合唱団 演劇実験室 “万有引力”</p>
+<p>歌词同上</p>
+<h2 id="絶対運命黙示録-Adolescence-of-UTENA"><a href="#絶対運命黙示録-Adolescence-of-UTENA" class="headerlink" title="絶対運命黙示録-Adolescence of UTENA"></a>絶対運命黙示録-Adolescence of UTENA</h2><p>演唱：上谷麻紀 河合夕子 川島和子 国分友里恵 杉並児童合唱団 高尾直樹 東京混声合唱団</p>
+<p>歌词同上</p>
+<hr>
+<h2 id="絶対運命黙示録・完全版"><a href="#絶対運命黙示録・完全版" class="headerlink" title="絶対運命黙示録・完全版"></a>絶対運命黙示録・完全版</h2><table>
+<thead>
+<tr>
+<th>絶対運命黙示録・完全版</th>
+<th>绝对命运默示录・完全版</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>出生登録・洗礼名簿・死亡登録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>出生登录·洗礼名簿·死亡登录</td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>わたしの誕生・絶対誕生・黙示録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>吾之诞生·绝对诞生·默示录</td>
+</tr>
+<tr>
+<td>闇の砂漠に　産婆・乳母<br>金のメッキの桃源郷<br>昼と夜とが逆回り<br>時のメッキの失楽園</td>
+<td>黑暗沙漠里的产婆·乳母<br>是镀了金的桃花源<br>白日与黑夜逆转之处<br>是镀了时间的失乐园</td>
+</tr>
+<tr>
+<td>ソドムの闇<br>光の闇<br>彼方の闇<br>果てなき闇</td>
+<td>索多玛的黑暗<br>光的黑暗<br>彼方的黑暗<br>永无止境的黑暗</td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示闇<br>黙示録</td>
+<td>绝对命运默示录<br>绝对命运默示暗<br>默示录</td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>死して復活　プロメティウス星体　永生(衛星)登録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>死而复生  普罗米修斯<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。">[4]</span></a></sup>星体<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。">[5]</span></a></sup>  永生(卫星)登录<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）">[6]</span></a></sup></td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>プロトゴノス　わたし　宇宙　生命　黙示録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>普罗多格诺斯<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。">[7]</span></a></sup>  我  宇宙  生命  默示录</td>
+</tr>
+<tr>
+<td>起源の中の無限わたし<br>二つの月と太陽に<br>宇宙開闢わたし誕生<br>わたしのわたしが　わたしプラクリティ</td>
+<td>无限之我 身处起源之中<br>在化分为二的日与月中<br>宇宙开辟  我随之诞生<br>我中之我  我为原质<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。">[8]</span></a></sup></td>
+</tr>
+<tr>
+<td>原初の起こり　受胎　モナリザシオンと誕生<br>円満愚息　球体　わたし　宇宙　原理</td>
+<td>原初之始  受胎  蒙娜丽莎<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。">[9]</span></a></sup>和锡安<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="锡安：一般是指耶路撒冷，象征神居住的地方。">[10]</span></a></sup>一同诞生<br>完满之子  球体  我  宇宙  原理</td>
+</tr>
+<tr>
+<td>天地　昼夜　暗闇光<br>双月　男女　アンドロギュヌス　黙示録</td>
+<td>天与地  昼与夜  暗与光<br>双月  男女  雌雄同体  默示录</td>
+</tr>
+<tr>
+<td>もくし　くしも　<br>しもく　くもし　<br>もしく　しくも</td>
+<td>mokushi kushimo<br>shimoku kumoshi<br>moshiku shikumo</td>
+</tr>
+</tbody></table>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">锡安：一般是指耶路撒冷，象征神居住的地方。<a href="#fnref:10" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+        <tag>歌词翻译</tag>
       </tags>
   </entry>
   <entry>
@@ -536,112 +642,6 @@
 </tr>
 </tbody></table>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">千年至福：基督教终末论的一种，教导主旨如下：在世界末日来临很久之前，基督耶稣会再度降临世间，打败敌基督，并且仅仅使义人复活，同时基督将会在世间建立王国，为嘉奖义人曾经忍受过的挣扎和苦痛，他们将和基督共同统治一千年，尽享人间美事。之后余者由死里复活。接着普世审判就会来到，天主将嘉奖义人，惩罚罪人。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">在希腊神话中，斯芬克斯坐在悬崖上，拦住过往的路人，抛出谜语：“什么动物早晨用四条腿走路，中午用两条腿走路，晚上用三条腿走路？”俄狄浦斯猜中了正确答案，谜底是“人”。斯芬克斯羞愧万分，跳崖而死。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Marginal：边缘的，不重要的<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">古生代：是地质时代中的一个时代，在距今约5.7亿年至2.3亿年前。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">寒武纪、奥陶纪、志留纪、泥盆纪、石炭纪、二叠纪均属于古生代时期。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本曲中出现的远古生物同样属于古生代时期。<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">涡旋、螺旋：涡旋（涡卷）是随着旋转而远离中心的二维曲线，而螺旋是随着旋转而在与旋转面具有垂直分量的方向上移动的三维曲线。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">大西庇阿（Scipio）：古罗马统帅和政治家。征服西班牙、阿非利加，击败“战略之父”汉尼拔。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">摩西：以色列人的民族领袖，史学界认为是犹太教创始者。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">米迦勒（Michael）：《圣经》中的天使，是天主所指定的伊甸园守护者。其名含义意思是“谁与神相似”。在与路西法的七日战争中，奋力维护神的统治权，对抗仇敌。<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">倪克斯（Nyx）：希腊神话中的黑夜女神。<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">厄瑞玻斯（Erebus）：希腊神话中代表着冥土的黑暗之神。<a href="#fnref:12" rev="footnote"> ↩</a></span></li><li id="fn:13"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">13.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">乌拉诺斯（Uranus）：希腊神话中的第一代神王、天空之神。<a href="#fnref:13" rev="footnote"> ↩</a></span></li><li id="fn:14"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">14.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">塔纳托斯（Thanatos）：希腊神话中的死神。<a href="#fnref:14" rev="footnote"> ↩</a></span></li><li id="fn:15"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">15.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">涅槃：佛教术语。<a href="#fnref:15" rev="footnote"> ↩</a></span></li><li id="fn:16"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">16.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">拉普拉斯星云说是最早的科学的天体演化学说，认为太阳系是由一团星云物质通过万有引力等自然规律作用而逐渐形成的。<a href="#fnref:16" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-        <tag>歌词翻译</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>决斗曲翻译 - 绝对命运默示录（+完全版）</title>
-    <url>/posts/f497660d.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>居然已经是约半年前的翻译了(&gt;д&lt;)</p>
-<p>虽然渣翻，总之还是整理了下，部分歌词有些微小的修改，b站那边懒得修了，以blog内为准）</p>
-<hr>
-<h2 id="絶対運命黙示録"><a href="#絶対運命黙示録" class="headerlink" title="絶対運命黙示録"></a>絶対運命黙示録</h2><p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
-<p>原出处：『カスパーハウザー～人間の謎への序章、あるいはわたしのモーシェのために～』</p>
-<table>
-<thead>
-<tr>
-<th>絶対運命黙示録</th>
-<th>绝对命运默示录</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>出生登録・洗礼名簿・死亡登録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>出生登录・洗礼名簿・死亡登录</td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>わたしの誕生・絶対誕生・黙示録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>吾之诞生・绝对诞生・默示录</td>
-</tr>
-<tr>
-<td>闇の砂漠に　燦場・宇葉<br>金のメッキの桃源郷<br>昼と夜とが逆回り<br>時のメッキの失楽園</td>
-<td>黑暗沙漠里的灿场・宇叶<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。">[1]</span></a></sup> <br>是镀了金的桃花源<br>白日与黑夜逆转之处<br>是镀了时间的失乐园<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。">[2]</span></a></sup></td>
-</tr>
-<tr>
-<td>ソドムの闇<br>光の闇<br>彼方の闇<br>果てなき闇<br>絶対運命黙示録<br>絶対運命黙示闇・黙示録</td>
-<td>索多玛<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。">[3]</span></a></sup>的黑暗<br>光的黑暗<br>彼方的黑暗<br>永无止境的黑暗<br>绝对命运默示录<br>绝对命运默示暗・默示录</td>
-</tr>
-<tr>
-<td>もくし　くしも<br>しもく　くもし<br>もしく　しくも</td>
-<td>mokushi kushimo<br>shimoku kumoshi<br>moshiku shikumo</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="絶対運命黙示録-industrial-mix"><a href="#絶対運命黙示録-industrial-mix" class="headerlink" title="絶対運命黙示録(industrial mix)"></a>絶対運命黙示録(industrial mix)</h2><p>演唱：東京混声合唱団 杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
-<p>歌词同上</p>
-<h2 id="绝对命运默示录-With-万有引力"><a href="#绝对命运默示录-With-万有引力" class="headerlink" title="绝对命运默示录 With 万有引力"></a>绝对命运默示录 With 万有引力</h2><p>演唱：東京混声合唱団 演劇実験室 “万有引力”</p>
-<p>歌词同上</p>
-<h2 id="絶対運命黙示録-Adolescence-of-UTENA"><a href="#絶対運命黙示録-Adolescence-of-UTENA" class="headerlink" title="絶対運命黙示録-Adolescence of UTENA"></a>絶対運命黙示録-Adolescence of UTENA</h2><p>演唱：上谷麻紀 河合夕子 川島和子 国分友里恵 杉並児童合唱団 高尾直樹 東京混声合唱団</p>
-<p>歌词同上</p>
-<hr>
-<h2 id="絶対運命黙示録・完全版"><a href="#絶対運命黙示録・完全版" class="headerlink" title="絶対運命黙示録・完全版"></a>絶対運命黙示録・完全版</h2><table>
-<thead>
-<tr>
-<th>絶対運命黙示録・完全版</th>
-<th>绝对命运默示录・完全版</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>出生登録・洗礼名簿・死亡登録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>出生登录·洗礼名簿·死亡登录</td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>わたしの誕生・絶対誕生・黙示録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>吾之诞生·绝对诞生·默示录</td>
-</tr>
-<tr>
-<td>闇の砂漠に　産婆・乳母<br>金のメッキの桃源郷<br>昼と夜とが逆回り<br>時のメッキの失楽園</td>
-<td>黑暗沙漠里的产婆·乳母<br>是镀了金的桃花源<br>白日与黑夜逆转之处<br>是镀了时间的失乐园</td>
-</tr>
-<tr>
-<td>ソドムの闇<br>光の闇<br>彼方の闇<br>果てなき闇</td>
-<td>索多玛的黑暗<br>光的黑暗<br>彼方的黑暗<br>永无止境的黑暗</td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示闇<br>黙示録</td>
-<td>绝对命运默示录<br>绝对命运默示暗<br>默示录</td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>死して復活　プロメティウス星体　永生(衛星)登録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>死而复生  普罗米修斯<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。">[4]</span></a></sup>星体<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。">[5]</span></a></sup>  永生(卫星)登录<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）">[6]</span></a></sup></td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>プロトゴノス　わたし　宇宙　生命　黙示録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>普罗多格诺斯<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。">[7]</span></a></sup>  我  宇宙  生命  默示录</td>
-</tr>
-<tr>
-<td>起源の中の無限わたし<br>二つの月と太陽に<br>宇宙開闢わたし誕生<br>わたしのわたしが　わたしプラクリティ</td>
-<td>无限之我 身处起源之中<br>在化分为二的日与月中<br>宇宙开辟  我随之诞生<br>我中之我  我为原质<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。">[8]</span></a></sup></td>
-</tr>
-<tr>
-<td>原初の起こり　受胎　モナリザシオンと誕生<br>円満愚息　球体　わたし　宇宙　原理</td>
-<td>原初之始  受胎  蒙娜丽莎<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。">[9]</span></a></sup>和锡安<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="锡安：一般是指耶路撒冷，象征神居住的地方。">[10]</span></a></sup>一同诞生<br>完满之子  球体  我  宇宙  原理</td>
-</tr>
-<tr>
-<td>天地　昼夜　暗闇光<br>双月　男女　アンドロギュヌス　黙示録</td>
-<td>天与地  昼与夜  暗与光<br>双月  男女  雌雄同体  默示录</td>
-</tr>
-<tr>
-<td>もくし　くしも　<br>しもく　くもし　<br>もしく　しくも</td>
-<td>mokushi kushimo<br>shimoku kumoshi<br>moshiku shikumo</td>
-</tr>
-</tbody></table>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">锡安：一般是指耶路撒冷，象征神居住的地方。<a href="#fnref:10" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
       <categories>
         <category>少女革命</category>
       </categories>
@@ -1367,7 +1367,7 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>4581</span></span>
+                        <span>4582</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
                         <span>8</span></span></p>
@@ -1825,26 +1825,6 @@
       </tags>
   </entry>
   <entry>
-    <title>「青春期的另一侧」川上伦子×几原邦彦对谈（节选）</title>
-    <url>/posts/e217a44e.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　之前渣翻的两小段，读到的时候震惊于川上竟然是因为想要帮助他人才从事声优的工作，这方面也很欧蒂娜QAQ</p>
-<hr>
-<p>——川上小姐被选为主角的欧蒂娜役，她和角色有相似的地方吗？<br>几原：她和欧蒂娜完全不像呢。<br>川上：虽然几乎没有相似之处，但有一点是相似的……笨蛋又老实的部分非常相似。至于其它的部分，我不会想着夸大自己，而是和欧蒂娜这一角色一起摸索着演出。<br>——几原监督觉得川上小姐作为声优的魅力是什么？<br>几原：刚才，虽然她说笨蛋又老实的部分和欧蒂娜很相似，但我要纠正一点，与其说是笨蛋又老实，不如说是笨蛋的部分很有魅力。<br>川上：给我等等——。“魅力是？”既然问到这种问题了，那就该夸夸我才对吧。<br>几原：魅力……果然还是笨蛋的部分啊（笑）。对工作专心致志这点就很好。也没有让人讨厌的地方。<br>川上：再多说一些——比如说声音很好听之类的。<br>几原：啊，声音很好听呢（笑）。<br>川上：啊——好刻意！</p>
-<hr>
-<p>——川上小姐利用那个机会开始在一线活跃，你小时候有憧憬过声优吗？<br>川上：我从小就想做能够帮助别人的工作……曾经想当医生。我以为学习是只要记住知识，只要去做就行的事，和头脑聪不聪明没有关系。所以，只要努力那么谁都能成为医生的吧。<br>几原：是吗？还真是厉害的发言（笑）。<br>川上：虽然对讨厌学习的人来说没有办法，但我并不讨厌学习，所以我觉得只要努力就能当上医生了吧。<br>（中略，大概是几原的一些想法）<br>川上：知道“没办法成为医生”而放弃时，我思考着还有什么别的能帮助别人的方法，要是能在心情上帮到他人，那么就能在性命上帮到他人了吧，我是这么想的。于是，在思考着有没有什么好方法的时候，突然想起了自己父亲去世时，还是个小孩子的自己想着“我的人生结束了啊”而陷入消沉。那时被电视上播放的动画拯救了……因为那部动画的主角看起来状况更糟（笑）。<br>——是哪部作品？<br>川上：是《六神合体Godmars》……我既不用和兄弟争斗，双亲也是亲生的……我有种被拯救了的心情。所以，说到医生以外能拯救性命的工作，我只能想到声优。<br>几原：了不起啊。<br>川上：想着“那个职业就是声优啊。我想干这个！”就进入了バオバブ的养成所。在做声优工作的同时，我觉得演戏果然是能拯救心灵的，于是也一直在做舞台工作……<br>——虽然没当上医生，你觉得自己现在是在做拯救别人心情的工作吗？<br>川上：是啊，现在我对自己的职业很有自信。 </p>
-]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-        <tag>访谈翻译</tag>
-        <tag>几原邦彦</tag>
-        <tag>川上伦子</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>少革各话staff整理</title>
     <url>/posts/6cb056e4.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><center>表格内容来源wiki，自用备查</center>
@@ -2281,6 +2261,26 @@
       </tags>
   </entry>
   <entry>
+    <title>「青春期的另一侧」川上伦子×几原邦彦对谈（节选）</title>
+    <url>/posts/e217a44e.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　之前渣翻的两小段，读到的时候震惊于川上竟然是因为想要帮助他人才从事声优的工作，这方面也很欧蒂娜QAQ</p>
+<hr>
+<p>——川上小姐被选为主角的欧蒂娜役，她和角色有相似的地方吗？<br>几原：她和欧蒂娜完全不像呢。<br>川上：虽然几乎没有相似之处，但有一点是相似的……笨蛋又老实的部分非常相似。至于其它的部分，我不会想着夸大自己，而是和欧蒂娜这一角色一起摸索着演出。<br>——几原监督觉得川上小姐作为声优的魅力是什么？<br>几原：刚才，虽然她说笨蛋又老实的部分和欧蒂娜很相似，但我要纠正一点，与其说是笨蛋又老实，不如说是笨蛋的部分很有魅力。<br>川上：给我等等——。“魅力是？”既然问到这种问题了，那就该夸夸我才对吧。<br>几原：魅力……果然还是笨蛋的部分啊（笑）。对工作专心致志这点就很好。也没有让人讨厌的地方。<br>川上：再多说一些——比如说声音很好听之类的。<br>几原：啊，声音很好听呢（笑）。<br>川上：啊——好刻意！</p>
+<hr>
+<p>——川上小姐利用那个机会开始在一线活跃，你小时候有憧憬过声优吗？<br>川上：我从小就想做能够帮助别人的工作……曾经想当医生。我以为学习是只要记住知识，只要去做就行的事，和头脑聪不聪明没有关系。所以，只要努力那么谁都能成为医生的吧。<br>几原：是吗？还真是厉害的发言（笑）。<br>川上：虽然对讨厌学习的人来说没有办法，但我并不讨厌学习，所以我觉得只要努力就能当上医生了吧。<br>（中略，大概是几原的一些想法）<br>川上：知道“没办法成为医生”而放弃时，我思考着还有什么别的能帮助别人的方法，要是能在心情上帮到他人，那么就能在性命上帮到他人了吧，我是这么想的。于是，在思考着有没有什么好方法的时候，突然想起了自己父亲去世时，还是个小孩子的自己想着“我的人生结束了啊”而陷入消沉。那时被电视上播放的动画拯救了……因为那部动画的主角看起来状况更糟（笑）。<br>——是哪部作品？<br>川上：是《六神合体Godmars》……我既不用和兄弟争斗，双亲也是亲生的……我有种被拯救了的心情。所以，说到医生以外能拯救性命的工作，我只能想到声优。<br>几原：了不起啊。<br>川上：想着“那个职业就是声优啊。我想干这个！”就进入了バオバブ的养成所。在做声优工作的同时，我觉得演戏果然是能拯救心灵的，于是也一直在做舞台工作……<br>——虽然没当上医生，你觉得自己现在是在做拯救别人心情的工作吗？<br>川上：是啊，现在我对自己的职业很有自信。 </p>
+]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+        <tag>访谈翻译</tag>
+        <tag>几原邦彦</tag>
+        <tag>川上伦子</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>少革音乐剧 学生会篇最终战 自听歌词</title>
     <url>/posts/611fa50f.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
@@ -2298,7 +2298,7 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>4155</span></span>
+                        <span>4169</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
                         <span>11</span></span></p>
