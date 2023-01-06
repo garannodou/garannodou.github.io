@@ -2480,7 +2480,7 @@
 <p>　　年底写着这篇总结，突然又想开始六刷少革了。正好之后想翻译脚本集的一些回数，理由非常合理正当（）</p>
 <hr>
 <h2 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h2><p>　　10本左右。说是左右，因为没怎么正经看书，读的东西也比较奇怪，就凑合计数了。</p>
-<p>　　年初看了些宫泽贤治还挺有意思的，浮士德也看了大半，但我看的版本太不清晰了好吃力……后来搁置了，明年再捡起来吧。还读了少革的脚本集，我还真是莫名喜欢看这些制作资料。就是剧场版的修正案为什么只放了几页不放完整啊（无比怨念）</p>
+<p>　　年初看了些宫泽贤治还挺有意思的，浮士德也看了大半。感谢浮士德狠狠的让我感受到了译本与译本之差，怎么会有人把诗歌翻译成散文啊？！……还读了少革的脚本集，我还真是莫名喜欢看这些制作资料。就是剧场版的修正案为什么只放了几页不放完整啊（无比怨念）</p>
 <p>　　<span style="background:#555555;">虽然正经书没怎么读，但是读了不少少革&amp;几原相关的访谈，粗粗一看好像有个30w字，勉强列入书籍这栏好了（x）<br></span>　　<span style="background:#555555;">私心觉得还应把《Cry for the Moon &#x2F; 夢のあとに &#x2F; 天国の歌》和《歌う人魚と銀の騎士》也列入书籍类，歌人鱼可是有三百多页啊！怎么想都不能当作普通的同人文看过就忘（话说根本就忘不了啊！）</span></p>
 <hr>
 <h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>　　13部。今年终于入了ns，结果都没打开几次steam，同时感谢epic，好久没囤游戏了真是省钱……但是ns游戏好贵，而且也太保值了吧二手卡带都没怎么降价的qwq……</p>
@@ -2539,7 +2539,7 @@
 <img src="/posts/a429673f/10.jpg" width="35%">
 </div>
 
-<p>　　只能说……今年的歌单完全被某监督影响了啊！<del>明年一定会恢复到全是梶浦的对吧。</del></p>
+<p>　　只能说……今年的歌单完全被某监督影响了啊！<del>到了明年一定又会满是梶浦（大概）</del></p>
 <hr>
 <h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><h3 id="音乐剧-x2F-舞台剧"><a href="#音乐剧-x2F-舞台剧" class="headerlink" title="音乐剧&#x2F;舞台剧"></a>音乐剧&#x2F;舞台剧</h3><p>　　11部。（当然都是b站补的）</p>
 <p>　　今年动画看太多了，都没怎么补音乐剧，一年下来发现听的比较多的好像还是法扎法红黑这些。虽然剧情经常比较迷，但该死的法语剧为什么这么好听。</p>
@@ -2568,6 +2568,28 @@
       <tags>
         <tag>吐槽</tag>
         <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用 Vercel 部署 RSSHub</title>
+    <url>/posts/cef2a9bd.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　<a href="https://rssfeed.today/weibo/">Weibo to RSS</a> 近日挂了，想起之前用的b站的RSS也不好使，就想查查能不能用旧手机自建个RSSHub，结果突然看到 <a href="https://www.bilibili.com/video/av935954872">这个教程</a> ……看起来现在部署这些服务已经很简单的样子，热爱折腾的心开始躁动.jpg</p>
+<hr>
+<p>步骤：</p>
+<ol>
+<li><p>打开 <a href="https://vercel.com/">Vercel</a>，可以直接用github账号注册登录。</p>
+</li>
+<li><p>打开 <a href="https://docs.rsshub.app/">RSSHub的主页</a>，点右上角的部署，找到“部署到 Vercel”项，点击deploy，在弹出的网页里去掉创建私人仓库的勾，点击create。等待弹出“Congratulations!”页面即为成功，网页链接同时也发到邮箱里了。</p>
+</li>
+</ol>
+<hr>
+<p>　　这就完成了……！好爽好简单，小白狂喜！不过用部署完成的页面直接被墙了……幸好我用inoreader订阅，并不受影响╮（￣▽￣）╭</p>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
       </tags>
   </entry>
 </search>
