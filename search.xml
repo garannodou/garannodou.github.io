@@ -1367,7 +1367,7 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>4582</span></span>
+                        <span>4589</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
                         <span>8</span></span></p>
@@ -1736,7 +1736,7 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>3161</span></span>
+                        <span>3176</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
                         <span>56</span></span></p>
@@ -1766,7 +1766,7 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>1897</span></span>
+                        <span>1908</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
                         <span>29</span></span></p>
@@ -1796,10 +1796,10 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>4277</span></span>
+                        <span>4310</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
-                        <span>9</span></span></p>
+                        <span>11</span></span></p>
                 <div class="partition">
                     <label class="card-label">视频</label>
                     <label class="up-label"></label>
@@ -1822,6 +1822,46 @@
         <tag>访谈翻译</tag>
         <tag>几原邦彦</tag>
         <tag>斋藤千穗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aegisub 使用笔记</title>
+    <url>/posts/d9ea43c5.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
+<li><p>随便找几个教程瞄一眼：<a href="https://www.bilibili.com/video/BV1Kx411z7My">新手入门Aegisub教程以及压制相关</a> | <a href="https://www.bilibili.com/video/BV1ps411b7as">快速打轴法</a> | <a href="https://sspai.com/post/47557">Aegisub 的使用指南及技巧</a></p>
+</li>
+<li><p>记下基本操作：左键设置开始时间，右键设置结束时间（ctrl+滚轮可以缩放频谱）</p>
+<div class="note default">
+            <p>S键 &#x2F; Space：播放当前行<br>  G键：提交修改并进入下一行<br>  Z键：返回上一行</p><p>  Q键：播放选区之前500ms<br>  D键：播放选区最后500ms<br>  W键：播放选区之后500ms</p><p>  F键：音轨向后移动<br>  A键：音轨向前移动 </p>
+          </div>
+
+<p>以上基本就能满足普通打轴的需求了……！</p>
+</li>
+</ol>
+<hr>
+<h5 id="疑难杂症（其实也不难的一些问题记录）"><a href="#疑难杂症（其实也不难的一些问题记录）" class="headerlink" title="疑难杂症（其实也不难的一些问题记录）"></a>疑难杂症（其实也不难的一些问题记录）</h5><ol>
+<li><p>根据说话人来批量替换样式：字幕&gt;选择多行，根据需求选中后批量替换样式即可</p>
+</li>
+<li><p>对齐文本的代码<br>左上角  <code>&#123;\an7&#125;</code>     中上方  <code>&#123;\an8&#125;</code>     右上角  <code>&#123;\an9&#125;</code><br>左下角  <code>&#123;\an1&#125;</code>     其他同理，换换数字就行</p>
+</li>
+<li><p>做竖排字幕：使用开头带@的字体，同时在字幕编辑框里输入 <code>&#123;\frz-90&#125;+内容</code></p>
+</li>
+<li><p>给文本加简单的半透明边框：在编辑框输入■，调整透明度，去掉边框和阴影，然后用 <code>\fscx</code> 和 <code>\fscy</code> 实现加长和加宽， 比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy220\pos(972,1022)&#125;■</span><br></pre></td></tr></table></figure>
+
+<p>或</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy170\pos(952,926)&#125;■</span><br></pre></td></tr></table></figure>
+
+<p>当然这是很偷懒很偷懒的方法，所以看起来一点都不精致，毕竟我一人字幕有时候就不计较那么多了，想要效果好点的话还是得折腾（）</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>视频与字幕制作</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -2221,66 +2261,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Aegisub 使用笔记</title>
-    <url>/posts/d9ea43c5.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
-<li><p>随便找几个教程瞄一眼：<a href="https://www.bilibili.com/video/BV1Kx411z7My">新手入门Aegisub教程以及压制相关</a> | <a href="https://www.bilibili.com/video/BV1ps411b7as">快速打轴法</a> | <a href="https://sspai.com/post/47557">Aegisub 的使用指南及技巧</a></p>
-</li>
-<li><p>记下基本操作：左键设置开始时间，右键设置结束时间（ctrl+滚轮可以缩放频谱）</p>
-<div class="note default">
-            <p>S键 &#x2F; Space：播放当前行<br>  G键：提交修改并进入下一行<br>  Z键：返回上一行</p><p>  Q键：播放选区之前500ms<br>  D键：播放选区最后500ms<br>  W键：播放选区之后500ms</p><p>  F键：音轨向后移动<br>  A键：音轨向前移动 </p>
-          </div>
-
-<p>以上基本就能满足普通打轴的需求了……！</p>
-</li>
-</ol>
-<hr>
-<h5 id="疑难杂症（其实也不难的一些问题记录）"><a href="#疑难杂症（其实也不难的一些问题记录）" class="headerlink" title="疑难杂症（其实也不难的一些问题记录）"></a>疑难杂症（其实也不难的一些问题记录）</h5><ol>
-<li><p>根据说话人来批量替换样式：字幕&gt;选择多行，根据需求选中后批量替换样式即可</p>
-</li>
-<li><p>对齐文本的代码<br>左上角  <code>&#123;\an7&#125;</code>     中上方  <code>&#123;\an8&#125;</code>     右上角  <code>&#123;\an9&#125;</code><br>左下角  <code>&#123;\an1&#125;</code>     其他同理，换换数字就行</p>
-</li>
-<li><p>做竖排字幕：使用开头带@的字体，同时在字幕编辑框里输入 <code>&#123;\frz-90&#125;+内容</code></p>
-</li>
-<li><p>给文本加简单的半透明边框：在编辑框输入■，调整透明度，去掉边框和阴影，然后用 <code>\fscx</code> 和 <code>\fscy</code> 实现加长和加宽， 比如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy220\pos(972,1022)&#125;■</span><br></pre></td></tr></table></figure>
-
-<p>或</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy170\pos(952,926)&#125;■</span><br></pre></td></tr></table></figure>
-
-<p>当然这是很偷懒很偷懒的方法，所以看起来一点都不精致，毕竟我一人字幕有时候就不计较那么多了，想要效果好点的话还是得折腾（）</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>视频与字幕制作</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「青春期的另一侧」川上伦子×几原邦彦对谈（节选）</title>
-    <url>/posts/e217a44e.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　之前渣翻的两小段，读到的时候震惊于川上竟然是因为想要帮助他人才从事声优的工作，这方面也很欧蒂娜QAQ</p>
-<hr>
-<p>——川上小姐被选为主角的欧蒂娜役，她和角色有相似的地方吗？<br>几原：她和欧蒂娜完全不像呢。<br>川上：虽然几乎没有相似之处，但有一点是相似的……笨蛋又老实的部分非常相似。至于其它的部分，我不会想着夸大自己，而是和欧蒂娜这一角色一起摸索着演出。<br>——几原监督觉得川上小姐作为声优的魅力是什么？<br>几原：刚才，虽然她说笨蛋又老实的部分和欧蒂娜很相似，但我要纠正一点，与其说是笨蛋又老实，不如说是笨蛋的部分很有魅力。<br>川上：给我等等——。“魅力是？”既然问到这种问题了，那就该夸夸我才对吧。<br>几原：魅力……果然还是笨蛋的部分啊（笑）。对工作专心致志这点就很好。也没有让人讨厌的地方。<br>川上：再多说一些——比如说声音很好听之类的。<br>几原：啊，声音很好听呢（笑）。<br>川上：啊——好刻意！</p>
-<hr>
-<p>——川上小姐利用那个机会开始在一线活跃，你小时候有憧憬过声优吗？<br>川上：我从小就想做能够帮助别人的工作……曾经想当医生。我以为学习是只要记住知识，只要去做就行的事，和头脑聪不聪明没有关系。所以，只要努力那么谁都能成为医生的吧。<br>几原：是吗？还真是厉害的发言（笑）。<br>川上：虽然对讨厌学习的人来说没有办法，但我并不讨厌学习，所以我觉得只要努力就能当上医生了吧。<br>（中略，大概是几原的一些想法）<br>川上：知道“没办法成为医生”而放弃时，我思考着还有什么别的能帮助别人的方法，要是能在心情上帮到他人，那么就能在性命上帮到他人了吧，我是这么想的。于是，在思考着有没有什么好方法的时候，突然想起了自己父亲去世时，还是个小孩子的自己想着“我的人生结束了啊”而陷入消沉。那时被电视上播放的动画拯救了……因为那部动画的主角看起来状况更糟（笑）。<br>——是哪部作品？<br>川上：是《六神合体Godmars》……我既不用和兄弟争斗，双亲也是亲生的……我有种被拯救了的心情。所以，说到医生以外能拯救性命的工作，我只能想到声优。<br>几原：了不起啊。<br>川上：想着“那个职业就是声优啊。我想干这个！”就进入了バオバブ的养成所。在做声优工作的同时，我觉得演戏果然是能拯救心灵的，于是也一直在做舞台工作……<br>——虽然没当上医生，你觉得自己现在是在做拯救别人心情的工作吗？<br>川上：是啊，现在我对自己的职业很有自信。 </p>
-]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-        <tag>访谈翻译</tag>
-        <tag>几原邦彦</tag>
-        <tag>川上伦子</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>少革音乐剧 学生会篇最终战 自听歌词</title>
     <url>/posts/611fa50f.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
@@ -2298,10 +2278,10 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>4169</span></span>
+                        <span>4700</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
-                        <span>11</span></span></p>
+                        <span>13</span></span></p>
                 <div class="partition">
                     <label class="card-label">视频</label>
                     <label class="up-label"></label>
@@ -2354,6 +2334,26 @@
         <tag>翻译</tag>
         <tag>歌词翻译</tag>
         <tag>欧安真好磕</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「青春期的另一侧」川上伦子×几原邦彦对谈（节选）</title>
+    <url>/posts/e217a44e.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　之前渣翻的两小段，读到的时候震惊于川上竟然是因为想要帮助他人才从事声优的工作，这方面也很欧蒂娜QAQ</p>
+<hr>
+<p>——川上小姐被选为主角的欧蒂娜役，她和角色有相似的地方吗？<br>几原：她和欧蒂娜完全不像呢。<br>川上：虽然几乎没有相似之处，但有一点是相似的……笨蛋又老实的部分非常相似。至于其它的部分，我不会想着夸大自己，而是和欧蒂娜这一角色一起摸索着演出。<br>——几原监督觉得川上小姐作为声优的魅力是什么？<br>几原：刚才，虽然她说笨蛋又老实的部分和欧蒂娜很相似，但我要纠正一点，与其说是笨蛋又老实，不如说是笨蛋的部分很有魅力。<br>川上：给我等等——。“魅力是？”既然问到这种问题了，那就该夸夸我才对吧。<br>几原：魅力……果然还是笨蛋的部分啊（笑）。对工作专心致志这点就很好。也没有让人讨厌的地方。<br>川上：再多说一些——比如说声音很好听之类的。<br>几原：啊，声音很好听呢（笑）。<br>川上：啊——好刻意！</p>
+<hr>
+<p>——川上小姐利用那个机会开始在一线活跃，你小时候有憧憬过声优吗？<br>川上：我从小就想做能够帮助别人的工作……曾经想当医生。我以为学习是只要记住知识，只要去做就行的事，和头脑聪不聪明没有关系。所以，只要努力那么谁都能成为医生的吧。<br>几原：是吗？还真是厉害的发言（笑）。<br>川上：虽然对讨厌学习的人来说没有办法，但我并不讨厌学习，所以我觉得只要努力就能当上医生了吧。<br>（中略，大概是几原的一些想法）<br>川上：知道“没办法成为医生”而放弃时，我思考着还有什么别的能帮助别人的方法，要是能在心情上帮到他人，那么就能在性命上帮到他人了吧，我是这么想的。于是，在思考着有没有什么好方法的时候，突然想起了自己父亲去世时，还是个小孩子的自己想着“我的人生结束了啊”而陷入消沉。那时被电视上播放的动画拯救了……因为那部动画的主角看起来状况更糟（笑）。<br>——是哪部作品？<br>川上：是《六神合体Godmars》……我既不用和兄弟争斗，双亲也是亲生的……我有种被拯救了的心情。所以，说到医生以外能拯救性命的工作，我只能想到声优。<br>几原：了不起啊。<br>川上：想着“那个职业就是声优啊。我想干这个！”就进入了バオバブ的养成所。在做声优工作的同时，我觉得演戏果然是能拯救心灵的，于是也一直在做舞台工作……<br>——虽然没当上医生，你觉得自己现在是在做拯救别人心情的工作吗？<br>川上：是啊，现在我对自己的职业很有自信。 </p>
+]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+        <tag>访谈翻译</tag>
+        <tag>几原邦彦</tag>
+        <tag>川上伦子</tag>
       </tags>
   </entry>
   <entry>
