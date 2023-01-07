@@ -1,97 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Blog 记录</title>
-    <url>/posts/a30a3587.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考</p>
-<hr>
-<h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
-<li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
-<li>bash界面中不能按ctrl-c复制，不然就会停止运行（真是奇怪的设计……）</li>
-<li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
-<li>npm很容易无法连接，可以改用cnpm下载插件</li>
-<li>端口被占用的话可以换个端口预览 <code>hexo s -p 5000 </code></li>
-</ol>
-<hr>
-<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
-<li>本地预览 <code>hexo s</code></li>
-<li>新建文章 <code>hexo new &quot;title&quot;</code></li>
-<li>上传 <code>hexo g -d</code></li>
-<li>配合上面使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
-</ol>
-<hr>
-<h3 id="已添加（2022-11-16）"><a href="#已添加（2022-11-16）" class="headerlink" title="已添加（2022.11.16）"></a>已添加（2022.11.16）</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
-<li><input checked disabled type="checkbox"> 站内搜索功能（hexo-generator-searchdb）</li>
-<li><input checked disabled type="checkbox"> 添加字数统计和阅读时间功能（<del>hexo-wordcount</del>）</li>
-<li><input checked disabled type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
-<li><input checked disabled type="checkbox"> 文章加密访问（hexo-blog-encrypt）</li>
-<li><input checked disabled type="checkbox"> 本地插入图片（hexo-asset）</li>
-<li><input checked disabled type="checkbox"> 置顶和隐藏文章（hexo-generator-indexed）<ul>
-<li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
-<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏的文章可以在分类中找到，而未发布的文章则会完全消失，两者都可以通过链接正常访问）</li>
-</ul>
-</li>
-<li><input checked disabled type="checkbox"> 添加脚注（<a href="https://github.com/quentin-chen/hexo-reference">hexo-reference</a>）</li>
-</ul>
-<h4 id="杂七杂八"><a href="#杂七杂八" class="headerlink" title="杂七杂八"></a>杂七杂八</h4><ul>
-<li><input checked disabled type="checkbox"> 添加头像</li>
-<li><input checked disabled type="checkbox"> 添加社交账户链接</li>
-<li><input checked disabled type="checkbox"> 侧边栏添加标签、分类、关于</li>
-<li><input checked disabled type="checkbox"> 调整字体</li>
-<li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，试了试默认的感觉也没太大必要，放弃了）</li>
-<li><input checked disabled type="checkbox"> 修改底栏</li>
-<li><input checked disabled type="checkbox"> 增加文章更新时间</li>
-<li><input checked disabled type="checkbox"> 开启版权声明</li>
-</ul>
-<hr>
-<h3 id="后续更新（2022-12-19-12-21）"><a href="#后续更新（2022-12-19-12-21）" class="headerlink" title="后续更新（2022.12.19-12.21）"></a>后续更新（2022.12.19-12.21）</h3><ul>
-<li><input checked disabled type="checkbox"> top按钮显示当前浏览进度（back2top）</li>
-<li><input checked disabled type="checkbox"> 关闭首页文章摘要（苦摘要久矣，终于找到曲线救国的方法了，安装 <a href="https://github.com/chekun/hexo-excerpt">hexo-excerpt </a>插件，将depth调为1即可）</li>
-<li><input checked disabled type="checkbox"> <del>更换样式为Mist</del><ul>
-<li><input checked disabled type="checkbox"> 调整文章间距（\themes\next\source\css_schemes\Mist_posts-expand.styl，约23行处  .post-block:not(:first-child)，将默认120px的间距改为50 ）</li>
-<li><input checked disabled type="checkbox"> <del>去掉首页“阅读更多”按钮</del>（read_more）</li>
-</ul>
-</li>
-<li><input checked disabled type="checkbox"> 更换样式为Muse<ul>
-<li><input checked disabled type="checkbox"> 调整文章间距（\source\css_common\components\post\post-eof.styl，加了一行 margin: 55px auto 45px）</li>
-<li><input checked disabled type="checkbox"> 调整字体大小（\source\css_variables\base.styl，Font size）</li>
-<li><input checked disabled type="checkbox"> 关闭menu图标</li>
-</ul>
-</li>
-<li><input checked disabled type="checkbox"> 增加追番记录页面（<a href="https://github.com/HCLonely/hexo-bilibili-bangumi">hexo-bilibili-bangumi</a>）<ul>
-<li>更新数据：<code>hexo bangumi -u</code> &#x2F; <code>hexo cinema -u</code> </li>
-<li>删除数据：<code>hexo bangumi -d</code> &#x2F; <code>hexo cinema -d</code></li>
-<li>注：<a href="https://bangumi.github.io/api/">bgm api</a> 最多一年有效期，到期需要重新申请</li>
-<li>问题：似乎……bgm源只能显示番剧标题和封面……QAQ</li>
-</ul>
-</li>
-<li><input checked disabled type="checkbox"> 添加b站视频卡片（<a href="https://github.com/MaxChang3/hexo-bilibili-card">hexo-bilibili-card</a>）</li>
-<li><input checked disabled type="checkbox"> gitignore中忽略drafts目录</li>
-</ul>
-<hr>
-<h3 id="搁置与放弃"><a href="#搁置与放弃" class="headerlink" title="搁置与放弃"></a>搁置与放弃</h3><p>以后有闲心再折腾罢）</p>
-<ul>
-<li><input disabled type="checkbox"> 修改文章内链接样式</li>
-<li><input disabled type="checkbox"> 添加文件附件</li>
-<li><input disabled type="checkbox"> RSS</li>
-<li><input disabled type="checkbox"> 网站数据分析</li>
-<li><input disabled type="checkbox"> 国内访问速度优化</li>
-<li><input disabled type="checkbox"> 首页显示文章标签（暂时没找到方法）</li>
-<li><input disabled type="checkbox"> <del>修改网站图标</del>（折腾了半天，感觉没什么合适的，还是先用默认的吧）</li>
-<li><input disabled type="checkbox"> <del>阅读量统计</del> （反正又没人看.jpg）</li>
-<li><input disabled type="checkbox"> <del>评论功能</del>（反正又没人评论.jpg）</li>
-</ul>
-<hr>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>生命的意义在于折腾！</tag>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>降低视频翻译难度的一点尝试</title>
     <url>/posts/7eba5e9a.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>　　打轴全是重复性工作，又有些费时间，想着怎么把这项工作给自动化了，找了一圈发现 <a href="https://www.bilibili.com/video/BV1p5411b7o7/">DD烤肉机</a> 看起来还不错。拖进去等着自动打完轴就好，简单测试了下似乎准确率还可以，可惜最近没什么翻译计划，等之后再细用好了，不好用的话再找其它替代品。（可恶怎么没在我翻译学生会磁带之前发现它啊！）</p>
@@ -180,6 +89,97 @@
       <tags>
         <tag>生命的意义在于折腾！</tag>
         <tag>kindle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog 记录</title>
+    <url>/posts/a30a3587.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>耗时2h左右搭好了，本来应该更快就能搞定的，结果在上传仓库那里卡了半天orz<br>整体来说搭建比想象的要简单多了，麻烦在于完善功能很费时间(T_T)不会写代码的人停止了思考</p>
+<hr>
+<h3 id="备忘"><a href="#备忘" class="headerlink" title="备忘"></a>备忘</h3><ol>
+<li>参考<a href="https://www.cnblogs.com/huanhao/p/hexobase.html">hexo博客搭建教程</a></li>
+<li>bash界面中不能按ctrl-c复制，不然就会停止运行（真是奇怪的设计……）</li>
+<li>github用户名和要和项目域名一致，折腾了半天一堆重名，于是本来想用的域名居然用不了（悲</li>
+<li>npm很容易无法连接，可以改用cnpm下载插件</li>
+<li>端口被占用的话可以换个端口预览 <code>hexo s -p 5000 </code></li>
+</ol>
+<hr>
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
+<li>本地预览 <code>hexo s</code></li>
+<li>新建文章 <code>hexo new &quot;title&quot;</code></li>
+<li>上传 <code>hexo g -d</code></li>
+<li>配合上面使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+</ol>
+<hr>
+<h3 id="已添加（2022-11-16）"><a href="#已添加（2022-11-16）" class="headerlink" title="已添加（2022.11.16）"></a>已添加（2022.11.16）</h3><h4 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h4><ul>
+<li><input checked disabled type="checkbox"> 站内搜索功能（hexo-generator-searchdb）</li>
+<li><input checked disabled type="checkbox"> 添加字数统计和阅读时间功能（<del>hexo-wordcount</del>）</li>
+<li><input checked disabled type="checkbox"> 网站链接优化（hexo-abbrlink）</li>
+<li><input checked disabled type="checkbox"> 文章加密访问（hexo-blog-encrypt）</li>
+<li><input checked disabled type="checkbox"> 本地插入图片（hexo-asset）</li>
+<li><input checked disabled type="checkbox"> 置顶和隐藏文章（hexo-generator-indexed）<ul>
+<li>置顶文章 <code>sticky: 100</code> ，数值越大越靠前</li>
+<li>发布 <code>published: false</code> ，在首页隐藏 <code>hide: true</code> ，在 <code>_config.yml</code> 中修改 <code>hide_categories:</code> 可以实现隐藏分类（隐藏的文章可以在分类中找到，而未发布的文章则会完全消失，两者都可以通过链接正常访问）</li>
+</ul>
+</li>
+<li><input checked disabled type="checkbox"> 添加脚注（<a href="https://github.com/quentin-chen/hexo-reference">hexo-reference</a>）</li>
+</ul>
+<h4 id="杂七杂八"><a href="#杂七杂八" class="headerlink" title="杂七杂八"></a>杂七杂八</h4><ul>
+<li><input checked disabled type="checkbox"> 添加头像</li>
+<li><input checked disabled type="checkbox"> 添加社交账户链接</li>
+<li><input checked disabled type="checkbox"> 侧边栏添加标签、分类、关于</li>
+<li><input checked disabled type="checkbox"> 调整字体</li>
+<li><input checked disabled type="checkbox"> <del>加载进度条</del>（显示效果不太好，试了试默认的感觉也没太大必要，放弃了）</li>
+<li><input checked disabled type="checkbox"> 修改底栏</li>
+<li><input checked disabled type="checkbox"> 增加文章更新时间</li>
+<li><input checked disabled type="checkbox"> 开启版权声明</li>
+</ul>
+<hr>
+<h3 id="后续更新（2022-12-19-12-21）"><a href="#后续更新（2022-12-19-12-21）" class="headerlink" title="后续更新（2022.12.19-12.21）"></a>后续更新（2022.12.19-12.21）</h3><ul>
+<li><input checked disabled type="checkbox"> top按钮显示当前浏览进度（back2top）</li>
+<li><input checked disabled type="checkbox"> 关闭首页文章摘要（苦摘要久矣，终于找到曲线救国的方法了，安装 <a href="https://github.com/chekun/hexo-excerpt">hexo-excerpt </a>插件，将depth调为1即可）</li>
+<li><input checked disabled type="checkbox"> <del>更换样式为Mist</del><ul>
+<li><input checked disabled type="checkbox"> 调整文章间距（\themes\next\source\css_schemes\Mist_posts-expand.styl，约23行处  .post-block:not(:first-child)，将默认120px的间距改为50 ）</li>
+<li><input checked disabled type="checkbox"> <del>去掉首页“阅读更多”按钮</del>（read_more）</li>
+</ul>
+</li>
+<li><input checked disabled type="checkbox"> 更换样式为Muse<ul>
+<li><input checked disabled type="checkbox"> 调整文章间距（\source\css_common\components\post\post-eof.styl，加了一行 margin: 55px auto 45px）</li>
+<li><input checked disabled type="checkbox"> 调整字体大小（\source\css_variables\base.styl，Font size）</li>
+<li><input checked disabled type="checkbox"> 关闭menu图标</li>
+</ul>
+</li>
+<li><input checked disabled type="checkbox"> 增加追番记录页面（<a href="https://github.com/HCLonely/hexo-bilibili-bangumi">hexo-bilibili-bangumi</a>）<ul>
+<li>更新数据：<code>hexo bangumi -u</code> &#x2F; <code>hexo cinema -u</code> </li>
+<li>删除数据：<code>hexo bangumi -d</code> &#x2F; <code>hexo cinema -d</code></li>
+<li>注：<a href="https://bangumi.github.io/api/">bgm api</a> 最多一年有效期，到期需要重新申请</li>
+<li>问题：似乎……bgm源只能显示番剧标题和封面……QAQ</li>
+</ul>
+</li>
+<li><input checked disabled type="checkbox"> 添加b站视频卡片（<a href="https://github.com/MaxChang3/hexo-bilibili-card">hexo-bilibili-card</a>）</li>
+<li><input checked disabled type="checkbox"> gitignore中忽略drafts目录</li>
+</ul>
+<hr>
+<h3 id="搁置与放弃"><a href="#搁置与放弃" class="headerlink" title="搁置与放弃"></a>搁置与放弃</h3><p>以后有闲心再折腾罢）</p>
+<ul>
+<li><input disabled type="checkbox"> 修改文章内链接样式</li>
+<li><input disabled type="checkbox"> 添加文件附件</li>
+<li><input disabled type="checkbox"> RSS</li>
+<li><input disabled type="checkbox"> 网站数据分析</li>
+<li><input disabled type="checkbox"> 国内访问速度优化</li>
+<li><input disabled type="checkbox"> 首页显示文章标签（暂时没找到方法）</li>
+<li><input disabled type="checkbox"> <del>修改网站图标</del>（折腾了半天，感觉没什么合适的，还是先用默认的吧）</li>
+<li><input disabled type="checkbox"> <del>阅读量统计</del> （反正又没人看.jpg）</li>
+<li><input disabled type="checkbox"> <del>评论功能</del>（反正又没人评论.jpg）</li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>生命的意义在于折腾！</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -304,112 +304,6 @@
       <tags>
         <tag>少女革命</tag>
         <tag>吐槽</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>决斗曲翻译 - 绝对命运默示录（+完全版）</title>
-    <url>/posts/f497660d.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>居然已经是约半年前的翻译了(&gt;д&lt;)</p>
-<p>虽然渣翻，总之还是整理了下，部分歌词有些微小的修改，b站那边懒得修了，以blog内为准）</p>
-<hr>
-<h2 id="絶対運命黙示録"><a href="#絶対運命黙示録" class="headerlink" title="絶対運命黙示録"></a>絶対運命黙示録</h2><p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
-<p>原出处：『カスパーハウザー～人間の謎への序章、あるいはわたしのモーシェのために～』</p>
-<table>
-<thead>
-<tr>
-<th>絶対運命黙示録</th>
-<th>绝对命运默示录</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>出生登録・洗礼名簿・死亡登録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>出生登录・洗礼名簿・死亡登录</td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>わたしの誕生・絶対誕生・黙示録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>吾之诞生・绝对诞生・默示录</td>
-</tr>
-<tr>
-<td>闇の砂漠に　燦場・宇葉<br>金のメッキの桃源郷<br>昼と夜とが逆回り<br>時のメッキの失楽園</td>
-<td>黑暗沙漠里的灿场・宇叶<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。">[1]</span></a></sup> <br>是镀了金的桃花源<br>白日与黑夜逆转之处<br>是镀了时间的失乐园<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。">[2]</span></a></sup></td>
-</tr>
-<tr>
-<td>ソドムの闇<br>光の闇<br>彼方の闇<br>果てなき闇<br>絶対運命黙示録<br>絶対運命黙示闇・黙示録</td>
-<td>索多玛<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。">[3]</span></a></sup>的黑暗<br>光的黑暗<br>彼方的黑暗<br>永无止境的黑暗<br>绝对命运默示录<br>绝对命运默示暗・默示录</td>
-</tr>
-<tr>
-<td>もくし　くしも<br>しもく　くもし<br>もしく　しくも</td>
-<td>mokushi kushimo<br>shimoku kumoshi<br>moshiku shikumo</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="絶対運命黙示録-industrial-mix"><a href="#絶対運命黙示録-industrial-mix" class="headerlink" title="絶対運命黙示録(industrial mix)"></a>絶対運命黙示録(industrial mix)</h2><p>演唱：東京混声合唱団 杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
-<p>歌词同上</p>
-<h2 id="绝对命运默示录-With-万有引力"><a href="#绝对命运默示录-With-万有引力" class="headerlink" title="绝对命运默示录 With 万有引力"></a>绝对命运默示录 With 万有引力</h2><p>演唱：東京混声合唱団 演劇実験室 “万有引力”</p>
-<p>歌词同上</p>
-<h2 id="絶対運命黙示録-Adolescence-of-UTENA"><a href="#絶対運命黙示録-Adolescence-of-UTENA" class="headerlink" title="絶対運命黙示録-Adolescence of UTENA"></a>絶対運命黙示録-Adolescence of UTENA</h2><p>演唱：上谷麻紀 河合夕子 川島和子 国分友里恵 杉並児童合唱団 高尾直樹 東京混声合唱団</p>
-<p>歌词同上</p>
-<hr>
-<h2 id="絶対運命黙示録・完全版"><a href="#絶対運命黙示録・完全版" class="headerlink" title="絶対運命黙示録・完全版"></a>絶対運命黙示録・完全版</h2><table>
-<thead>
-<tr>
-<th>絶対運命黙示録・完全版</th>
-<th>绝对命运默示录・完全版</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>出生登録・洗礼名簿・死亡登録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>出生登录·洗礼名簿·死亡登录</td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>わたしの誕生・絶対誕生・黙示録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>吾之诞生·绝对诞生·默示录</td>
-</tr>
-<tr>
-<td>闇の砂漠に　産婆・乳母<br>金のメッキの桃源郷<br>昼と夜とが逆回り<br>時のメッキの失楽園</td>
-<td>黑暗沙漠里的产婆·乳母<br>是镀了金的桃花源<br>白日与黑夜逆转之处<br>是镀了时间的失乐园</td>
-</tr>
-<tr>
-<td>ソドムの闇<br>光の闇<br>彼方の闇<br>果てなき闇</td>
-<td>索多玛的黑暗<br>光的黑暗<br>彼方的黑暗<br>永无止境的黑暗</td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示闇<br>黙示録</td>
-<td>绝对命运默示录<br>绝对命运默示暗<br>默示录</td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>死して復活　プロメティウス星体　永生(衛星)登録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>死而复生  普罗米修斯<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。">[4]</span></a></sup>星体<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。">[5]</span></a></sup>  永生(卫星)登录<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）">[6]</span></a></sup></td>
-</tr>
-<tr>
-<td>絶対運命黙示録<br>絶対運命黙示録<br>プロトゴノス　わたし　宇宙　生命　黙示録</td>
-<td>绝对命运默示录<br>绝对命运默示录<br>普罗多格诺斯<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。">[7]</span></a></sup>  我  宇宙  生命  默示录</td>
-</tr>
-<tr>
-<td>起源の中の無限わたし<br>二つの月と太陽に<br>宇宙開闢わたし誕生<br>わたしのわたしが　わたしプラクリティ</td>
-<td>无限之我 身处起源之中<br>在化分为二的日与月中<br>宇宙开辟  我随之诞生<br>我中之我  我为原质<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。">[8]</span></a></sup></td>
-</tr>
-<tr>
-<td>原初の起こり　受胎　モナリザシオンと誕生<br>円満愚息　球体　わたし　宇宙　原理</td>
-<td>原初之始  受胎  蒙娜丽莎<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。">[9]</span></a></sup>和锡安<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="锡安：一般是指耶路撒冷，象征神居住的地方。">[10]</span></a></sup>一同诞生<br>完满之子  球体  我  宇宙  原理</td>
-</tr>
-<tr>
-<td>天地　昼夜　暗闇光<br>双月　男女　アンドロギュヌス　黙示録</td>
-<td>天与地  昼与夜  暗与光<br>双月  男女  雌雄同体  默示录</td>
-</tr>
-<tr>
-<td>もくし　くしも　<br>しもく　くもし　<br>もしく　しくも</td>
-<td>mokushi kushimo<br>shimoku kumoshi<br>moshiku shikumo</td>
-</tr>
-</tbody></table>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">锡安：一般是指耶路撒冷，象征神居住的地方。<a href="#fnref:10" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-        <tag>歌词翻译</tag>
       </tags>
   </entry>
   <entry>
@@ -904,6 +798,112 @@
       </tags>
   </entry>
   <entry>
+    <title>决斗曲翻译 - 绝对命运默示录（+完全版）</title>
+    <url>/posts/f497660d.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>居然已经是约半年前的翻译了(&gt;д&lt;)</p>
+<p>虽然渣翻，总之还是整理了下，部分歌词有些微小的修改，b站那边懒得修了，以blog内为准）</p>
+<hr>
+<h2 id="絶対運命黙示録"><a href="#絶対運命黙示録" class="headerlink" title="絶対運命黙示録"></a>絶対運命黙示録</h2><p>演唱：杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
+<p>原出处：『カスパーハウザー～人間の謎への序章、あるいはわたしのモーシェのために～』</p>
+<table>
+<thead>
+<tr>
+<th>絶対運命黙示録</th>
+<th>绝对命运默示录</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>出生登録・洗礼名簿・死亡登録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>出生登录・洗礼名簿・死亡登录</td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>わたしの誕生・絶対誕生・黙示録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>吾之诞生・绝对诞生・默示录</td>
+</tr>
+<tr>
+<td>闇の砂漠に　燦場・宇葉<br>金のメッキの桃源郷<br>昼と夜とが逆回り<br>時のメッキの失楽園</td>
+<td>黑暗沙漠里的灿场・宇叶<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。">[1]</span></a></sup> <br>是镀了金的桃花源<br>白日与黑夜逆转之处<br>是镀了时间的失乐园<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。">[2]</span></a></sup></td>
+</tr>
+<tr>
+<td>ソドムの闇<br>光の闇<br>彼方の闇<br>果てなき闇<br>絶対運命黙示録<br>絶対運命黙示闇・黙示録</td>
+<td>索多玛<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。">[3]</span></a></sup>的黑暗<br>光的黑暗<br>彼方的黑暗<br>永无止境的黑暗<br>绝对命运默示录<br>绝对命运默示暗・默示录</td>
+</tr>
+<tr>
+<td>もくし　くしも<br>しもく　くもし<br>もしく　しくも</td>
+<td>mokushi kushimo<br>shimoku kumoshi<br>moshiku shikumo</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="絶対運命黙示録-industrial-mix"><a href="#絶対運命黙示録-industrial-mix" class="headerlink" title="絶対運命黙示録(industrial mix)"></a>絶対運命黙示録(industrial mix)</h2><p>演唱：東京混声合唱団 杉並児童合唱団 上谷麻紀 光宗信吉 幾原邦彦</p>
+<p>歌词同上</p>
+<h2 id="绝对命运默示录-With-万有引力"><a href="#绝对命运默示录-With-万有引力" class="headerlink" title="绝对命运默示录 With 万有引力"></a>绝对命运默示录 With 万有引力</h2><p>演唱：東京混声合唱団 演劇実験室 “万有引力”</p>
+<p>歌词同上</p>
+<h2 id="絶対運命黙示録-Adolescence-of-UTENA"><a href="#絶対運命黙示録-Adolescence-of-UTENA" class="headerlink" title="絶対運命黙示録-Adolescence of UTENA"></a>絶対運命黙示録-Adolescence of UTENA</h2><p>演唱：上谷麻紀 河合夕子 川島和子 国分友里恵 杉並児童合唱団 高尾直樹 東京混声合唱団</p>
+<p>歌词同上</p>
+<hr>
+<h2 id="絶対運命黙示録・完全版"><a href="#絶対運命黙示録・完全版" class="headerlink" title="絶対運命黙示録・完全版"></a>絶対運命黙示録・完全版</h2><table>
+<thead>
+<tr>
+<th>絶対運命黙示録・完全版</th>
+<th>绝对命运默示录・完全版</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>出生登録・洗礼名簿・死亡登録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>出生登录·洗礼名簿·死亡登录</td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>わたしの誕生・絶対誕生・黙示録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>吾之诞生·绝对诞生·默示录</td>
+</tr>
+<tr>
+<td>闇の砂漠に　産婆・乳母<br>金のメッキの桃源郷<br>昼と夜とが逆回り<br>時のメッキの失楽園</td>
+<td>黑暗沙漠里的产婆·乳母<br>是镀了金的桃花源<br>白日与黑夜逆转之处<br>是镀了时间的失乐园</td>
+</tr>
+<tr>
+<td>ソドムの闇<br>光の闇<br>彼方の闇<br>果てなき闇</td>
+<td>索多玛的黑暗<br>光的黑暗<br>彼方的黑暗<br>永无止境的黑暗</td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示闇<br>黙示録</td>
+<td>绝对命运默示录<br>绝对命运默示暗<br>默示录</td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>死して復活　プロメティウス星体　永生(衛星)登録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>死而复生  普罗米修斯<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。">[4]</span></a></sup>星体<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。">[5]</span></a></sup>  永生(卫星)登录<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）">[6]</span></a></sup></td>
+</tr>
+<tr>
+<td>絶対運命黙示録<br>絶対運命黙示録<br>プロトゴノス　わたし　宇宙　生命　黙示録</td>
+<td>绝对命运默示录<br>绝对命运默示录<br>普罗多格诺斯<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。">[7]</span></a></sup>  我  宇宙  生命  默示录</td>
+</tr>
+<tr>
+<td>起源の中の無限わたし<br>二つの月と太陽に<br>宇宙開闢わたし誕生<br>わたしのわたしが　わたしプラクリティ</td>
+<td>无限之我 身处起源之中<br>在化分为二的日与月中<br>宇宙开辟  我随之诞生<br>我中之我  我为原质<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。">[8]</span></a></sup></td>
+</tr>
+<tr>
+<td>原初の起こり　受胎　モナリザシオンと誕生<br>円満愚息　球体　わたし　宇宙　原理</td>
+<td>原初之始  受胎  蒙娜丽莎<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。">[9]</span></a></sup>和锡安<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="锡安：一般是指耶路撒冷，象征神居住的地方。">[10]</span></a></sup>一同诞生<br>完满之子  球体  我  宇宙  原理</td>
+</tr>
+<tr>
+<td>天地　昼夜　暗闇光<br>双月　男女　アンドロギュヌス　黙示録</td>
+<td>天与地  昼与夜  暗与光<br>双月  男女  雌雄同体  默示录</td>
+</tr>
+<tr>
+<td>もくし　くしも　<br>しもく　くもし　<br>もしく　しくも</td>
+<td>mokushi kushimo<br>shimoku kumoshi<br>moshiku shikumo</td>
+</tr>
+</tbody></table>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">灿场·宇叶：实际上是「産婆・乳母」。由于要在电视上播出，为了减少麻烦，就用了其他的词替代。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《失乐园》内容基于旧约圣经，讲述人类堕落的故事：堕落天使撒旦诱惑亚当夏娃，导致他们被逐出伊甸园。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">《圣经》中，索多玛（所多玛）是一个耽溺男色而淫乱、不忌讳同性性行为的性开放城市。城中的人荒淫贪婪，不相信神的存在。最后被天神毁灭。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯：古希腊神话中泰坦一族的神明之一，名字的含义是“先见之明”。曾与智慧女神雅典娜共同创造了人类，并且反抗宙斯，将火种带到人间。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗米修斯星体：用着“普罗米修斯（Prometheus）”这个名字的星体是土卫十六，是环绕土星运行的一颗卫星。<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">永生(卫星)登录：“永生”和“卫星”在日语中的发音相同，都是“eisei”。既是指“普罗米修斯星体”这颗卫星，也和前面的“出生登录  洗礼名簿  死亡登录”相联系（出生→死亡→永生）<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">普罗多格诺斯（Protogonos）：也被称作法涅斯，从宇宙蛋（cosmic egg）中出生，是最先诞生的神。具有双重性别，独自创造了神的种族，也创造出宇宙。<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">原质（prakrti）：古印度哲学术语，被认为是独立于神我的另一实体，开展万物，有万物本源的意思。佛教也采用了这个术语，但含义不同，认为其含义为事物之本质，译为本性，并将它视为是自性的同义词。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">蒙娜丽莎：达芬奇所绘的肖像画，文艺复兴时期的代表作。猜测在此代表人性的光辉。<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">锡安：一般是指耶路撒冷，象征神居住的地方。<a href="#fnref:10" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+        <tag>歌词翻译</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>决斗曲翻译 - 凤晓生篇&amp;默示录篇</title>
     <url>/posts/f37446ce.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
@@ -1350,6 +1350,117 @@
       </tags>
   </entry>
   <entry>
+    <title>少革tv副音轨（几原邦彦×斋藤千穗）</title>
+    <url>/posts/553ac501.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note danger">
+            <p>b站可以直接看但是画面ppt，想本地看的可以下载外挂字幕 </p>
+          </div>
+
+<h3 id="在线观看"><a href="#在线观看" class="headerlink" title="在线观看"></a>在线观看</h3><br>
+
+<div class="bvideo"><a href="//www.bilibili.com/video/BV18e4y1R7VS" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/ac077aefe4920cabc8b39cb18c07c565c7bb9f8f.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:23:28</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">【个人中字】少女革命 第37话副音轨（几原邦彦x斋藤千穗）</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>3176</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>56</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">望月木</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+
+<br>
+
+<div class="bvideo"><a href="//www.bilibili.com/video/BV13d4y1P7RT" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i2.hdslb.com/bfs/archive/665dacb3fab67754a3c10f21c6934a7bf5916cb0.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:23:28</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">【个人中字】少女革命 第38话副音轨（几原邦彦x斋藤千穗）</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>1909</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>29</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">望月木</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+
+<br>
+
+<div class="bvideo"><a href="//www.bilibili.com/video/BV1Mg411m7Ni" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i2.hdslb.com/bfs/archive/d5e1640680c7c9c4d90736669644eb0230ed765e.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:23:05</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">【个人中字】少女革命 第39话副音轨（几原邦彦x斋藤千穗）</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>4313</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>11</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">望月木</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+
+<hr>
+<h3 id="外挂字幕"><a href="#外挂字幕" class="headerlink" title="外挂字幕"></a>外挂字幕</h3><p><a href="https://pan.baidu.com/s/1PtMolOfxtCgel2YkL35RHg?pwd=569s">度盘链接</a><br>提取码: 569s</p>
+]]></content>
+      <categories>
+        <category>少女革命</category>
+      </categories>
+      <tags>
+        <tag>少女革命</tag>
+        <tag>翻译</tag>
+        <tag>访谈翻译</tag>
+        <tag>几原邦彦</tag>
+        <tag>斋藤千穗</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>决斗曲翻译 - 剧场版（+原曲）</title>
     <url>/posts/87f32d42.html</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
@@ -1711,157 +1822,6 @@
         <tag>少女革命</tag>
         <tag>翻译</tag>
         <tag>歌词翻译</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>少革tv副音轨（几原邦彦×斋藤千穗）</title>
-    <url>/posts/553ac501.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note danger">
-            <p>b站可以直接看但是画面ppt，想本地看的可以下载外挂字幕 </p>
-          </div>
-
-<h3 id="在线观看"><a href="#在线观看" class="headerlink" title="在线观看"></a>在线观看</h3><br>
-
-<div class="bvideo"><a href="//www.bilibili.com/video/BV18e4y1R7VS" target="_blank">
-        <div class="bvideo-box">
-            <div class="bvideo-cover">
-                <div class="cover-default"></div>
-                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i1.hdslb.com/bfs/archive/ac077aefe4920cabc8b39cb18c07c565c7bb9f8f.jpg)">
-                    <i class="icon-video"></i>
-                </div>
-                <span class="duration">00:23:28</span>
-            </div>
-            <div class="bvideo-info">
-                <p class="title">【个人中字】少女革命 第37话副音轨（几原邦彦x斋藤千穗）</p>
-                <p class="card-status">
-                    <span class="play-num">
-                        <i class="fa fa-youtube-play"></i>
-                        <span>3176</span></span>
-                    <span>
-                        <i class="fa fa-list-alt"></i>
-                        <span>56</span></span></p>
-                <div class="partition">
-                    <label class="card-label">视频</label>
-                    <label class="up-label"></label>
-                    <label class="up-name">望月木</label>
-                </div>
-                <div class="actions hide"></div>
-            </div>
-        </div>
-    </a></div>
-
-<br>
-
-<div class="bvideo"><a href="//www.bilibili.com/video/BV13d4y1P7RT" target="_blank">
-        <div class="bvideo-box">
-            <div class="bvideo-cover">
-                <div class="cover-default"></div>
-                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i2.hdslb.com/bfs/archive/665dacb3fab67754a3c10f21c6934a7bf5916cb0.jpg)">
-                    <i class="icon-video"></i>
-                </div>
-                <span class="duration">00:23:28</span>
-            </div>
-            <div class="bvideo-info">
-                <p class="title">【个人中字】少女革命 第38话副音轨（几原邦彦x斋藤千穗）</p>
-                <p class="card-status">
-                    <span class="play-num">
-                        <i class="fa fa-youtube-play"></i>
-                        <span>1908</span></span>
-                    <span>
-                        <i class="fa fa-list-alt"></i>
-                        <span>29</span></span></p>
-                <div class="partition">
-                    <label class="card-label">视频</label>
-                    <label class="up-label"></label>
-                    <label class="up-name">望月木</label>
-                </div>
-                <div class="actions hide"></div>
-            </div>
-        </div>
-    </a></div>
-
-<br>
-
-<div class="bvideo"><a href="//www.bilibili.com/video/BV1Mg411m7Ni" target="_blank">
-        <div class="bvideo-box">
-            <div class="bvideo-cover">
-                <div class="cover-default"></div>
-                <div class="bvideo-cover-layer" style="background-image:url(https://pic1.xuehuaimg.com/proxy/http://i2.hdslb.com/bfs/archive/d5e1640680c7c9c4d90736669644eb0230ed765e.jpg)">
-                    <i class="icon-video"></i>
-                </div>
-                <span class="duration">00:23:05</span>
-            </div>
-            <div class="bvideo-info">
-                <p class="title">【个人中字】少女革命 第39话副音轨（几原邦彦x斋藤千穗）</p>
-                <p class="card-status">
-                    <span class="play-num">
-                        <i class="fa fa-youtube-play"></i>
-                        <span>4310</span></span>
-                    <span>
-                        <i class="fa fa-list-alt"></i>
-                        <span>11</span></span></p>
-                <div class="partition">
-                    <label class="card-label">视频</label>
-                    <label class="up-label"></label>
-                    <label class="up-name">望月木</label>
-                </div>
-                <div class="actions hide"></div>
-            </div>
-        </div>
-    </a></div>
-
-<hr>
-<h3 id="外挂字幕"><a href="#外挂字幕" class="headerlink" title="外挂字幕"></a>外挂字幕</h3><p><a href="https://pan.baidu.com/s/1PtMolOfxtCgel2YkL35RHg?pwd=569s">度盘链接</a><br>提取码: 569s</p>
-]]></content>
-      <categories>
-        <category>少女革命</category>
-      </categories>
-      <tags>
-        <tag>少女革命</tag>
-        <tag>翻译</tag>
-        <tag>访谈翻译</tag>
-        <tag>几原邦彦</tag>
-        <tag>斋藤千穗</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Aegisub 使用笔记</title>
-    <url>/posts/d9ea43c5.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
-<li><p>随便找几个教程瞄一眼：<a href="https://www.bilibili.com/video/BV1Kx411z7My">新手入门Aegisub教程以及压制相关</a> | <a href="https://www.bilibili.com/video/BV1ps411b7as">快速打轴法</a> | <a href="https://sspai.com/post/47557">Aegisub 的使用指南及技巧</a></p>
-</li>
-<li><p>记下基本操作：左键设置开始时间，右键设置结束时间（ctrl+滚轮可以缩放频谱）</p>
-<div class="note default">
-            <p>S键 &#x2F; Space：播放当前行<br>  G键：提交修改并进入下一行<br>  Z键：返回上一行</p><p>  Q键：播放选区之前500ms<br>  D键：播放选区最后500ms<br>  W键：播放选区之后500ms</p><p>  F键：音轨向后移动<br>  A键：音轨向前移动 </p>
-          </div>
-
-<p>以上基本就能满足普通打轴的需求了……！</p>
-</li>
-</ol>
-<hr>
-<h5 id="疑难杂症（其实也不难的一些问题记录）"><a href="#疑难杂症（其实也不难的一些问题记录）" class="headerlink" title="疑难杂症（其实也不难的一些问题记录）"></a>疑难杂症（其实也不难的一些问题记录）</h5><ol>
-<li><p>根据说话人来批量替换样式：字幕&gt;选择多行，根据需求选中后批量替换样式即可</p>
-</li>
-<li><p>对齐文本的代码<br>左上角  <code>&#123;\an7&#125;</code>     中上方  <code>&#123;\an8&#125;</code>     右上角  <code>&#123;\an9&#125;</code><br>左下角  <code>&#123;\an1&#125;</code>     其他同理，换换数字就行</p>
-</li>
-<li><p>做竖排字幕：使用开头带@的字体，同时在字幕编辑框里输入 <code>&#123;\frz-90&#125;+内容</code></p>
-</li>
-<li><p>给文本加简单的半透明边框：在编辑框输入■，调整透明度，去掉边框和阴影，然后用 <code>\fscx</code> 和 <code>\fscy</code> 实现加长和加宽， 比如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy220\pos(972,1022)&#125;■</span><br></pre></td></tr></table></figure>
-
-<p>或</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy170\pos(952,926)&#125;■</span><br></pre></td></tr></table></figure>
-
-<p>当然这是很偷懒很偷懒的方法，所以看起来一点都不精致，毕竟我一人字幕有时候就不计较那么多了，想要效果好点的话还是得折腾（）</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>杂货堆</category>
-      </categories>
-      <tags>
-        <tag>视频与字幕制作</tag>
-        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -2278,7 +2238,7 @@
                 <p class="card-status">
                     <span class="play-num">
                         <i class="fa fa-youtube-play"></i>
-                        <span>4700</span></span>
+                        <span>4847</span></span>
                     <span>
                         <i class="fa fa-list-alt"></i>
                         <span>13</span></span></p>
@@ -2354,6 +2314,46 @@
         <tag>访谈翻译</tag>
         <tag>几原邦彦</tag>
         <tag>川上伦子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Aegisub 使用笔记</title>
+    <url>/posts/d9ea43c5.html</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h5 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h5><ol>
+<li><p>随便找几个教程瞄一眼：<a href="https://www.bilibili.com/video/BV1Kx411z7My">新手入门Aegisub教程以及压制相关</a> | <a href="https://www.bilibili.com/video/BV1ps411b7as">快速打轴法</a> | <a href="https://sspai.com/post/47557">Aegisub 的使用指南及技巧</a></p>
+</li>
+<li><p>记下基本操作：左键设置开始时间，右键设置结束时间（ctrl+滚轮可以缩放频谱）</p>
+<div class="note default">
+            <p>S键 &#x2F; Space：播放当前行<br>  G键：提交修改并进入下一行<br>  Z键：返回上一行</p><p>  Q键：播放选区之前500ms<br>  D键：播放选区最后500ms<br>  W键：播放选区之后500ms</p><p>  F键：音轨向后移动<br>  A键：音轨向前移动 </p>
+          </div>
+
+<p>以上基本就能满足普通打轴的需求了……！</p>
+</li>
+</ol>
+<hr>
+<h5 id="疑难杂症（其实也不难的一些问题记录）"><a href="#疑难杂症（其实也不难的一些问题记录）" class="headerlink" title="疑难杂症（其实也不难的一些问题记录）"></a>疑难杂症（其实也不难的一些问题记录）</h5><ol>
+<li><p>根据说话人来批量替换样式：字幕&gt;选择多行，根据需求选中后批量替换样式即可</p>
+</li>
+<li><p>对齐文本的代码<br>左上角  <code>&#123;\an7&#125;</code>     中上方  <code>&#123;\an8&#125;</code>     右上角  <code>&#123;\an9&#125;</code><br>左下角  <code>&#123;\an1&#125;</code>     其他同理，换换数字就行</p>
+</li>
+<li><p>做竖排字幕：使用开头带@的字体，同时在字幕编辑框里输入 <code>&#123;\frz-90&#125;+内容</code></p>
+</li>
+<li><p>给文本加简单的半透明边框：在编辑框输入■，调整透明度，去掉边框和阴影，然后用 <code>\fscx</code> 和 <code>\fscy</code> 实现加长和加宽， 比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy220\pos(972,1022)&#125;■</span><br></pre></td></tr></table></figure>
+
+<p>或</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;\fscx4000\fscy170\pos(952,926)&#125;■</span><br></pre></td></tr></table></figure>
+
+<p>当然这是很偷懒很偷懒的方法，所以看起来一点都不精致，毕竟我一人字幕有时候就不计较那么多了，想要效果好点的话还是得折腾（）</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>杂货堆</category>
+      </categories>
+      <tags>
+        <tag>视频与字幕制作</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
