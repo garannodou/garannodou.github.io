@@ -2573,17 +2573,17 @@
   <entry>
     <title>用 Vercel 部署 RSSHub</title>
     <url>/posts/cef2a9bd.html</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　<a href="https://rssfeed.today/weibo/">Weibo to RSS</a> 近日挂了，想起之前用的b站的RSS也不好使，就想查查能不能用旧手机自建个RSSHub，结果突然看到 <a href="https://www.bilibili.com/video/av935954872">这个教程</a> ……看起来现在部署这些服务已经很简单的样子，热爱折腾的心开始躁动.jpg</p>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>　　<a href="https://rssfeed.today/weibo/">Weibo to RSS</a> 近日挂了，正好之前用的b站RSS也不好使，本想查查能不能用旧手机自建个RSSHub，结果突然看到 <a href="https://www.bilibili.com/video/av935954872">这个教程</a> ……看起来现在部署这些服务已经很简单的样子，热爱折腾的心开始躁动↓</p>
 <hr>
 <p>步骤：</p>
 <ol>
 <li><p>打开 <a href="https://vercel.com/">Vercel</a>，可以直接用github账号注册登录。</p>
 </li>
-<li><p>打开 <a href="https://docs.rsshub.app/">RSSHub的主页</a>，点右上角的部署，找到“部署到 Vercel”项，点击deploy，在弹出的网页里去掉创建私人仓库的勾，点击create。等待弹出“Congratulations!”页面即为成功，网页链接同时也发到邮箱里了。</p>
+<li><p>打开 <a href="https://docs.rsshub.app/">RSSHub说明文档</a>，点右上角的“部署”，找到“部署到 Vercel”项，点击deploy。在弹出的网页里去掉创建私人仓库的勾，点击create。等待弹出“Congratulations!”页面即为成功，网页链接同时也发到邮箱里了。</p>
 </li>
 </ol>
 <hr>
-<p>　　这就完成了……！好爽好简单，小白狂喜！不过用部署完成的页面直接被墙了……幸好我用inoreader订阅，并不受影响╮（￣▽￣）╭</p>
+<p>　　这就完成了……！好爽好简单，小白狂喜！不过部署完成的页面直接被墙了……也不知道国内rss订阅器受不受影响，反正我用inoreader订阅一切正常╮（￣▽￣）╭</p>
 ]]></content>
       <categories>
         <category>杂货堆</category>
